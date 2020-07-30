@@ -1,0 +1,4706 @@
+fileFormatVersion: 2
+guid: 8cd39c46e701a9b49976acf038eafdf1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6363825240105053858
+    second: mer_8_chars2_0
+  - first:
+      213: -24744216702756214
+    second: mer_8_chars2_1
+  - first:
+      213: -4700935137606707072
+    second: mer_8_chars2_2
+  - first:
+      213: -4682300623453434925
+    second: mer_8_chars2_3
+  - first:
+      213: -40369947448726355
+    second: mer_8_chars2_4
+  - first:
+      213: -5261338698865944965
+    second: mer_8_chars2_5
+  - first:
+      213: -3926052199110223478
+    second: mer_8_chars2_6
+  - first:
+      213: 785224519967617470
+    second: mer_8_chars2_7
+  - first:
+      213: -685198044557264074
+    second: mer_8_chars2_8
+  - first:
+      213: -163647189929172501
+    second: mer_8_chars2_9
+  - first:
+      213: -7356487500768896331
+    second: mer_8_chars2_10
+  - first:
+      213: 1592383251751001660
+    second: mer_8_chars2_11
+  - first:
+      213: -2220931478694673627
+    second: mer_8_chars2_12
+  - first:
+      213: -6792880343935763046
+    second: mer_8_chars2_13
+  - first:
+      213: -8768620589236281195
+    second: mer_8_chars2_14
+  - first:
+      213: 2194486975272411244
+    second: mer_8_chars2_15
+  - first:
+      213: 4113822850082051014
+    second: mer_8_chars2_16
+  - first:
+      213: 3201019042263729170
+    second: mer_8_chars2_17
+  - first:
+      213: -8730812504192416344
+    second: mer_8_chars2_18
+  - first:
+      213: 2776406808075411163
+    second: mer_8_chars2_19
+  - first:
+      213: 1646580164093529657
+    second: mer_8_chars2_20
+  - first:
+      213: -2280417537267139378
+    second: mer_8_chars2_21
+  - first:
+      213: 3946119375099561519
+    second: mer_8_chars2_22
+  - first:
+      213: 3482359968691244071
+    second: mer_8_chars2_23
+  - first:
+      213: 8628784339386442139
+    second: mer_8_chars2_24
+  - first:
+      213: 6122006814342235820
+    second: mer_8_chars2_25
+  - first:
+      213: -6849328013889648181
+    second: mer_8_chars2_26
+  - first:
+      213: 677176840740291974
+    second: mer_8_chars2_27
+  - first:
+      213: -8441947415433366303
+    second: mer_8_chars2_28
+  - first:
+      213: 8576932770537559148
+    second: mer_8_chars2_29
+  - first:
+      213: -6700462607091477006
+    second: mer_8_chars2_30
+  - first:
+      213: 7415514356871333856
+    second: mer_8_chars2_31
+  - first:
+      213: -2730829484790396459
+    second: mer_8_chars2_32
+  - first:
+      213: 2504711645837035903
+    second: mer_8_chars2_33
+  - first:
+      213: 5026946499190057016
+    second: mer_8_chars2_34
+  - first:
+      213: 1454086422814452497
+    second: mer_8_chars2_35
+  - first:
+      213: -7643508268325083529
+    second: mer_8_chars2_36
+  - first:
+      213: 8281868933601132390
+    second: mer_8_chars2_37
+  - first:
+      213: -6669622063258049349
+    second: mer_8_chars2_38
+  - first:
+      213: -7803964970706289059
+    second: mer_8_chars2_39
+  - first:
+      213: 2793599497351799109
+    second: mer_8_chars2_40
+  - first:
+      213: -6613789581807971494
+    second: mer_8_chars2_41
+  - first:
+      213: -25650706546136873
+    second: mer_8_chars2_42
+  - first:
+      213: 6235852078514007465
+    second: mer_8_chars2_43
+  - first:
+      213: 8736835606986023811
+    second: mer_8_chars2_44
+  - first:
+      213: -3399377477474420511
+    second: mer_8_chars2_45
+  - first:
+      213: 1182345260857327000
+    second: mer_8_chars2_46
+  - first:
+      213: -73143208197814794
+    second: mer_8_chars2_47
+  - first:
+      213: 4508398052702352405
+    second: mer_8_chars2_48
+  - first:
+      213: -1074510019010645693
+    second: mer_8_chars2_49
+  - first:
+      213: 6709613326695665113
+    second: mer_8_chars2_50
+  - first:
+      213: 5083289014013016261
+    second: mer_8_chars2_51
+  - first:
+      213: -1051748686057417069
+    second: mer_8_chars2_52
+  - first:
+      213: -2298101504116950412
+    second: mer_8_chars2_53
+  - first:
+      213: 4983877144962833615
+    second: mer_8_chars2_54
+  - first:
+      213: 4593755840059116311
+    second: mer_8_chars2_55
+  - first:
+      213: -5918085381758890634
+    second: mer_8_chars2_56
+  - first:
+      213: 4884740334737960411
+    second: mer_8_chars2_57
+  - first:
+      213: -3256206928949812187
+    second: mer_8_chars2_58
+  - first:
+      213: -1606762551302295444
+    second: mer_8_chars2_59
+  - first:
+      213: -2749527371052922794
+    second: mer_8_chars2_60
+  - first:
+      213: -5233407231698815148
+    second: mer_8_chars2_61
+  - first:
+      213: 892055448107282625
+    second: mer_8_chars2_62
+  - first:
+      213: -7685790785633197254
+    second: mer_8_chars2_63
+  - first:
+      213: -7942729753668180485
+    second: mer_8_chars2_64
+  - first:
+      213: 7400753411851688384
+    second: mer_8_chars2_65
+  - first:
+      213: 8688947198772482003
+    second: mer_8_chars2_66
+  - first:
+      213: -5149362443583901556
+    second: mer_8_chars2_67
+  - first:
+      213: -6615796399174805018
+    second: mer_8_chars2_68
+  - first:
+      213: -9101376113341374382
+    second: mer_8_chars2_69
+  - first:
+      213: 6724743552593441585
+    second: mer_8_chars2_70
+  - first:
+      213: -7444418909809876502
+    second: mer_8_chars2_71
+  - first:
+      213: -548831635524464267
+    second: mer_8_chars2_72
+  - first:
+      213: 7196444857933495361
+    second: mer_8_chars2_73
+  - first:
+      213: -5771486183159475848
+    second: mer_8_chars2_74
+  - first:
+      213: 6464028198041428036
+    second: mer_8_chars2_75
+  - first:
+      213: 5615316887040009795
+    second: mer_8_chars2_76
+  - first:
+      213: 7034431271621174028
+    second: mer_8_chars2_77
+  - first:
+      213: 6249817359859091402
+    second: mer_8_chars2_78
+  - first:
+      213: -6672528495124958446
+    second: mer_8_chars2_79
+  - first:
+      213: -452434432569255682
+    second: mer_8_chars2_80
+  - first:
+      213: -6042669437608807419
+    second: mer_8_chars2_81
+  - first:
+      213: 43991417256039529
+    second: mer_8_chars2_82
+  - first:
+      213: 5750002151656199145
+    second: mer_8_chars2_83
+  - first:
+      213: -5489580044763753653
+    second: mer_8_chars2_84
+  - first:
+      213: -2010936338129944284
+    second: mer_8_chars2_85
+  - first:
+      213: 397250143243070374
+    second: mer_8_chars2_86
+  - first:
+      213: -2185681512568804444
+    second: mer_8_chars2_87
+  - first:
+      213: 6891856647671275206
+    second: mer_8_chars2_88
+  - first:
+      213: -2796472754076521697
+    second: mer_8_chars2_89
+  - first:
+      213: 7837403572912018975
+    second: mer_8_chars2_90
+  - first:
+      213: -2972735786587754684
+    second: mer_8_chars2_91
+  - first:
+      213: -1368936516263370399
+    second: mer_8_chars2_92
+  - first:
+      213: -4575440563949238257
+    second: mer_8_chars2_93
+  - first:
+      213: 3996070615756436906
+    second: mer_8_chars2_94
+  - first:
+      213: 6561884616777398213
+    second: mer_8_chars2_95
+  - first:
+      213: -2028928329508413507
+    second: mer_8_chars2_96
+  - first:
+      213: 8054713193640826501
+    second: mer_8_chars2_97
+  - first:
+      213: 8971572906124470566
+    second: mer_8_chars2_98
+  - first:
+      213: 3012475890480067288
+    second: mer_8_chars2_99
+  - first:
+      213: 6433364581505645174
+    second: mer_8_chars2_100
+  - first:
+      213: 369901842706182715
+    second: mer_8_chars2_101
+  - first:
+      213: 3218322474551697893
+    second: mer_8_chars2_102
+  - first:
+      213: -4527887092092003852
+    second: mer_8_chars2_103
+  - first:
+      213: -5851158469311816098
+    second: mer_8_chars2_104
+  - first:
+      213: -8824743111221924954
+    second: mer_8_chars2_105
+  - first:
+      213: 8021155675385767266
+    second: mer_8_chars2_106
+  - first:
+      213: -3111746562634024959
+    second: mer_8_chars2_107
+  - first:
+      213: -2824340470656057695
+    second: mer_8_chars2_108
+  - first:
+      213: -8496005477402090646
+    second: mer_8_chars2_109
+  - first:
+      213: -5336042129999165775
+    second: mer_8_chars2_110
+  - first:
+      213: -6121299539579885343
+    second: mer_8_chars2_111
+  - first:
+      213: 1356337741646144522
+    second: mer_8_chars2_112
+  - first:
+      213: 3575144433245451534
+    second: mer_8_chars2_113
+  - first:
+      213: -8013152570915704898
+    second: mer_8_chars2_114
+  - first:
+      213: -4835242141150523918
+    second: mer_8_chars2_115
+  - first:
+      213: 3845764498572210804
+    second: mer_8_chars2_116
+  - first:
+      213: 5505481266453441652
+    second: mer_8_chars2_117
+  - first:
+      213: -6098409329243582034
+    second: mer_8_chars2_118
+  - first:
+      213: 2350481362972849152
+    second: mer_8_chars2_119
+  - first:
+      213: -1172591264161523298
+    second: mer_8_chars2_120
+  - first:
+      213: -6198999812285151945
+    second: mer_8_chars2_121
+  - first:
+      213: -703763565878160085
+    second: mer_8_chars2_122
+  - first:
+      213: 5681660225538031865
+    second: mer_8_chars2_123
+  - first:
+      213: -2706818558859474772
+    second: mer_8_chars2_124
+  - first:
+      213: 3630370021353023141
+    second: mer_8_chars2_125
+  - first:
+      213: 3599711856193177900
+    second: mer_8_chars2_126
+  - first:
+      213: -1308772065646045503
+    second: mer_8_chars2_127
+  - first:
+      213: -2190420734453229636
+    second: mer_8_chars2_128
+  - first:
+      213: -7974051659637774651
+    second: mer_8_chars2_129
+  - first:
+      213: 6786735840255684840
+    second: mer_8_chars2_130
+  - first:
+      213: -141866282729015093
+    second: mer_8_chars2_131
+  - first:
+      213: -4516215642159640120
+    second: mer_8_chars2_132
+  - first:
+      213: 3043352624606414202
+    second: mer_8_chars2_133
+  - first:
+      213: -4075613365876565593
+    second: mer_8_chars2_134
+  - first:
+      213: -8192354511351039067
+    second: mer_8_chars2_135
+  - first:
+      213: 4193824523484519219
+    second: mer_8_chars2_136
+  - first:
+      213: -4677233947877784752
+    second: mer_8_chars2_137
+  - first:
+      213: -2797930771841509590
+    second: mer_8_chars2_138
+  - first:
+      213: -7256902146801653278
+    second: mer_8_chars2_139
+  - first:
+      213: -1213333536901327758
+    second: mer_8_chars2_140
+  - first:
+      213: -3200483068873098568
+    second: mer_8_chars2_141
+  - first:
+      213: 2932188882879782475
+    second: mer_8_chars2_142
+  - first:
+      213: -2714860281272097479
+    second: mer_8_chars2_143
+  - first:
+      213: 5457013644927714700
+    second: mer_8_chars2_144
+  - first:
+      213: -2437540171315418345
+    second: mer_8_chars2_145
+  - first:
+      213: 5682385959118559767
+    second: mer_8_chars2_146
+  - first:
+      213: 6957264537015998921
+    second: mer_8_chars2_147
+  - first:
+      213: -2141036405205627505
+    second: mer_8_chars2_148
+  - first:
+      213: -7677481675677087831
+    second: mer_8_chars2_149
+  - first:
+      213: 1237898344243959218
+    second: mer_8_chars2_150
+  - first:
+      213: 3089911257530480530
+    second: mer_8_chars2_151
+  - first:
+      213: 2980163199517629310
+    second: mer_8_chars2_152
+  - first:
+      213: -3958461896746273281
+    second: mer_8_chars2_153
+  - first:
+      213: -710760526642725552
+    second: mer_8_chars2_154
+  - first:
+      213: 4686716820054677962
+    second: mer_8_chars2_155
+  - first:
+      213: -1026607418712028915
+    second: mer_8_chars2_156
+  - first:
+      213: -6031132316397596763
+    second: mer_8_chars2_157
+  - first:
+      213: -4966038442853699902
+    second: mer_8_chars2_158
+  - first:
+      213: -4279454317173630265
+    second: mer_8_chars2_159
+  - first:
+      213: 8186945955040352823
+    second: mer_8_chars2_160
+  - first:
+      213: 7288880858376414528
+    second: mer_8_chars2_161
+  - first:
+      213: -4617180250528632476
+    second: mer_8_chars2_162
+  - first:
+      213: -6167016048038949790
+    second: mer_8_chars2_163
+  - first:
+      213: 6587007466656323607
+    second: mer_8_chars2_164
+  - first:
+      213: 7136957840840968220
+    second: mer_8_chars2_165
+  - first:
+      213: -5771538532252628298
+    second: mer_8_chars2_166
+  - first:
+      213: 4383374027446557497
+    second: mer_8_chars2_167
+  - first:
+      213: 3913175395751470670
+    second: mer_8_chars2_168
+  - first:
+      213: -6585998199163188476
+    second: mer_8_chars2_169
+  - first:
+      213: -882820451117431746
+    second: mer_8_chars2_170
+  - first:
+      213: 3620181447476141090
+    second: mer_8_chars2_171
+  - first:
+      213: 1934729688387307139
+    second: mer_8_chars2_172
+  - first:
+      213: 8058246466723008430
+    second: mer_8_chars2_173
+  - first:
+      213: 8691502072479832676
+    second: mer_8_chars2_174
+  - first:
+      213: 1373767915768743720
+    second: mer_8_chars2_175
+  - first:
+      213: -6629722026959849116
+    second: mer_8_chars2_176
+  - first:
+      213: 6756481132780345252
+    second: mer_8_chars2_177
+  - first:
+      213: -7239420264626837087
+    second: mer_8_chars2_178
+  - first:
+      213: 1785841090045565707
+    second: mer_8_chars2_179
+  - first:
+      213: 3866799843657939503
+    second: mer_8_chars2_180
+  - first:
+      213: -5909320649170980886
+    second: mer_8_chars2_181
+  - first:
+      213: 9004988323194506957
+    second: mer_8_chars2_182
+  - first:
+      213: -421845823165263942
+    second: mer_8_chars2_183
+  - first:
+      213: 278860055612970780
+    second: mer_8_chars2_184
+  - first:
+      213: -1270181024101286316
+    second: mer_8_chars2_185
+  - first:
+      213: 6711910898319403829
+    second: mer_8_chars2_186
+  - first:
+      213: -3066850315810184416
+    second: mer_8_chars2_187
+  - first:
+      213: -108636045884123324
+    second: mer_8_chars2_188
+  - first:
+      213: 2406626415459887336
+    second: mer_8_chars2_189
+  - first:
+      213: 6778892877121538987
+    second: mer_8_chars2_190
+  - first:
+      213: -6940331172322864942
+    second: mer_8_chars2_191
+  - first:
+      213: -4258961442817730142
+    second: mer_8_chars2_192
+  - first:
+      213: 589038540394376006
+    second: mer_8_chars2_193
+  - first:
+      213: -928715194868959033
+    second: mer_8_chars2_194
+  - first:
+      213: -338404337806450201
+    second: mer_8_chars2_195
+  - first:
+      213: 1607334304113416658
+    second: mer_8_chars2_196
+  - first:
+      213: 153771280941845530
+    second: mer_8_chars2_197
+  - first:
+      213: -7081691441557618697
+    second: mer_8_chars2_198
+  - first:
+      213: -6145694716311281148
+    second: mer_8_chars2_199
+  - first:
+      213: -320795344713210680
+    second: mer_8_chars2_200
+  - first:
+      213: -6225221508235076836
+    second: mer_8_chars2_201
+  - first:
+      213: -805300907102409191
+    second: mer_8_chars2_202
+  - first:
+      213: 5730073801137026765
+    second: mer_8_chars2_203
+  - first:
+      213: 2671879394602385160
+    second: mer_8_chars2_204
+  - first:
+      213: 8725573497692458072
+    second: mer_8_chars2_205
+  - first:
+      213: -2227823840918333436
+    second: mer_8_chars2_206
+  - first:
+      213: -6027254198785335566
+    second: mer_8_chars2_207
+  - first:
+      213: 51607319140998335
+    second: mer_8_chars2_208
+  - first:
+      213: -4329282423636185565
+    second: mer_8_chars2_209
+  - first:
+      213: 5073523879360747554
+    second: mer_8_chars2_210
+  - first:
+      213: 2946755081608687672
+    second: mer_8_chars2_211
+  - first:
+      213: -5890932167404445326
+    second: mer_8_chars2_212
+  - first:
+      213: -3726055968518484329
+    second: mer_8_chars2_213
+  - first:
+      213: -2500294109723939670
+    second: mer_8_chars2_214
+  - first:
+      213: -5944538530899343476
+    second: mer_8_chars2_215
+  - first:
+      213: -8707314742534934400
+    second: mer_8_chars2_216
+  - first:
+      213: -520032083035470384
+    second: mer_8_chars2_217
+  - first:
+      213: 3627428263145802734
+    second: mer_8_chars2_218
+  - first:
+      213: -116747131786961502
+    second: mer_8_chars2_219
+  - first:
+      213: -6508260963735232109
+    second: mer_8_chars2_220
+  - first:
+      213: 5302035833607124133
+    second: mer_8_chars2_221
+  - first:
+      213: 4205216689910262825
+    second: mer_8_chars2_222
+  - first:
+      213: 1501063679117760280
+    second: mer_8_chars2_223
+  - first:
+      213: -4807302194104746282
+    second: mer_8_chars2_224
+  - first:
+      213: -4318321384760727542
+    second: mer_8_chars2_225
+  - first:
+      213: -7427626338753977735
+    second: mer_8_chars2_226
+  - first:
+      213: 5314528508882722265
+    second: mer_8_chars2_227
+  - first:
+      213: -5262238775449636441
+    second: mer_8_chars2_228
+  - first:
+      213: -6151102553407066560
+    second: mer_8_chars2_229
+  - first:
+      213: -3877721806580641264
+    second: mer_8_chars2_230
+  - first:
+      213: -1966694456665639853
+    second: mer_8_chars2_231
+  - first:
+      213: 724596589016322793
+    second: mer_8_chars2_232
+  - first:
+      213: -2973938299960937658
+    second: mer_8_chars2_233
+  - first:
+      213: -694647541856731704
+    second: mer_8_chars2_234
+  - first:
+      213: -209231009373385473
+    second: mer_8_chars2_235
+  - first:
+      213: 1459643260503307872
+    second: mer_8_chars2_236
+  - first:
+      213: 2715752549291492316
+    second: mer_8_chars2_237
+  - first:
+      213: -2839466163771793642
+    second: mer_8_chars2_238
+  - first:
+      213: 3732604493243161350
+    second: mer_8_chars2_239
+  - first:
+      213: 8402447093169251007
+    second: mer_8_chars2_240
+  - first:
+      213: -2738533222210181592
+    second: mer_8_chars2_241
+  - first:
+      213: -7397583402671193059
+    second: mer_8_chars2_242
+  - first:
+      213: -2359047533176504438
+    second: mer_8_chars2_243
+  - first:
+      213: 4710774195643110780
+    second: mer_8_chars2_244
+  - first:
+      213: -6122569492838445527
+    second: mer_8_chars2_245
+  - first:
+      213: -4005593858782808715
+    second: mer_8_chars2_246
+  - first:
+      213: -4082885148376324690
+    second: mer_8_chars2_247
+  - first:
+      213: -8826260128190889741
+    second: mer_8_chars2_248
+  - first:
+      213: -5888388988682113565
+    second: mer_8_chars2_249
+  - first:
+      213: 7618833844392515742
+    second: mer_8_chars2_250
+  - first:
+      213: 9035334493273585804
+    second: mer_8_chars2_251
+  - first:
+      213: 2460295303749522189
+    second: mer_8_chars2_252
+  - first:
+      213: 354147298572482698
+    second: mer_8_chars2_253
+  - first:
+      213: 3421769996515660708
+    second: mer_8_chars2_254
+  - first:
+      213: 7444713907722346742
+    second: mer_8_chars2_255
+  - first:
+      213: -2039280210757963275
+    second: mer_8_chars2_256
+  - first:
+      213: -5688347604537255348
+    second: mer_8_chars2_257
+  - first:
+      213: -1154123076364494188
+    second: mer_8_chars2_258
+  - first:
+      213: -325098138356127637
+    second: mer_8_chars2_259
+  - first:
+      213: -6462965954906160634
+    second: mer_8_chars2_260
+  - first:
+      213: 8848214780337349590
+    second: mer_8_chars2_261
+  - first:
+      213: 3060225471097662114
+    second: mer_8_chars2_262
+  - first:
+      213: 6017676760565719902
+    second: mer_8_chars2_263
+  - first:
+      213: -64095702573991554
+    second: mer_8_chars2_264
+  - first:
+      213: 915191086299820178
+    second: mer_8_chars2_265
+  - first:
+      213: -41097114586517739
+    second: mer_8_chars2_266
+  - first:
+      213: -6082563612298407455
+    second: mer_8_chars2_267
+  - first:
+      213: 7287863870268994293
+    second: mer_8_chars2_268
+  - first:
+      213: -8137150091882289894
+    second: mer_8_chars2_269
+  - first:
+      213: -445458870304878029
+    second: mer_8_chars2_270
+  - first:
+      213: -7797329639742331781
+    second: mer_8_chars2_271
+  - first:
+      213: 7833943949195887656
+    second: mer_8_chars2_272
+  - first:
+      213: -41459716895387836
+    second: mer_8_chars2_273
+  - first:
+      213: 1480041832428606185
+    second: mer_8_chars2_274
+  - first:
+      213: -3642485954209301541
+    second: mer_8_chars2_275
+  - first:
+      213: -869416423447419539
+    second: mer_8_chars2_276
+  - first:
+      213: 8107785539460077188
+    second: mer_8_chars2_277
+  - first:
+      213: 120503591146434203
+    second: mer_8_chars2_278
+  - first:
+      213: 569158772202816932
+    second: mer_8_chars2_279
+  - first:
+      213: 1544835701218849796
+    second: mer_8_chars2_280
+  - first:
+      213: -8448170557175932470
+    second: mer_8_chars2_281
+  - first:
+      213: -5062786790340685738
+    second: mer_8_chars2_282
+  - first:
+      213: -567103788451928074
+    second: mer_8_chars2_283
+  - first:
+      213: 5574796126150886851
+    second: mer_8_chars2_284
+  - first:
+      213: 6728480710638590489
+    second: mer_8_chars2_285
+  - first:
+      213: -4622165548778815116
+    second: mer_8_chars2_286
+  - first:
+      213: -8939618562355844909
+    second: mer_8_chars2_287
+  - first:
+      213: 8757631273152888096
+    second: mer_8_chars2_288
+  - first:
+      213: -1817044842713217109
+    second: mer_8_chars2_289
+  - first:
+      213: -7798848545493417581
+    second: mer_8_chars2_290
+  - first:
+      213: -1546270469697924298
+    second: mer_8_chars2_291
+  - first:
+      213: -3886634854870251523
+    second: mer_8_chars2_292
+  - first:
+      213: -5309186729885712562
+    second: mer_8_chars2_293
+  - first:
+      213: -6655052528823691688
+    second: mer_8_chars2_294
+  - first:
+      213: 2393386495226616915
+    second: mer_8_chars2_295
+  - first:
+      213: -6391495465635835218
+    second: mer_8_chars2_296
+  - first:
+      213: -6546341102957510201
+    second: mer_8_chars2_297
+  - first:
+      213: 4634010552181118621
+    second: mer_8_chars2_298
+  - first:
+      213: -7389550490758811638
+    second: mer_8_chars2_299
+  - first:
+      213: 7547377429118597608
+    second: mer_8_chars2_300
+  - first:
+      213: 6961649508421929692
+    second: mer_8_chars2_301
+  - first:
+      213: -2400164551159839142
+    second: mer_8_chars2_302
+  - first:
+      213: -4721249363066248853
+    second: mer_8_chars2_303
+  - first:
+      213: 6304211005556818704
+    second: mer_8_chars2_304
+  - first:
+      213: -2230612631444027148
+    second: mer_8_chars2_305
+  - first:
+      213: -1288971123225766556
+    second: mer_8_chars2_306
+  - first:
+      213: -5054832523322008997
+    second: mer_8_chars2_307
+  - first:
+      213: -3121386952991701409
+    second: mer_8_chars2_308
+  - first:
+      213: -4232597945655898101
+    second: mer_8_chars2_309
+  - first:
+      213: -8645107253302872225
+    second: mer_8_chars2_310
+  - first:
+      213: -6171020397169459012
+    second: mer_8_chars2_311
+  - first:
+      213: -8620383953247689654
+    second: mer_8_chars2_312
+  - first:
+      213: -8194861870520517840
+    second: mer_8_chars2_313
+  - first:
+      213: -6249185425369586655
+    second: mer_8_chars2_314
+  - first:
+      213: -8316151530940611152
+    second: mer_8_chars2_315
+  - first:
+      213: -6947712456759853155
+    second: mer_8_chars2_316
+  - first:
+      213: 5091497423424892193
+    second: mer_8_chars2_317
+  - first:
+      213: -7491040966604449900
+    second: mer_8_chars2_318
+  - first:
+      213: 3619354917503492016
+    second: mer_8_chars2_319
+  - first:
+      213: 5549353055955467074
+    second: mer_8_chars2_320
+  - first:
+      213: 8707589516015385056
+    second: mer_8_chars2_321
+  - first:
+      213: -4623017212114348938
+    second: mer_8_chars2_322
+  - first:
+      213: 1579742796188644168
+    second: mer_8_chars2_323
+  - first:
+      213: 6198084276006535907
+    second: mer_8_chars2_324
+  - first:
+      213: 3854752865544729430
+    second: mer_8_chars2_325
+  - first:
+      213: -2242879144507260854
+    second: mer_8_chars2_326
+  - first:
+      213: -9126416722220769562
+    second: mer_8_chars2_327
+  - first:
+      213: -5568222517036974619
+    second: mer_8_chars2_328
+  - first:
+      213: 4804461570614574712
+    second: mer_8_chars2_329
+  - first:
+      213: -934468280339522254
+    second: mer_8_chars2_330
+  - first:
+      213: 4054520227005872313
+    second: mer_8_chars2_331
+  - first:
+      213: 5799375604370707418
+    second: mer_8_chars2_332
+  - first:
+      213: 2995602397867800699
+    second: mer_8_chars2_333
+  - first:
+      213: 7379869116584945857
+    second: mer_8_chars2_334
+  - first:
+      213: 3139552018433701729
+    second: mer_8_chars2_335
+  - first:
+      213: -7515090778377300087
+    second: mer_8_chars2_336
+  - first:
+      213: -7343357606681502013
+    second: mer_8_chars2_337
+  - first:
+      213: 8465983065816510683
+    second: mer_8_chars2_338
+  - first:
+      213: -2622211450168801228
+    second: mer_8_chars2_339
+  - first:
+      213: -673142178650604932
+    second: mer_8_chars2_340
+  - first:
+      213: -417738074082769074
+    second: mer_8_chars2_341
+  - first:
+      213: 4718800247941377532
+    second: mer_8_chars2_342
+  - first:
+      213: -7548768506295395739
+    second: mer_8_chars2_343
+  - first:
+      213: 4393897209135420479
+    second: mer_8_chars2_344
+  - first:
+      213: 4542380289828754277
+    second: mer_8_chars2_345
+  - first:
+      213: -7799343609383645761
+    second: mer_8_chars2_346
+  - first:
+      213: -4080792225635545813
+    second: mer_8_chars2_347
+  - first:
+      213: 3430708024371295746
+    second: mer_8_chars2_348
+  - first:
+      213: -2452559092772193815
+    second: mer_8_chars2_349
+  - first:
+      213: 118636774598305897
+    second: mer_8_chars2_350
+  - first:
+      213: 7873546834096695967
+    second: mer_8_chars2_351
+  - first:
+      213: 5812280076578711011
+    second: mer_8_chars2_352
+  - first:
+      213: 2179901118758440095
+    second: mer_8_chars2_353
+  - first:
+      213: -3033948457995873190
+    second: mer_8_chars2_354
+  - first:
+      213: -6229031508714790511
+    second: mer_8_chars2_355
+  - first:
+      213: 5756386073835476396
+    second: mer_8_chars2_356
+  - first:
+      213: 5474953511244209160
+    second: mer_8_chars2_357
+  - first:
+      213: -1438987647974881056
+    second: mer_8_chars2_358
+  - first:
+      213: -1408415100947177154
+    second: mer_8_chars2_359
+  - first:
+      213: -2449937362944311335
+    second: mer_8_chars2_360
+  - first:
+      213: -2591203394502427854
+    second: mer_8_chars2_361
+  - first:
+      213: -5986490718411850577
+    second: mer_8_chars2_362
+  - first:
+      213: 4458718259144448888
+    second: mer_8_chars2_363
+  - first:
+      213: -2563724873741717063
+    second: mer_8_chars2_364
+  - first:
+      213: -3062918210840481509
+    second: mer_8_chars2_365
+  - first:
+      213: 6394496254220099655
+    second: mer_8_chars2_366
+  - first:
+      213: 51822508680800347
+    second: mer_8_chars2_367
+  - first:
+      213: -3926502247263638801
+    second: mer_8_chars2_368
+  - first:
+      213: 5597159001546285479
+    second: mer_8_chars2_369
+  - first:
+      213: 1462258686223075620
+    second: mer_8_chars2_370
+  - first:
+      213: -4642880248844053865
+    second: mer_8_chars2_371
+  - first:
+      213: 3522130361270793519
+    second: mer_8_chars2_372
+  - first:
+      213: -664912852814458151
+    second: mer_8_chars2_373
+  - first:
+      213: -143905287307545109
+    second: mer_8_chars2_374
+  - first:
+      213: 5808374010094641157
+    second: mer_8_chars2_375
+  - first:
+      213: -203945614630937425
+    second: mer_8_chars2_376
+  - first:
+      213: 3704553984350737072
+    second: mer_8_chars2_377
+  - first:
+      213: 7989775045681200220
+    second: mer_8_chars2_378
+  - first:
+      213: 1389210018280438947
+    second: mer_8_chars2_379
+  - first:
+      213: 5914602555103637122
+    second: mer_8_chars2_380
+  - first:
+      213: -9073384829134912005
+    second: mer_8_chars2_381
+  - first:
+      213: -5629440387132454837
+    second: mer_8_chars2_382
+  - first:
+      213: -7897644619158716807
+    second: mer_8_chars2_383
+  - first:
+      213: 7542196951913806597
+    second: mer_8_chars2_384
+  - first:
+      213: -4615852251517910709
+    second: mer_8_chars2_385
+  - first:
+      213: -3517342591510332299
+    second: mer_8_chars2_386
+  - first:
+      213: -8458206713107858268
+    second: mer_8_chars2_387
+  - first:
+      213: 2640886716324431759
+    second: mer_8_chars2_388
+  - first:
+      213: 8480381744878554797
+    second: mer_8_chars2_389
+  - first:
+      213: 2202272086266694209
+    second: mer_8_chars2_390
+  - first:
+      213: 5059239347627037439
+    second: mer_8_chars2_391
+  - first:
+      213: 5956498252279358452
+    second: mer_8_chars2_392
+  - first:
+      213: -3792904449737994626
+    second: mer_8_chars2_393
+  - first:
+      213: 40440827112466388
+    second: mer_8_chars2_394
+  - first:
+      213: 6744683684147088327
+    second: mer_8_chars2_395
+  - first:
+      213: 8572519983496728810
+    second: mer_8_chars2_396
+  - first:
+      213: -4556513701323533367
+    second: mer_8_chars2_397
+  - first:
+      213: -4771553522471647512
+    second: mer_8_chars2_398
+  - first:
+      213: 7037404765746146121
+    second: mer_8_chars2_399
+  - first:
+      213: -7854047836790927519
+    second: mer_8_chars2_400
+  - first:
+      213: -5678124765811574340
+    second: mer_8_chars2_401
+  - first:
+      213: -378511705960603535
+    second: mer_8_chars2_402
+  - first:
+      213: 9159660120247595299
+    second: mer_8_chars2_403
+  - first:
+      213: -3550194086779433889
+    second: mer_8_chars2_404
+  - first:
+      213: 1232769881144305388
+    second: mer_8_chars2_405
+  - first:
+      213: -7039786472372961573
+    second: mer_8_chars2_406
+  - first:
+      213: 52029890629155195
+    second: mer_8_chars2_407
+  - first:
+      213: 8957477991194486369
+    second: mer_8_chars2_408
+  - first:
+      213: 7617085356283599138
+    second: mer_8_chars2_409
+  - first:
+      213: -1984609194376206888
+    second: mer_8_chars2_410
+  - first:
+      213: 1176210366703318381
+    second: mer_8_chars2_411
+  - first:
+      213: -2994946693811475728
+    second: mer_8_chars2_412
+  - first:
+      213: -4471300970885329389
+    second: mer_8_chars2_413
+  - first:
+      213: 6375606084552667331
+    second: mer_8_chars2_414
+  - first:
+      213: 8898629469383399376
+    second: mer_8_chars2_415
+  - first:
+      213: -8796920557085627927
+    second: mer_8_chars2_416
+  - first:
+      213: -7098658224666445253
+    second: mer_8_chars2_417
+  - first:
+      213: -4944654500057488619
+    second: mer_8_chars2_418
+  - first:
+      213: 8003378097978641789
+    second: mer_8_chars2_419
+  - first:
+      213: -14603395859676769
+    second: mer_8_chars2_420
+  - first:
+      213: -2278994723792164100
+    second: mer_8_chars2_421
+  - first:
+      213: 3968822376826887927
+    second: mer_8_chars2_422
+  - first:
+      213: -4405819076520913144
+    second: mer_8_chars2_423
+  - first:
+      213: 921274897085903941
+    second: mer_8_chars2_424
+  - first:
+      213: 2954586290795316808
+    second: mer_8_chars2_425
+  - first:
+      213: 7290349089015679424
+    second: mer_8_chars2_426
+  - first:
+      213: -2986968675856130424
+    second: mer_8_chars2_427
+  - first:
+      213: 4384843765929697414
+    second: mer_8_chars2_428
+  - first:
+      213: -8190924862687890421
+    second: mer_8_chars2_429
+  - first:
+      213: -1920929909367885051
+    second: mer_8_chars2_430
+  - first:
+      213: 5980585568990523067
+    second: mer_8_chars2_431
+  - first:
+      213: -9016863887620453224
+    second: mer_8_chars2_432
+  - first:
+      213: -1312954689563902397
+    second: mer_8_chars2_433
+  - first:
+      213: -7717917201253507583
+    second: mer_8_chars2_434
+  - first:
+      213: -4162744301848595988
+    second: mer_8_chars2_435
+  - first:
+      213: 1587486306921411867
+    second: mer_8_chars2_436
+  - first:
+      213: 2408031477202367266
+    second: mer_8_chars2_437
+  - first:
+      213: -94713758861729161
+    second: mer_8_chars2_438
+  - first:
+      213: 4413039581287893649
+    second: mer_8_chars2_439
+  - first:
+      213: -7481438368844423412
+    second: mer_8_chars2_440
+  - first:
+      213: 7630492988387424900
+    second: mer_8_chars2_441
+  - first:
+      213: -1901511590243989403
+    second: mer_8_chars2_442
+  - first:
+      213: -1024600862205587336
+    second: mer_8_chars2_443
+  - first:
+      213: 4132101205972602251
+    second: mer_8_chars2_444
+  - first:
+      213: 1842832011511200495
+    second: mer_8_chars2_445
+  - first:
+      213: -4944737883358222330
+    second: mer_8_chars2_446
+  - first:
+      213: -4466853607665083072
+    second: mer_8_chars2_447
+  - first:
+      213: 4708518064608162507
+    second: mer_8_chars2_448
+  - first:
+      213: 6789683394655882106
+    second: mer_8_chars2_449
+  - first:
+      213: 6720756685656065432
+    second: mer_8_chars2_450
+  - first:
+      213: 7425564186661752831
+    second: mer_8_chars2_451
+  - first:
+      213: -8019463180970156600
+    second: mer_8_chars2_452
+  - first:
+      213: -2941231111046503555
+    second: mer_8_chars2_453
+  - first:
+      213: -5738908655969568841
+    second: mer_8_chars2_454
+  - first:
+      213: -5034498442789816897
+    second: mer_8_chars2_455
+  - first:
+      213: 7134236839234693646
+    second: mer_8_chars2_456
+  - first:
+      213: 1397858900441590552
+    second: mer_8_chars2_457
+  - first:
+      213: -6559243337537108250
+    second: mer_8_chars2_458
+  - first:
+      213: 2262584842099209736
+    second: mer_8_chars2_459
+  - first:
+      213: 1809157108413569398
+    second: mer_8_chars2_460
+  - first:
+      213: -2382262349622222405
+    second: mer_8_chars2_461
+  - first:
+      213: 4851205598123882276
+    second: mer_8_chars2_462
+  - first:
+      213: 6338201418188548162
+    second: mer_8_chars2_463
+  - first:
+      213: -2329797252163059183
+    second: mer_8_chars2_464
+  - first:
+      213: -3901725435235047535
+    second: mer_8_chars2_465
+  - first:
+      213: -1597156906938193724
+    second: mer_8_chars2_466
+  - first:
+      213: -478704683400171528
+    second: mer_8_chars2_467
+  - first:
+      213: -1134819399874417783
+    second: mer_8_chars2_468
+  - first:
+      213: 2947973305314267524
+    second: mer_8_chars2_469
+  - first:
+      213: 5786828384143901792
+    second: mer_8_chars2_470
+  - first:
+      213: 8121984572766809192
+    second: mer_8_chars2_471
+  - first:
+      213: 1903208997865088912
+    second: mer_8_chars2_472
+  - first:
+      213: -212257097012645036
+    second: mer_8_chars2_473
+  - first:
+      213: 9125291403493293223
+    second: mer_8_chars2_474
+  - first:
+      213: 3517137082678670733
+    second: mer_8_chars2_475
+  - first:
+      213: 1269298363122591471
+    second: mer_8_chars2_476
+  - first:
+      213: -1160569564285042530
+    second: mer_8_chars2_477
+  - first:
+      213: -7978308523924256348
+    second: mer_8_chars2_478
+  - first:
+      213: 331547800493626613
+    second: mer_8_chars2_479
+  - first:
+      213: 3275867470538142968
+    second: mer_8_chars2_480
+  - first:
+      213: -7973617623721909899
+    second: mer_8_chars2_481
+  - first:
+      213: 2210831783128540054
+    second: mer_8_chars2_482
+  - first:
+      213: 5350860585945876462
+    second: mer_8_chars2_483
+  - first:
+      213: -5227584316917743605
+    second: mer_8_chars2_484
+  - first:
+      213: 3191523214146286903
+    second: mer_8_chars2_485
+  - first:
+      213: -454106330604930443
+    second: mer_8_chars2_486
+  - first:
+      213: -8441148284968738973
+    second: mer_8_chars2_487
+  - first:
+      213: -7863061226771507839
+    second: mer_8_chars2_488
+  - first:
+      213: 6277314142554136122
+    second: mer_8_chars2_489
+  - first:
+      213: -2102907587458220024
+    second: mer_8_chars2_490
+  - first:
+      213: 1214970996409447804
+    second: mer_8_chars2_491
+  - first:
+      213: 7415677618353955874
+    second: mer_8_chars2_492
+  - first:
+      213: -3394180806701095593
+    second: mer_8_chars2_493
+  - first:
+      213: 1257997801734303893
+    second: mer_8_chars2_494
+  - first:
+      213: 3768521550605744115
+    second: mer_8_chars2_495
+  - first:
+      213: 8039748706409958164
+    second: mer_8_chars2_496
+  - first:
+      213: 349484182922207291
+    second: mer_8_chars2_497
+  - first:
+      213: 2376511922797873923
+    second: mer_8_chars2_498
+  - first:
+      213: -4049699534390507171
+    second: mer_8_chars2_499
+  - first:
+      213: 74214505450140121
+    second: mer_8_chars2_500
+  - first:
+      213: -580014578728979259
+    second: mer_8_chars2_501
+  - first:
+      213: -6485280408395989744
+    second: mer_8_chars2_502
+  - first:
+      213: -310122041597219864
+    second: mer_8_chars2_503
+  - first:
+      213: 565885890014199622
+    second: mer_8_chars2_504
+  - first:
+      213: -7040552791806286702
+    second: mer_8_chars2_505
+  - first:
+      213: 4690919876569766455
+    second: mer_8_chars2_506
+  - first:
+      213: 5644774616078104141
+    second: mer_8_chars2_507
+  - first:
+      213: 2567245303324842831
+    second: mer_8_chars2_508
+  - first:
+      213: -5289547796685861298
+    second: mer_8_chars2_509
+  - first:
+      213: -898585652635212416
+    second: mer_8_chars2_510
+  - first:
+      213: 9020612753932316126
+    second: mer_8_chars2_511
+  - first:
+      213: -836627790990933404
+    second: mer_8_chars2_512
+  - first:
+      213: -874135526766330606
+    second: mer_8_chars2_513
+  - first:
+      213: -3783050931630398084
+    second: mer_8_chars2_514
+  - first:
+      213: 573051489615488873
+    second: mer_8_chars2_515
+  - first:
+      213: -4509298296534309790
+    second: mer_8_chars2_516
+  - first:
+      213: -7809712811115853523
+    second: mer_8_chars2_517
+  - first:
+      213: -4927280368748652806
+    second: mer_8_chars2_518
+  - first:
+      213: -5230131189298598083
+    second: mer_8_chars2_519
+  - first:
+      213: -8242299444881095400
+    second: mer_8_chars2_520
+  - first:
+      213: 9167246297751596727
+    second: mer_8_chars2_521
+  - first:
+      213: -7680842677532031865
+    second: mer_8_chars2_522
+  - first:
+      213: 2734508454955692114
+    second: mer_8_chars2_523
+  - first:
+      213: 5964926858277046141
+    second: mer_8_chars2_524
+  - first:
+      213: 314473186670015337
+    second: mer_8_chars2_525
+  - first:
+      213: -1041478629583357580
+    second: mer_8_chars2_526
+  - first:
+      213: 3286937642774716040
+    second: mer_8_chars2_527
+  - first:
+      213: -8289095182169168834
+    second: mer_8_chars2_528
+  - first:
+      213: 7416176788809580365
+    second: mer_8_chars2_529
+  - first:
+      213: -1364460005774030809
+    second: mer_8_chars2_530
+  - first:
+      213: -4744680259071214480
+    second: mer_8_chars2_531
+  - first:
+      213: 3796980130230992873
+    second: mer_8_chars2_532
+  - first:
+      213: 5220681509915680710
+    second: mer_8_chars2_533
+  - first:
+      213: 6630168653727869538
+    second: mer_8_chars2_534
+  - first:
+      213: 2976449431834523537
+    second: mer_8_chars2_535
+  - first:
+      213: 7746427628474595878
+    second: mer_8_chars2_536
+  - first:
+      213: 5812574494013638476
+    second: mer_8_chars2_537
+  - first:
+      213: 2974314157379680958
+    second: mer_8_chars2_538
+  - first:
+      213: -8181590804797935110
+    second: mer_8_chars2_539
+  - first:
+      213: 937670398474916206
+    second: mer_8_chars2_540
+  - first:
+      213: -7408683969156663947
+    second: mer_8_chars2_541
+  - first:
+      213: 7463991349227680047
+    second: mer_8_chars2_542
+  - first:
+      213: -3514404351756861841
+    second: mer_8_chars2_543
+  - first:
+      213: 393862887375068803
+    second: mer_8_chars2_544
+  - first:
+      213: 1861549686099524833
+    second: mer_8_chars2_545
+  - first:
+      213: -3155505004834875591
+    second: mer_8_chars2_546
+  - first:
+      213: 2096552023015582201
+    second: mer_8_chars2_547
+  - first:
+      213: 4963482459674390853
+    second: mer_8_chars2_548
+  - first:
+      213: 7492832344932519828
+    second: mer_8_chars2_549
+  - first:
+      213: -811923891112669117
+    second: mer_8_chars2_550
+  - first:
+      213: 4506731369317141674
+    second: mer_8_chars2_551
+  - first:
+      213: -8844277719449173677
+    second: mer_8_chars2_552
+  - first:
+      213: 3654206927274769700
+    second: mer_8_chars2_553
+  - first:
+      213: -7542211828575604943
+    second: mer_8_chars2_554
+  - first:
+      213: 1430210896494740172
+    second: mer_8_chars2_555
+  - first:
+      213: -3656081489172546692
+    second: mer_8_chars2_556
+  - first:
+      213: 5301471401356976582
+    second: mer_8_chars2_557
+  - first:
+      213: -8797632985246081677
+    second: mer_8_chars2_558
+  - first:
+      213: -2979113088521694066
+    second: mer_8_chars2_559
+  - first:
+      213: 7922884613232562080
+    second: mer_8_chars2_560
+  - first:
+      213: 5026898930664156550
+    second: mer_8_chars2_561
+  - first:
+      213: -8805854547615334149
+    second: mer_8_chars2_562
+  - first:
+      213: 3326108720073471078
+    second: mer_8_chars2_563
+  - first:
+      213: -3109068734680902101
+    second: mer_8_chars2_564
+  - first:
+      213: -9010872183292985549
+    second: mer_8_chars2_565
+  - first:
+      213: -898930230778667745
+    second: mer_8_chars2_566
+  - first:
+      213: 3364941885741476662
+    second: mer_8_chars2_567
+  - first:
+      213: -1047372325421938711
+    second: mer_8_chars2_568
+  - first:
+      213: -767771771739166437
+    second: mer_8_chars2_569
+  - first:
+      213: 3058181746896047185
+    second: mer_8_chars2_570
+  - first:
+      213: -6416137961195230728
+    second: mer_8_chars2_571
+  - first:
+      213: 1315321817509467297
+    second: mer_8_chars2_572
+  - first:
+      213: 8787209818049248334
+    second: mer_8_chars2_573
+  - first:
+      213: 2561194971455496044
+    second: mer_8_chars2_574
+  - first:
+      213: 8603105858422474242
+    second: mer_8_chars2_575
+  - first:
+      213: -8070618896338024876
+    second: mer_8_chars2_576
+  - first:
+      213: 3812325683224041634
+    second: mer_8_chars2_577
+  - first:
+      213: 4069175546806527677
+    second: mer_8_chars2_578
+  - first:
+      213: -731864027561233505
+    second: mer_8_chars2_579
+  - first:
+      213: 4302833884264428034
+    second: mer_8_chars2_580
+  - first:
+      213: 5794146712915161849
+    second: mer_8_chars2_581
+  - first:
+      213: -1012264990893063791
+    second: mer_8_chars2_582
+  - first:
+      213: 8590617494395443278
+    second: mer_8_chars2_583
+  - first:
+      213: -8536784287237976200
+    second: mer_8_chars2_584
+  - first:
+      213: -505686252243702960
+    second: mer_8_chars2_585
+  - first:
+      213: 1768334128301716080
+    second: mer_8_chars2_586
+  - first:
+      213: -2212474380167368054
+    second: mer_8_chars2_587
+  - first:
+      213: 7553407163483024335
+    second: mer_8_chars2_588
+  - first:
+      213: 5103944095241188100
+    second: mer_8_chars2_589
+  - first:
+      213: -276279522724094606
+    second: mer_8_chars2_590
+  - first:
+      213: 4629514708782263393
+    second: mer_8_chars2_591
+  - first:
+      213: -5139164843365045949
+    second: mer_8_chars2_592
+  - first:
+      213: -712034273782565594
+    second: mer_8_chars2_593
+  - first:
+      213: 8448287610490822303
+    second: mer_8_chars2_594
+  - first:
+      213: 1785466449806914949
+    second: mer_8_chars2_595
+  - first:
+      213: 1452764630373894361
+    second: mer_8_chars2_596
+  - first:
+      213: -2458531024795110411
+    second: mer_8_chars2_597
+  - first:
+      213: -8649106506746657724
+    second: mer_8_chars2_598
+  - first:
+      213: -89755677430122859
+    second: mer_8_chars2_599
+  - first:
+      213: -2476873502928020805
+    second: mer_8_chars2_600
+  - first:
+      213: -4841946985132110577
+    second: mer_8_chars2_601
+  - first:
+      213: 7359886060430210590
+    second: mer_8_chars2_602
+  - first:
+      213: 5884344616266173688
+    second: mer_8_chars2_603
+  - first:
+      213: -1921516641613099633
+    second: mer_8_chars2_604
+  - first:
+      213: -2762195599595172767
+    second: mer_8_chars2_605
+  - first:
+      213: 474153429653897038
+    second: mer_8_chars2_606
+  - first:
+      213: 3443035584195971234
+    second: mer_8_chars2_607
+  - first:
+      213: 7519736772419044266
+    second: mer_8_chars2_608
+  - first:
+      213: 7251893870359916211
+    second: mer_8_chars2_609
+  - first:
+      213: -7942586407425125983
+    second: mer_8_chars2_610
+  - first:
+      213: -4904609343666533821
+    second: mer_8_chars2_611
+  - first:
+      213: 3004138032429138906
+    second: mer_8_chars2_612
+  - first:
+      213: -4899298205987781699
+    second: mer_8_chars2_613
+  - first:
+      213: 8140765140555195495
+    second: mer_8_chars2_614
+  - first:
+      213: 5584508138348968565
+    second: mer_8_chars2_615
+  - first:
+      213: -3250609733321874312
+    second: mer_8_chars2_616
+  - first:
+      213: -851818329765885065
+    second: mer_8_chars2_617
+  - first:
+      213: -3820092843750235610
+    second: mer_8_chars2_618
+  - first:
+      213: 6624034649988538103
+    second: mer_8_chars2_619
+  - first:
+      213: 2821886818760158058
+    second: mer_8_chars2_620
+  - first:
+      213: -5546450892208382951
+    second: mer_8_chars2_621
+  - first:
+      213: -7883863168309256068
+    second: mer_8_chars2_622
+  - first:
+      213: 953334657356472698
+    second: mer_8_chars2_623
+  - first:
+      213: -6506290467008102839
+    second: mer_8_chars2_624
+  - first:
+      213: 7230712345664195512
+    second: mer_8_chars2_625
+  - first:
+      213: 6976705555836348219
+    second: mer_8_chars2_626
+  - first:
+      213: -4052621712285537262
+    second: mer_8_chars2_627
+  - first:
+      213: 1008350813650828787
+    second: mer_8_chars2_628
+  - first:
+      213: -8687797553463698309
+    second: mer_8_chars2_629
+  - first:
+      213: 2206062337982442604
+    second: mer_8_chars2_630
+  - first:
+      213: 793823930961236005
+    second: mer_8_chars2_631
+  - first:
+      213: 381520302468474705
+    second: mer_8_chars2_632
+  - first:
+      213: -7198111957358875045
+    second: mer_8_chars2_633
+  - first:
+      213: -7315544990764073137
+    second: mer_8_chars2_634
+  - first:
+      213: -6864481504473099540
+    second: mer_8_chars2_635
+  - first:
+      213: -4734843286854966326
+    second: mer_8_chars2_636
+  - first:
+      213: 7469580468542953625
+    second: mer_8_chars2_637
+  - first:
+      213: 2787042125585714790
+    second: mer_8_chars2_638
+  - first:
+      213: 6475796295577213248
+    second: mer_8_chars2_639
+  - first:
+      213: 9031463650934792055
+    second: mer_8_chars2_640
+  - first:
+      213: -5557075035972179432
+    second: mer_8_chars2_641
+  - first:
+      213: -5599151078845418686
+    second: mer_8_chars2_642
+  - first:
+      213: 3123469637778423667
+    second: mer_8_chars2_643
+  - first:
+      213: -5560082183674328459
+    second: mer_8_chars2_644
+  - first:
+      213: -4227557086814717855
+    second: mer_8_chars2_645
+  - first:
+      213: 8677372947002862016
+    second: mer_8_chars2_646
+  - first:
+      213: 6899656640714694006
+    second: mer_8_chars2_647
+  - first:
+      213: -8423969024324109760
+    second: mer_8_chars2_648
+  - first:
+      213: 7267106380669006647
+    second: mer_8_chars2_649
+  - first:
+      213: -3960219975855111556
+    second: mer_8_chars2_650
+  - first:
+      213: 7176673284637649995
+    second: mer_8_chars2_651
+  - first:
+      213: -4330648946586850462
+    second: mer_8_chars2_652
+  - first:
+      213: -1572938883231407098
+    second: mer_8_chars2_653
+  - first:
+      213: -3777563146271944041
+    second: mer_8_chars2_654
+  - first:
+      213: -1860857569575542149
+    second: mer_8_chars2_655
+  - first:
+      213: 4113757927832130483
+    second: mer_8_chars2_656
+  - first:
+      213: 4812660075820226102
+    second: mer_8_chars2_657
+  - first:
+      213: 1794264864952059639
+    second: mer_8_chars2_658
+  - first:
+      213: -5809622236668176092
+    second: mer_8_chars2_659
+  - first:
+      213: 3930805935312759424
+    second: mer_8_chars2_660
+  - first:
+      213: -61695717473034170
+    second: mer_8_chars2_661
+  - first:
+      213: 5340528186766946735
+    second: mer_8_chars2_662
+  - first:
+      213: -6950069752972708724
+    second: mer_8_chars2_663
+  - first:
+      213: -4597479186892232005
+    second: mer_8_chars2_664
+  - first:
+      213: 6817517944875208851
+    second: mer_8_chars2_665
+  - first:
+      213: -6589650157334272565
+    second: mer_8_chars2_666
+  - first:
+      213: 9162011554681132509
+    second: mer_8_chars2_667
+  - first:
+      213: -3907046780387567744
+    second: mer_8_chars2_668
+  - first:
+      213: -6545640975309758098
+    second: mer_8_chars2_669
+  - first:
+      213: 5514603801082878775
+    second: mer_8_chars2_670
+  - first:
+      213: -1534903576397435151
+    second: mer_8_chars2_671
+  - first:
+      213: -5364328639709876209
+    second: mer_8_chars2_672
+  - first:
+      213: -8977684900792866613
+    second: mer_8_chars2_673
+  - first:
+      213: -685606666993982942
+    second: mer_8_chars2_674
+  - first:
+      213: -4954132107140519954
+    second: mer_8_chars2_675
+  - first:
+      213: -8813377023045930524
+    second: mer_8_chars2_676
+  - first:
+      213: -9060053998613497175
+    second: mer_8_chars2_677
+  - first:
+      213: 6227540562146214596
+    second: mer_8_chars2_678
+  - first:
+      213: -8926208881564182916
+    second: mer_8_chars2_679
+  - first:
+      213: 2177108724858133565
+    second: mer_8_chars2_680
+  - first:
+      213: 510191285626425002
+    second: mer_8_chars2_681
+  - first:
+      213: 7361478219578446602
+    second: mer_8_chars2_682
+  - first:
+      213: -4450995772976394057
+    second: mer_8_chars2_683
+  - first:
+      213: -4748061660350983438
+    second: mer_8_chars2_684
+  - first:
+      213: -2900395920934018598
+    second: mer_8_chars2_685
+  - first:
+      213: -3692126758002254940
+    second: mer_8_chars2_686
+  - first:
+      213: 3578005826242561015
+    second: mer_8_chars2_687
+  - first:
+      213: 8067252496360960068
+    second: mer_8_chars2_688
+  - first:
+      213: -4901864646967773027
+    second: mer_8_chars2_689
+  - first:
+      213: 6908243479117133410
+    second: mer_8_chars2_690
+  - first:
+      213: 1714823881787205167
+    second: mer_8_chars2_691
+  - first:
+      213: 4872081437693365613
+    second: mer_8_chars2_692
+  - first:
+      213: -612228129042436423
+    second: mer_8_chars2_693
+  - first:
+      213: -2948093583532624532
+    second: mer_8_chars2_694
+  - first:
+      213: -3887678597435736765
+    second: mer_8_chars2_695
+  - first:
+      213: -1022306294032384309
+    second: mer_8_chars2_696
+  - first:
+      213: 1575004154878566707
+    second: mer_8_chars2_697
+  - first:
+      213: -2313444530102942216
+    second: mer_8_chars2_698
+  - first:
+      213: 5077554672116881810
+    second: mer_8_chars2_699
+  - first:
+      213: -7352924819245486971
+    second: mer_8_chars2_700
+  - first:
+      213: 254067786782039759
+    second: mer_8_chars2_701
+  - first:
+      213: -7239205957270275244
+    second: mer_8_chars2_702
+  - first:
+      213: 9144444749296892252
+    second: mer_8_chars2_703
+  - first:
+      213: -1381740362948728641
+    second: mer_8_chars2_704
+  - first:
+      213: -7159751967300384457
+    second: mer_8_chars2_705
+  - first:
+      213: -7760371715559799177
+    second: mer_8_chars2_706
+  - first:
+      213: -5035053081019780145
+    second: mer_8_chars2_707
+  - first:
+      213: 4300098299578682595
+    second: mer_8_chars2_708
+  - first:
+      213: 6101378298474246606
+    second: mer_8_chars2_709
+  - first:
+      213: 2450838437999953274
+    second: mer_8_chars2_710
+  - first:
+      213: 8738319344316590241
+    second: mer_8_chars2_711
+  - first:
+      213: -8012877636134652699
+    second: mer_8_chars2_712
+  - first:
+      213: 7387618086308149588
+    second: mer_8_chars2_713
+  - first:
+      213: 85956069285167161
+    second: mer_8_chars2_714
+  - first:
+      213: -313940255601371412
+    second: mer_8_chars2_715
+  - first:
+      213: -7603012132216188529
+    second: mer_8_chars2_716
+  - first:
+      213: -7578493361717570213
+    second: mer_8_chars2_717
+  - first:
+      213: -3118971982415926581
+    second: mer_8_chars2_718
+  - first:
+      213: 7226141004759910024
+    second: mer_8_chars2_719
+  - first:
+      213: 1304955708708899544
+    second: mer_8_chars2_720
+  - first:
+      213: -6110452881088883451
+    second: mer_8_chars2_721
+  - first:
+      213: 5271231601679734879
+    second: mer_8_chars2_722
+  - first:
+      213: -6378204935093207197
+    second: mer_8_chars2_723
+  - first:
+      213: 3161182875076774635
+    second: mer_8_chars2_724
+  - first:
+      213: 6066368177433444399
+    second: mer_8_chars2_725
+  - first:
+      213: 4142454588539077080
+    second: mer_8_chars2_726
+  - first:
+      213: 1827207712898018043
+    second: mer_8_chars2_727
+  - first:
+      213: -5441111426818931968
+    second: mer_8_chars2_728
+  - first:
+      213: 665298051891212042
+    second: mer_8_chars2_729
+  - first:
+      213: 46535132169966400
+    second: mer_8_chars2_730
+  - first:
+      213: 2074104758137132436
+    second: mer_8_chars2_731
+  - first:
+      213: -5634880906614968571
+    second: mer_8_chars2_732
+  - first:
+      213: 8547404828353018481
+    second: mer_8_chars2_733
+  - first:
+      213: 6634379775869901231
+    second: mer_8_chars2_734
+  - first:
+      213: 1387325015605889788
+    second: mer_8_chars2_735
+  - first:
+      213: 7073856703749353812
+    second: mer_8_chars2_736
+  - first:
+      213: -1772992472607704247
+    second: mer_8_chars2_737
+  - first:
+      213: -7434348578226784693
+    second: mer_8_chars2_738
+  - first:
+      213: -2655430037514708345
+    second: mer_8_chars2_739
+  - first:
+      213: -1516039659775436590
+    second: mer_8_chars2_740
+  - first:
+      213: -8387677796434061056
+    second: mer_8_chars2_741
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mer_8_chars2_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 650
+        width: 38
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae6021c659d05850800000000000000
+      internalID: 6363825240105053858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 650
+        width: 34
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8adf29144718aff0800000000000000
+      internalID: -24744216702756214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 664
+        width: 30
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088dcc2266ce2ceb0800000000000000
+      internalID: -4700935137606707072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 650
+        width: 38
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbc77f0460250fb0800000000000000
+      internalID: -4682300623453434925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 650
+        width: 34
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daca7b62fb3907ff0800000000000000
+      internalID: -40369947448726355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_5
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 664
+        width: 34
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7654134458fbf6b0800000000000000
+      internalID: -5261338698865944965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 650
+        width: 38
+        height: 74
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89d466735cd389c0800000000000000
+      internalID: -3926052199110223478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_7
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 650
+        width: 34
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1b8956a8da5ea00800000000000000
+      internalID: 785224519967617470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 664
+        width: 34
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b3f514200bd76f0800000000000000
+      internalID: -685198044557264074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_9
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 650
+        width: 38
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1e7cf6fbb9abdf0800000000000000
+      internalID: -163647189929172501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_10
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 650
+        width: 34
+        height: 80
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba911a289188e990800000000000000
+      internalID: -7356487500768896331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_11
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 664
+        width: 34
+        height: 68
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e56e27128491610800000000000000
+      internalID: 1592383251751001660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 650
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523cbed469aad21e0800000000000000
+      internalID: -2220931478694673627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 650
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9db9f14157dab1a0800000000000000
+      internalID: -6792880343935763046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_14
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 650
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5902560480a9f4680800000000000000
+      internalID: -8768620589236281195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_15
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 650
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c606551f642647e10800000000000000
+      internalID: 2194486975272411244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 558
+        width: 30
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c39600161c371930800000000000000
+      internalID: 4113822850082051014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_17
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 558
+        width: 30
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2140465fbdd4c6c20800000000000000
+      internalID: 3201019042263729170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_18
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 572
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a58217094ce5d680800000000000000
+      internalID: -8730812504192416344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_19
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 558
+        width: 30
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde9f4b2847c78620800000000000000
+      internalID: 2776406808075411163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_20
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 558
+        width: 30
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ecffe6fe3d9d610800000000000000
+      internalID: 1646580164093529657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 572
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccfe9ff4545a50e0800000000000000
+      internalID: -2280417537267139378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_22
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 558
+        width: 30
+        height: 74
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26881a0aae63c630800000000000000
+      internalID: 3946119375099561519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_23
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 558
+        width: 30
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cc1e1f0f3d35030800000000000000
+      internalID: 3482359968691244071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_24
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 572
+        width: 28
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b912590b3a99fb770800000000000000
+      internalID: 8628784339386442139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_25
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 558
+        width: 30
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6c36903ccb5f450800000000000000
+      internalID: 6122006814342235820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_26
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 558
+        width: 30
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9c9fde57c42f0a0800000000000000
+      internalID: -6849328013889648181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_27
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 572
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6854272bfb0d56900800000000000000
+      internalID: 677176840740291974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_28
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 558
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e431929d8d28da80800000000000000
+      internalID: -8441947415433366303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_29
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 558
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c645c4a89e2670770800000000000000
+      internalID: 8576932770537559148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_30
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 558
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5568962cc2303a0800000000000000
+      internalID: -6700462607091477006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_31
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 558
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7002cb40339e660800000000000000
+      internalID: 7415514356871333856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 480
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9c7e85d052a1ad0800000000000000
+      internalID: -2730829484790396459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_33
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 466
+        width: 30
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7986eaa8f582c220800000000000000
+      internalID: 2504711645837035903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 466
+        width: 30
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838ed15053d43c540800000000000000
+      internalID: 5026946499190057016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_35
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 480
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11be290c5e3fd2410800000000000000
+      internalID: 1454086422814452497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_36
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 466
+        width: 30
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776e8bc1abdcce590800000000000000
+      internalID: -7643508268325083529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_37
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 466
+        width: 30
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f73a77aeb1fe270800000000000000
+      internalID: 8281868933601132390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_38
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 480
+        width: 28
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb46565121eb073a0800000000000000
+      internalID: -6669622063258049349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_39
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 466
+        width: 30
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eb571d43fb2b390800000000000000
+      internalID: -7803964970706289059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_40
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 466
+        width: 30
+        height: 74
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5412d5411fbd4c620800000000000000
+      internalID: 2793599497351799109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_41
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 480
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53182daa691734a0800000000000000
+      internalID: -6613789581807971494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_42
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 466
+        width: 30
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8641c71ded4aff0800000000000000
+      internalID: -25650706546136873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_43
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 466
+        width: 30
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad65bb2d623a8650800000000000000
+      internalID: 6235852078514007465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 466
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383e26fd1b97f3970800000000000000
+      internalID: 8736835606986023811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_45
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 466
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e87ca5e13cf2d0d0800000000000000
+      internalID: -3399377477474420511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_46
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 466
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d744b10c8886010800000000000000
+      internalID: 1182345260857327000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_47
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 466
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f503a1c3a42cfef0800000000000000
+      internalID: -73143208197814794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_48
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 374
+        width: 38
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514f265742c019e30800000000000000
+      internalID: 4508398052702352405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 374
+        width: 34
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341b549a4d29611f0800000000000000
+      internalID: -1074510019010645693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_50
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 388
+        width: 30
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd0ce585c55d1d50800000000000000
+      internalID: 6709613326695665113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_51
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 374
+        width: 38
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c834e20d687b8640800000000000000
+      internalID: 5083289014013016261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_52
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 374
+        width: 34
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396509674207761f0800000000000000
+      internalID: -1051748686057417069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_53
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 388
+        width: 34
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a715d9bd08b10e0800000000000000
+      internalID: -2298101504116950412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_54
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 374
+        width: 38
+        height: 76
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc92bd8bd94a2540800000000000000
+      internalID: 4983877144962833615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_55
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 374
+        width: 34
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b8997099c40cf30800000000000000
+      internalID: 4593755840059116311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_56
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 388
+        width: 34
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d44dd53bcbedda0800000000000000
+      internalID: -5918085381758890634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_57
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 374
+        width: 38
+        height: 78
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd241834751ac340800000000000000
+      internalID: 4884740334737960411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_58
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 374
+        width: 34
+        height: 80
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524e7ccdc01afc2d0800000000000000
+      internalID: -3256206928949812187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_59
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 388
+        width: 34
+        height: 68
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60f93bf8f1a3b9e0800000000000000
+      internalID: -1606762551302295444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_60
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 374
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6584d247c67b7d9d0800000000000000
+      internalID: -2749527371052922794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_61
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 374
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457b1adb9d33f57b0800000000000000
+      internalID: -5233407231698815148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_62
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 374
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0f26824b7316c00800000000000000
+      internalID: 892055448107282625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_63
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 374
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33ec546006965590800000000000000
+      internalID: -7685790785633197254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_64
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 292
+        width: 38
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5aea51f51c5c190800000000000000
+      internalID: -7942729753668180485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_65
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 294
+        width: 34
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c91ea76402c4b660800000000000000
+      internalID: 7400753411851688384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_66
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 296
+        width: 30
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df85f6f077559870800000000000000
+      internalID: 8688947198772482003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_67
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 292
+        width: 38
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80b17ad32ac988b0800000000000000
+      internalID: -5149362443583901556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_68
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 294
+        width: 34
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e990e81a38ff24a0800000000000000
+      internalID: -6615796399174805018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_69
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 296
+        width: 34
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ef0565aa61b180800000000000000
+      internalID: -9101376113341374382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_70
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 292
+        width: 38
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1333ee1c1a6135d50800000000000000
+      internalID: 6724743552593441585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_71
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 294
+        width: 34
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1e499917c10b890800000000000000
+      internalID: -7444418909809876502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_72
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 296
+        width: 34
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571511b09882268f0800000000000000
+      internalID: -548831635524464267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_73
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 292
+        width: 38
+        height: 68
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cffca4878eed360800000000000000
+      internalID: 7196444857933495361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_74
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 294
+        width: 34
+        height: 68
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87154b225ef87efa0800000000000000
+      internalID: -5771486183159475848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_75
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 296
+        width: 34
+        height: 68
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4402e52f567d4b950800000000000000
+      internalID: 6464028198041428036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_76
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 200
+        width: 26
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346a54125fc9ded40800000000000000
+      internalID: 5615316887040009795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 26
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0321e5b8f15f9160800000000000000
+      internalID: 7034431271621174028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_78
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 204
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7887d96cfcbb650800000000000000
+      internalID: 6249817359859091402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_79
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 200
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213b76eafaa6663a0800000000000000
+      internalID: -6672528495124958446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_80
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 202
+        width: 26
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8dd8ad741a8b9f0800000000000000
+      internalID: -452434432569255682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_81
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 204
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504b7347920242ca0800000000000000
+      internalID: -6042669437608807419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_82
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 200
+        width: 30
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96456bef5f94c9000800000000000000
+      internalID: 43991417256039529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_83
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 202
+        width: 28
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3133bfd7c1ccf40800000000000000
+      internalID: 5750002151656199145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_84
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 204
+        width: 28
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4398c9c80811d3b0800000000000000
+      internalID: -5489580044763753653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_85
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 200
+        width: 30
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42107db0e08b714e0800000000000000
+      internalID: -2010936338129944284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_86
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 202
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abe9fa86e0538500800000000000000
+      internalID: 397250143243070374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_87
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 204
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aba23b9e36eaa1e0800000000000000
+      internalID: -2185681512568804444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_88
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 112
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce5c5f3b1bc4af50800000000000000
+      internalID: 6891856647671275206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 110
+        width: 26
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1be535b8dee039d0800000000000000
+      internalID: -2796472754076521697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_90
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 108
+        width: 26
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f165cc4760d04cc60800000000000000
+      internalID: 7837403572912018975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_91
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 112
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f68556d88beb6d0800000000000000
+      internalID: -2972735786587754684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_92
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 110
+        width: 26
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161af0ccd7f800de0800000000000000
+      internalID: -1368936516263370399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_93
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 108
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0884ee7c05c080c0800000000000000
+      internalID: -4575440563949238257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_94
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 112
+        width: 28
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5f98d8d05e47730800000000000000
+      internalID: 3996070615756436906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_95
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 110
+        width: 28
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7fd18ea4f701b50800000000000000
+      internalID: 6561884616777398213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_96
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 108
+        width: 30
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf9cec1f6cc7d3e0800000000000000
+      internalID: -2028928329508413507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_97
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 112
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5861d9259f618cf60800000000000000
+      internalID: 8054713193640826501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_98
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 110
+        width: 28
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6296112560e618c70800000000000000
+      internalID: 8971572906124470566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_99
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 108
+        width: 30
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d23e729cd67ec920800000000000000
+      internalID: 3012475890480067288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_100
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 16
+        width: 38
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a393f5007e74950800000000000000
+      internalID: 6433364581505645174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_101
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 18
+        width: 34
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32b34024c7222500800000000000000
+      internalID: 369901842706182715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_102
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 20
+        width: 30
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e16f4c3d37c9ac20800000000000000
+      internalID: 3218322474551697893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_103
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 16
+        width: 38
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f997c4fda6b921c0800000000000000
+      internalID: -4527887092092003852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_104
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 18
+        width: 34
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e96287f528ccea0800000000000000
+      internalID: -5851158469311816098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_105
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 20
+        width: 34
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abaa8555e6388580800000000000000
+      internalID: -8824743111221924954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_106
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 16
+        width: 38
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2652a7fb69ed05f60800000000000000
+      internalID: 8021155675385767266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_107
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 18
+        width: 34
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108f72fecfad0d4d0800000000000000
+      internalID: -3111746562634024959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_108
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 20
+        width: 34
+        height: 66
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae39c15e4dedc8d0800000000000000
+      internalID: -2824340470656057695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_109
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 16
+        width: 38
+        height: 68
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63eca53800281a80800000000000000
+      internalID: -8496005477402090646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_110
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 18
+        width: 34
+        height: 68
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b681ee44f192f5b0800000000000000
+      internalID: -5336042129999165775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mer_8_chars2_111
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 20
+        width: 34
+        height: 68
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e824933086cc0ba0800000000000000
+      internalID: -6121299539579885343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
