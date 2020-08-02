@@ -60,6 +60,7 @@ namespace Tiled2Unity
             return UseThisImporter(this.assetPath);
         }
 
+        [Obsolete]
         private static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromPath)
         {
             foreach (string imported in importedAssets)
@@ -107,6 +108,7 @@ namespace Tiled2Unity
             }
         }
 
+        [Obsolete]
         private void OnPreprocessModel()
         {
             if (!UseThisImporter())

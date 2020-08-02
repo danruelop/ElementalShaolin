@@ -81,6 +81,7 @@ namespace Tiled2Unity
             return material;
         }
 
+        [Obsolete]
         private void ImportAllMaterials(Tiled2Unity.ImportBehaviour importComponent)
         {
             // Create a material for each texture that has been imported

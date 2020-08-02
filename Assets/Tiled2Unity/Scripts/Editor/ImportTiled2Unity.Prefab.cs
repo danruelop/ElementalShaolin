@@ -40,6 +40,7 @@ namespace Tiled2Unity
             }
         }
 
+        [Obsolete]
         private void ImportAllPrefabs(Tiled2Unity.ImportBehaviour importComponent)
         {
             foreach (var xmlPrefab in importComponent.XmlDocument.Root.Elements("Prefab"))
@@ -48,6 +49,7 @@ namespace Tiled2Unity
             }
         }
 
+        [Obsolete]
         private void CreatePrefab(XElement xmlPrefab, Tiled2Unity.ImportBehaviour importComponent)
         {
             var customImporters = GetCustomImporterInstances(importComponent);

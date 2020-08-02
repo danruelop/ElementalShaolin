@@ -33,6 +33,7 @@ namespace Tiled2Unity
             }
         }
 
+        [Obsolete]
         private void ImportAllTextures(Tiled2Unity.ImportBehaviour importComponent)
         {
             // Textures need to be imported before we can create or import materials

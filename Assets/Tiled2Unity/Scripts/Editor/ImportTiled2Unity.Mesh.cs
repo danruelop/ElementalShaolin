@@ -20,6 +20,7 @@ namespace Tiled2Unity
     // At this point we should have everything we need to build out any prefabs for the tiled map object
     partial class ImportTiled2Unity
     {
+        [Obsolete]
         public void MeshImported(string objPath)
         {
             // Find the import behaviour that was waiting on this mesh to be imported
@@ -41,6 +42,7 @@ namespace Tiled2Unity
             }
         }
 
+        [Obsolete]
         private void ImportAllMeshes(Tiled2Unity.ImportBehaviour importComponent)
         {
             foreach (var xmlMesh in importComponent.XmlDocument.Root.Elements("ImportMesh"))
