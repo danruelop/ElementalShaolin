@@ -1,0 +1,644 @@
+fileFormatVersion: 2
+guid: f8ec358771a5ee043af39f01e51c0c4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4660855984749407390
+    second: HUD-EMPTY-ELEMENTS_0
+  - first:
+      213: -6819088476378107006
+    second: HUD-EMPTY-ELEMENTS_1
+  - first:
+      213: 8542529041295125067
+    second: HUD-EMPTY-ELEMENTS_2
+  - first:
+      213: -5273782890403540630
+    second: HUD-EMPTY-ELEMENTS_3
+  - first:
+      213: -1753260022286272856
+    second: HUD-EMPTY-ELEMENTS_4
+  - first:
+      213: -4248521987331288977
+    second: HUD-EMPTY-ELEMENTS_5
+  - first:
+      213: 6521556386462601305
+    second: HUD-EMPTY-ELEMENTS_6
+  - first:
+      213: 142185053857805021
+    second: HUD-EMPTY-ELEMENTS_7
+  - first:
+      213: 8040560254596112273
+    second: HUD-EMPTY-ELEMENTS_8
+  - first:
+      213: -6100049445014294310
+    second: HUD-EMPTY-ELEMENTS_9
+  - first:
+      213: 5413210000360585683
+    second: HUD-EMPTY-ELEMENTS_10
+  - first:
+      213: 9116530840667382607
+    second: HUD-EMPTY-ELEMENTS_11
+  - first:
+      213: -219774273842570105
+    second: HUD-EMPTY-ELEMENTS_12
+  - first:
+      213: -1430095657899054237
+    second: HUD-EMPTY-ELEMENTS_13
+  - first:
+      213: 586833425104981268
+    second: HUD-EMPTY-ELEMENTS_14
+  - first:
+      213: 1081129315839714581
+    second: HUD-EMPTY-ELEMENTS_15
+  - first:
+      213: 4608137560704144370
+    second: HUD-EMPTY-ELEMENTS_16
+  - first:
+      213: 4616587562710487675
+    second: HUD-EMPTY-ELEMENTS_17
+  - first:
+      213: -3353881384040769863
+    second: HUD-EMPTY-ELEMENTS_18
+  - first:
+      213: 3399131039385210657
+    second: HUD-EMPTY-ELEMENTS_19
+  - first:
+      213: 6689173527323594696
+    second: HUD-EMPTY-ELEMENTS_20
+  - first:
+      213: 8734944159720638269
+    second: HUD-EMPTY-ELEMENTS_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_0
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 554
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26312c71d20515fb0800000000000000
+      internalID: -4660855984749407390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_1
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 555
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283f589e82bbd51a0800000000000000
+      internalID: -6819088476378107006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 337
+        width: 307
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4aaadd17e82d8670800000000000000
+      internalID: 8542529041295125067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 510
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61d6f22762cfc6b0800000000000000
+      internalID: -5273782890403540630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_4
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 509
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6bbb48c4b2ba7e0800000000000000
+      internalID: -1753260022286272856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_5
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 461
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f609eac13c73a05c0800000000000000
+      internalID: -4248521987331288977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 460
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95098c51bf8318a50800000000000000
+      internalID: 6521556386462601305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_7
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 415
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2709b9d8429f100800000000000000
+      internalID: 142185053857805021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_8
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 414
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f535a63fec59f60800000000000000
+      internalID: 8040560254596112273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_9
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 352
+        width: 170
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0ba956955485ba0800000000000000
+      internalID: -6100049445014294310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_10
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 367
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9b51e90d59f1b40800000000000000
+      internalID: 5413210000360585683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_11
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 256
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f436fd58f7c648e70800000000000000
+      internalID: 9116530840667382607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_12
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 254
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c18dc567433fcf0800000000000000
+      internalID: -219774273842570105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_13
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 318
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b291c7397472ce0800000000000000
+      internalID: -1430095657899054237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_14
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 119
+        width: 307
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d45b514e9d42800800000000000000
+      internalID: 586833425104981268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_15
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 271
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51523ea7261f00f00800000000000000
+      internalID: 1081129315839714581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_16
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 151
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3d7ed42b463ff30800000000000000
+      internalID: 4608137560704144370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 150
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7258d5bde9611040800000000000000
+      internalID: 4616587562710487675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_18
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 226
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6547d96ae9471d0800000000000000
+      internalID: -3353881384040769863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_19
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 177
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f4f83cba32c2f20800000000000000
+      internalID: 3399131039385210657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_20
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 134
+        width: 157
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfc111e1e7b4dc50800000000000000
+      internalID: 6689173527323594696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD-EMPTY-ELEMENTS_21
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 78
+        width: 168
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37850dfe61c83970800000000000000
+      internalID: 8734944159720638269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
