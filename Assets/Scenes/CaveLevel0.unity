@@ -9871,7 +9871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.2
-  damage: 0
+  damage: 1
 --- !u!1 &127759147
 GameObject:
   m_ObjectHideFlags: 0
@@ -31922,20 +31922,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af3d8829559a92e4287ba530195fb4a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar:
-  - {fileID: 1506408995}
-  - {fileID: 1591243812}
-  - {fileID: 1135836322}
-  - {fileID: 2029569557}
-  health_100: {fileID: -4660855984749407390, guid: f8ec358771a5ee043af39f01e51c0c4e,
-    type: 3}
-  health_75: {fileID: -5273782890403540630, guid: f8ec358771a5ee043af39f01e51c0c4e,
-    type: 3}
-  health_50: {fileID: -4248521987331288977, guid: f8ec358771a5ee043af39f01e51c0c4e,
-    type: 3}
-  health_25: {fileID: 142185053857805021, guid: f8ec358771a5ee043af39f01e51c0c4e,
-    type: 3}
+  health_100: {fileID: 1506408993}
+  health_75: {fileID: 1591243810}
+  health_50: {fileID: 1135836320}
+  health_25: {fileID: 2029569555}
   healthContainer: {fileID: 11400000, guid: 5fc2a4566c91c8d4fa5171bd08b87b16, type: 2}
+  playerCurrentHealth: {fileID: 11400000, guid: adadd6a8498f80c47a30c79eb1e8a1c7,
+    type: 2}
 --- !u!1 &971162940
 GameObject:
   m_ObjectHideFlags: 0
@@ -32708,7 +32701,7 @@ MonoBehaviour:
   signalEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 866159575}
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
