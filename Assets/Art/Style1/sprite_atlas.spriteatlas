@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 57947cba05e9a6644bba82aebe43710d, type: 3}
-    totalSpriteSurfaceArea: 8107760
+    totalSpriteSurfaceArea: 8318880
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -2055,6 +2055,28 @@ SpriteAtlas:
   - {fileID: 7723221793062925811, guid: 16bc37ab7154166448e8467fd437d01a, type: 3}
   - {fileID: 5645974104367136277, guid: 16bc37ab7154166448e8467fd437d01a, type: 3}
   - {fileID: 6066761733739685581, guid: 16bc37ab7154166448e8467fd437d01a, type: 3}
+  - {fileID: -3743831594865298203, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: -1169687787295548512, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 3546824536882395927, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 8035750192563696812, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 2800369294572521797, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: -4602196104024649327, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: -4767468117030277132, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 4576659234221278386, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 9166755927470038741, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 883976991596834042, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 7938378241970490734, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 3952310668042561863, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: -5910004058832795844, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: -974652531292495704, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 3411766791506903426, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: -8799200716886348804, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: -4460424929370818370, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 2692018679471672140, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: -8133150464940910419, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 2760779834709449879, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: 640759900708176041, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
+  - {fileID: -490107361944331172, guid: 73e6f6fb5f18ffc4aa7197f0486e884f, type: 3}
   - {fileID: 21300000, guid: 5ba320ac10c5c5343bb828242e910db7, type: 3}
   - {fileID: 21300000, guid: 6cd545ac01699354e934ab085a6d33ef, type: 3}
   - {fileID: 21300000, guid: 1569c9fc4d664364fb5d7beca3820dea, type: 3}
@@ -4653,6 +4675,28 @@ SpriteAtlas:
   - monks_3_50
   - monks_3_53
   - monks_3_52
+  - HUDUPDATE-EMPTY-ELEMENTS_8
+  - HUDUPDATE-EMPTY-ELEMENTS_9
+  - HUDUPDATE-EMPTY-ELEMENTS_4
+  - HUDUPDATE-EMPTY-ELEMENTS_5
+  - HUDUPDATE-EMPTY-ELEMENTS_6
+  - HUDUPDATE-EMPTY-ELEMENTS_7
+  - HUDUPDATE-EMPTY-ELEMENTS_0
+  - HUDUPDATE-EMPTY-ELEMENTS_1
+  - HUDUPDATE-EMPTY-ELEMENTS_2
+  - HUDUPDATE-EMPTY-ELEMENTS_3
+  - HUDUPDATE-EMPTY-ELEMENTS_17
+  - HUDUPDATE-EMPTY-ELEMENTS_16
+  - HUDUPDATE-EMPTY-ELEMENTS_15
+  - HUDUPDATE-EMPTY-ELEMENTS_14
+  - HUDUPDATE-EMPTY-ELEMENTS_13
+  - HUDUPDATE-EMPTY-ELEMENTS_12
+  - HUDUPDATE-EMPTY-ELEMENTS_11
+  - HUDUPDATE-EMPTY-ELEMENTS_10
+  - HUDUPDATE-EMPTY-ELEMENTS_20
+  - HUDUPDATE-EMPTY-ELEMENTS_19
+  - HUDUPDATE-EMPTY-ELEMENTS_21
+  - HUDUPDATE-EMPTY-ELEMENTS_18
   - tf_beach_tileB
   - tileset_water_animated
   - tileset_basic_terrain
