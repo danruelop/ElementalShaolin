@@ -1,73 +1,73 @@
 fileFormatVersion: 2
-guid: f8ec358771a5ee043af39f01e51c0c4e
+guid: 73e6f6fb5f18ffc4aa7197f0486e884f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4660855984749407390
-    second: HUD-EMPTY-ELEMENTS_0
+      213: -4767468117030277132
+    second: HUDUPDATE-EMPTY-ELEMENTS_0
   - first:
-      213: -6819088476378107006
-    second: HUD-EMPTY-ELEMENTS_1
+      213: 4576659234221278386
+    second: HUDUPDATE-EMPTY-ELEMENTS_1
   - first:
-      213: 8542529041295125067
-    second: HUD-EMPTY-ELEMENTS_2
+      213: 9166755927470038741
+    second: HUDUPDATE-EMPTY-ELEMENTS_2
   - first:
-      213: -5273782890403540630
-    second: HUD-EMPTY-ELEMENTS_3
+      213: 883976991596834042
+    second: HUDUPDATE-EMPTY-ELEMENTS_3
   - first:
-      213: -1753260022286272856
-    second: HUD-EMPTY-ELEMENTS_4
+      213: 3546824536882395927
+    second: HUDUPDATE-EMPTY-ELEMENTS_4
   - first:
-      213: -4248521987331288977
-    second: HUD-EMPTY-ELEMENTS_5
+      213: 8035750192563696812
+    second: HUDUPDATE-EMPTY-ELEMENTS_5
   - first:
-      213: 6521556386462601305
-    second: HUD-EMPTY-ELEMENTS_6
+      213: 2800369294572521797
+    second: HUDUPDATE-EMPTY-ELEMENTS_6
   - first:
-      213: 142185053857805021
-    second: HUD-EMPTY-ELEMENTS_7
+      213: -4602196104024649327
+    second: HUDUPDATE-EMPTY-ELEMENTS_7
   - first:
-      213: 8040560254596112273
-    second: HUD-EMPTY-ELEMENTS_8
+      213: -3743831594865298203
+    second: HUDUPDATE-EMPTY-ELEMENTS_8
   - first:
-      213: -6100049445014294310
-    second: HUD-EMPTY-ELEMENTS_9
+      213: -1169687787295548512
+    second: HUDUPDATE-EMPTY-ELEMENTS_9
   - first:
-      213: 5413210000360585683
-    second: HUD-EMPTY-ELEMENTS_10
+      213: 2692018679471672140
+    second: HUDUPDATE-EMPTY-ELEMENTS_10
   - first:
-      213: 9116530840667382607
-    second: HUD-EMPTY-ELEMENTS_11
+      213: -4460424929370818370
+    second: HUDUPDATE-EMPTY-ELEMENTS_11
   - first:
-      213: -219774273842570105
-    second: HUD-EMPTY-ELEMENTS_12
+      213: -8799200716886348804
+    second: HUDUPDATE-EMPTY-ELEMENTS_12
   - first:
-      213: -1430095657899054237
-    second: HUD-EMPTY-ELEMENTS_13
+      213: 3411766791506903426
+    second: HUDUPDATE-EMPTY-ELEMENTS_13
   - first:
-      213: 586833425104981268
-    second: HUD-EMPTY-ELEMENTS_14
+      213: -974652531292495704
+    second: HUDUPDATE-EMPTY-ELEMENTS_14
   - first:
-      213: 1081129315839714581
-    second: HUD-EMPTY-ELEMENTS_15
+      213: -5910004058832795844
+    second: HUDUPDATE-EMPTY-ELEMENTS_15
   - first:
-      213: 4608137560704144370
-    second: HUD-EMPTY-ELEMENTS_16
+      213: 3952310668042561863
+    second: HUDUPDATE-EMPTY-ELEMENTS_16
   - first:
-      213: 4616587562710487675
-    second: HUD-EMPTY-ELEMENTS_17
+      213: 7938378241970490734
+    second: HUDUPDATE-EMPTY-ELEMENTS_17
   - first:
-      213: -3353881384040769863
-    second: HUD-EMPTY-ELEMENTS_18
+      213: -490107361944331172
+    second: HUDUPDATE-EMPTY-ELEMENTS_18
   - first:
-      213: 3399131039385210657
-    second: HUD-EMPTY-ELEMENTS_19
+      213: 2760779834709449879
+    second: HUDUPDATE-EMPTY-ELEMENTS_19
   - first:
-      213: 6689173527323594696
-    second: HUD-EMPTY-ELEMENTS_20
+      213: -8133150464940910419
+    second: HUDUPDATE-EMPTY-ELEMENTS_20
   - first:
-      213: 8734944159720638269
-    second: HUD-EMPTY-ELEMENTS_21
+      213: 640759900708176041
+    second: HUDUPDATE-EMPTY-ELEMENTS_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -165,7 +165,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_0
+      name: HUDUPDATE-EMPTY-ELEMENTS_0
       rect:
         serializedVersion: 2
         x: 564
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26312c71d20515fb0800000000000000
-      internalID: -4660855984749407390
+      spriteID: 4ffe866b10d86ddb0800000000000000
+      internalID: -4767468117030277132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_1
+      name: HUDUPDATE-EMPTY-ELEMENTS_1
       rect:
         serializedVersion: 2
-        x: 774
-        y: 555
-        width: 157
-        height: 13
+        x: 773
+        y: 539
+        width: 168
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 283f589e82bbd51a0800000000000000
-      internalID: -6819088476378107006
+      spriteID: 2b445c9435f838f30800000000000000
+      internalID: 4576659234221278386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_2
+      name: HUDUPDATE-EMPTY-ELEMENTS_2
       rect:
         serializedVersion: 2
         x: 173
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4aaadd17e82d8670800000000000000
-      internalID: 8542529041295125067
+      spriteID: 5dede8fc2fbd63f70800000000000000
+      internalID: 9166755927470038741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_3
+      name: HUDUPDATE-EMPTY-ELEMENTS_3
       rect:
         serializedVersion: 2
         x: 564
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a61d6f22762cfc6b0800000000000000
-      internalID: -5273782890403540630
+      spriteID: afc6fbde364844c00800000000000000
+      internalID: 883976991596834042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_4
+      name: HUDUPDATE-EMPTY-ELEMENTS_4
       rect:
         serializedVersion: 2
-        x: 774
-        y: 509
-        width: 157
-        height: 13
+        x: 773
+        y: 493
+        width: 168
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a6bbb48c4b2ba7e0800000000000000
-      internalID: -1753260022286272856
+      spriteID: 71bb389df1ad83130800000000000000
+      internalID: 3546824536882395927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_5
+      name: HUDUPDATE-EMPTY-ELEMENTS_5
       rect:
         serializedVersion: 2
         x: 564
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f609eac13c73a05c0800000000000000
-      internalID: -4248521987331288977
+      spriteID: ca439839938b48f60800000000000000
+      internalID: 8035750192563696812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_6
+      name: HUDUPDATE-EMPTY-ELEMENTS_6
       rect:
         serializedVersion: 2
-        x: 774
-        y: 460
-        width: 157
-        height: 13
+        x: 773
+        y: 444
+        width: 168
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95098c51bf8318a50800000000000000
-      internalID: 6521556386462601305
+      spriteID: 54908e25909ecd620800000000000000
+      internalID: 2800369294572521797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_7
+      name: HUDUPDATE-EMPTY-ELEMENTS_7
       rect:
         serializedVersion: 2
         x: 564
@@ -326,18 +326,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd2709b9d8429f100800000000000000
-      internalID: 142185053857805021
+      spriteID: 1919ce0e607b120c0800000000000000
+      internalID: -4602196104024649327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_8
+      name: HUDUPDATE-EMPTY-ELEMENTS_8
       rect:
         serializedVersion: 2
-        x: 774
-        y: 414
+        x: 773
+        y: 398
+        width: 168
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e47b29000d3b0cc0800000000000000
+      internalID: -3743831594865298203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUDUPDATE-EMPTY-ELEMENTS_9
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 368
         width: 157
         height: 13
       alignment: 0
@@ -347,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19f535a63fec59f60800000000000000
-      internalID: 8040560254596112273
+      spriteID: 0abd22c972f64cfe0800000000000000
+      internalID: -1169687787295548512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_9
+      name: HUDUPDATE-EMPTY-ELEMENTS_10
       rect:
         serializedVersion: 2
-        x: 560
-        y: 352
-        width: 170
-        height: 41
+        x: 773
+        y: 351
+        width: 168
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,35 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad0ba956955485ba0800000000000000
-      internalID: -6100049445014294310
+      spriteID: c4b00aed9b8fb5520800000000000000
+      internalID: 2692018679471672140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_10
-      rect:
-        serializedVersion: 2
-        x: 774
-        y: 367
-        width: 157
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d9b51e90d59f1b40800000000000000
-      internalID: 5413210000360585683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_11
+      name: HUDUPDATE-EMPTY-ELEMENTS_11
       rect:
         serializedVersion: 2
         x: 539
@@ -410,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f436fd58f7c648e70800000000000000
-      internalID: 9116530840667382607
+      spriteID: eb83e89b8236912c0800000000000000
+      internalID: -4460424929370818370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_12
+      name: HUDUPDATE-EMPTY-ELEMENTS_12
       rect:
         serializedVersion: 2
         x: 670
@@ -431,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78c18dc567433fcf0800000000000000
-      internalID: -219774273842570105
+      spriteID: cfb60a27195f2e580800000000000000
+      internalID: -8799200716886348804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_13
+      name: HUDUPDATE-EMPTY-ELEMENTS_13
       rect:
         serializedVersion: 2
-        x: 774
-        y: 318
-        width: 157
-        height: 13
+        x: 773
+        y: 302
+        width: 168
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,20 +452,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36b291c7397472ce0800000000000000
-      internalID: -1430095657899054237
+      spriteID: 2814e3012d7095f20800000000000000
+      internalID: 3411766791506903426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_14
+      name: HUDUPDATE-EMPTY-ELEMENTS_14
       rect:
         serializedVersion: 2
         x: 173
         y: 119
         width: 307
-        height: 180
+        height: 181
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41d45b514e9d42800800000000000000
-      internalID: 586833425104981268
+      spriteID: 8a020eccfa65972f0800000000000000
+      internalID: -974652531292495704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_15
+      name: HUDUPDATE-EMPTY-ELEMENTS_15
       rect:
         serializedVersion: 2
-        x: 774
-        y: 271
-        width: 157
-        height: 13
+        x: 773
+        y: 255
+        width: 168
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51523ea7261f00f00800000000000000
-      internalID: 1081129315839714581
+      spriteID: c37872cfe927bfda0800000000000000
+      internalID: -5910004058832795844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_16
+      name: HUDUPDATE-EMPTY-ELEMENTS_16
       rect:
         serializedVersion: 2
         x: 539
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f3d7ed42b463ff30800000000000000
-      internalID: 4608137560704144370
+      spriteID: 749e9a2cc9d69d630800000000000000
+      internalID: 3952310668042561863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_17
+      name: HUDUPDATE-EMPTY-ELEMENTS_17
       rect:
         serializedVersion: 2
         x: 669
@@ -536,20 +536,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7258d5bde9611040800000000000000
-      internalID: 4616587562710487675
+      spriteID: e6d4755a3f8ca2e60800000000000000
+      internalID: 7938378241970490734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_18
+      name: HUDUPDATE-EMPTY-ELEMENTS_18
       rect:
         serializedVersion: 2
-        x: 774
-        y: 226
-        width: 157
-        height: 13
+        x: 773
+        y: 210
+        width: 168
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,20 +557,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b6547d96ae9471d0800000000000000
-      internalID: -3353881384040769863
+      spriteID: c5c118573f9c239f0800000000000000
+      internalID: -490107361944331172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_19
+      name: HUDUPDATE-EMPTY-ELEMENTS_19
       rect:
         serializedVersion: 2
-        x: 774
-        y: 177
-        width: 157
-        height: 13
+        x: 773
+        y: 161
+        width: 168
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,20 +578,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12f4f83cba32c2f20800000000000000
-      internalID: 3399131039385210657
+      spriteID: 79c1be6e1a2405620800000000000000
+      internalID: 2760779834709449879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_20
+      name: HUDUPDATE-EMPTY-ELEMENTS_20
       rect:
         serializedVersion: 2
-        x: 772
-        y: 134
-        width: 157
-        height: 13
+        x: 771
+        y: 118
+        width: 168
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cfc111e1e7b4dc50800000000000000
-      internalID: 6689173527323594696
+      spriteID: da8d4605ebe312f80800000000000000
+      internalID: -8133150464940910419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUD-EMPTY-ELEMENTS_21
+      name: HUDUPDATE-EMPTY-ELEMENTS_21
       rect:
         serializedVersion: 2
         x: 773
@@ -620,8 +620,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d37850dfe61c83970800000000000000
-      internalID: 8734944159720638269
+      spriteID: 9a0860c1cbf64e800800000000000000
+      internalID: 640759900708176041
       vertices: []
       indices: 
       edges: []

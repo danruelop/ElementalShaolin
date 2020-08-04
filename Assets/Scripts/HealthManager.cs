@@ -5,52 +5,51 @@ using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
-    public GameObject health_100;
-    public GameObject health_75;
-    public GameObject health_50;
-    public GameObject health_25;
-    public FloatValue healthContainer;
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite halfHeart;
+    public Sprite emptyHeart;
+    public FloatValue heartContainers;
     public FloatValue playerCurrentHealth;
 
     void Start()
     {
-        InitHealthBar();
+        InitHearts();
     }
 
     // Update is called once per frame
-    public void InitHealthBar()
+    public void InitHearts()
     {
        
-        health_100.gameObject.SetActive(true);
+        for (int i = 0; i < heartContainers.initialValue; i++)
+        {
+            hearts[i].gameObject.SetActive(true);
+            hearts[i].sprite = fullHeart;
+        }
         
     }
 
     public void UpdateHealth()
     {
-        int vidas = 4;
-      while(vidas > 0)
-      {
-
-        
-        if(playerCurrentHealth.initialValue == 3)
+        float tempHealth = playerCurrentHealth.RuntimeValue / 2;
+        for (int i = 0; i < heartContainers.initialValue; i++)
         {
-           
-            health_100.gameObject.SetActive(false);
-            health_75.gameObject.SetActive(true);
-                vidas--;
-
-        } else if (playerCurrentHealth.initialValue == 2)
-        {
-            health_75.gameObject.SetActive(false);
-            health_50.gameObject.SetActive(true);
-                vidas--;
-            } else if (playerCurrentHealth.initialValue == 1)
-        {
-            health_50.gameObject.SetActive(false);
-            health_25.gameObject.SetActive(true);
-                vidas--;
+            if (i <= tempHealth - 1) {
+                hearts[i].sprite = fullHeart;
+            
+            } else if (i >= tempHealth)
+            {
+                hearts[i].sprite = emptyHeart;
+            } else
+            {
+                hearts[i].sprite = halfHeart;
             }
         }
+               
+
+
+
+
     }
 
 
