@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/EarthLevel.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/EarthmasterHouse.unity
+    guid: 388ccc113fcf09646bfff344c12e0446
+  - enabled: 1
+    path: Assets/Scenes/WaterLevel.unity
+    guid: 67dd08a1dc6607843a93eee4aa30b50f
   m_configObjects: {}
