@@ -10,7 +10,6 @@ public class EnemyEarth : Enemy
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
-    public Transform homePosition;
 
     [Header("Animation")]
     public Animator anim;

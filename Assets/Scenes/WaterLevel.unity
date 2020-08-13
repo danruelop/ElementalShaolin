@@ -369,13 +369,13 @@ MonoBehaviour:
   enemyName: Medupatrolera
   baseAttack: 1
   moveSpeed: 1.5
+  homePosition: {x: 0, y: 0}
   deathEffect: {fileID: 627230387392507809, guid: a669cfd739a8dde4e81614a08f5e175c,
     type: 3}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 4
   attackRadius: 1.2
-  homePosition: {fileID: 0}
   anim: {fileID: 0}
   path:
   - {fileID: 1546277886}
@@ -31902,14 +31902,18 @@ MonoBehaviour:
   enemyName: Krakenotas
   baseAttack: 1
   moveSpeed: 1.5
+  homePosition: {x: 0, y: 0}
   deathEffect: {fileID: 627230387392507809, guid: a669cfd739a8dde4e81614a08f5e175c,
     type: 3}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 10
   attackRadius: 1
-  homePosition: {fileID: 0}
   anim: {fileID: 0}
+  projectile: {fileID: 8030502271020328931, guid: 0075f3342d9ac6e44be71ea41d06356a,
+    type: 3}
+  fireDelay: 0
+  canFire: 1
   boundary: {fileID: 1090068190}
 --- !u!1 &5435310302764331600
 GameObject:
@@ -31971,13 +31975,13 @@ MonoBehaviour:
   enemyName: Medusita
   baseAttack: 1
   moveSpeed: 1.5
+  homePosition: {x: 0, y: 0}
   deathEffect: {fileID: 627230387392507809, guid: a669cfd739a8dde4e81614a08f5e175c,
     type: 3}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 4
   attackRadius: 1.2
-  homePosition: {fileID: 0}
   anim: {fileID: 0}
 --- !u!114 &5435310302764331608
 MonoBehaviour:
