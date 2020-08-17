@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaterLevelRoom : MonoBehaviour
+public class WaterLevelRoom : Room
 {
     // Start is called before the first frame update
     void Start()

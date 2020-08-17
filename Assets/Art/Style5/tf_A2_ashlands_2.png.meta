@@ -1,7 +1,727 @@
 fileFormatVersion: 2
 guid: 796a77f8b18031046ad050a21495fc9e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -659552504108690031
+    second: tf_A2_ashlands_2_0
+  - first:
+      213: -3272259345392339308
+    second: tf_A2_ashlands_2_1
+  - first:
+      213: 4425137511539945931
+    second: tf_A2_ashlands_2_2
+  - first:
+      213: 4199351351973702199
+    second: tf_A2_ashlands_2_3
+  - first:
+      213: 7376238114966839880
+    second: tf_A2_ashlands_2_4
+  - first:
+      213: 8202747453438059420
+    second: tf_A2_ashlands_2_5
+  - first:
+      213: -3868672123148213008
+    second: tf_A2_ashlands_2_6
+  - first:
+      213: -6440523043221259845
+    second: tf_A2_ashlands_2_7
+  - first:
+      213: -5122967687405798890
+    second: tf_A2_ashlands_2_8
+  - first:
+      213: -7395059542047938413
+    second: tf_A2_ashlands_2_9
+  - first:
+      213: -8081473409617988560
+    second: tf_A2_ashlands_2_10
+  - first:
+      213: -6245035099805872394
+    second: tf_A2_ashlands_2_11
+  - first:
+      213: -2585090334766718983
+    second: tf_A2_ashlands_2_12
+  - first:
+      213: -1344351877100402062
+    second: tf_A2_ashlands_2_13
+  - first:
+      213: -4563107593436554574
+    second: tf_A2_ashlands_2_14
+  - first:
+      213: -1121439780413202469
+    second: tf_A2_ashlands_2_15
+  - first:
+      213: 240084220487079017
+    second: tf_A2_ashlands_2_16
+  - first:
+      213: -3119539651460561340
+    second: tf_A2_ashlands_2_17
+  - first:
+      213: 1671900211956695209
+    second: tf_A2_ashlands_2_18
+  - first:
+      213: 8022705661769480649
+    second: tf_A2_ashlands_2_19
+  - first:
+      213: 5569863050124452226
+    second: tf_A2_ashlands_2_20
+  - first:
+      213: 7644095305742727891
+    second: tf_A2_ashlands_2_21
+  - first:
+      213: 2703837108207837255
+    second: tf_A2_ashlands_2_22
+  - first:
+      213: -3246733370724789768
+    second: tf_A2_ashlands_2_23
+  - first:
+      213: 2105821521748039799
+    second: tf_A2_ashlands_2_24
+  - first:
+      213: -4313084697323659690
+    second: tf_A2_ashlands_2_25
+  - first:
+      213: -862814581070711438
+    second: tf_A2_ashlands_2_26
+  - first:
+      213: 6618394403902374983
+    second: tf_A2_ashlands_2_27
+  - first:
+      213: 4937825057542538583
+    second: tf_A2_ashlands_2_28
+  - first:
+      213: 288108675483001800
+    second: tf_A2_ashlands_2_29
+  - first:
+      213: -3940847421720335140
+    second: tf_A2_ashlands_2_30
+  - first:
+      213: 6803102076173333638
+    second: tf_A2_ashlands_2_31
+  - first:
+      213: 5242912582695929499
+    second: tf_A2_ashlands_2_32
+  - first:
+      213: -8364257534182122374
+    second: tf_A2_ashlands_2_33
+  - first:
+      213: 5640264386239193146
+    second: tf_A2_ashlands_2_34
+  - first:
+      213: -5203394477913509305
+    second: tf_A2_ashlands_2_35
+  - first:
+      213: 711240825557980198
+    second: tf_A2_ashlands_2_36
+  - first:
+      213: -2960199423079090843
+    second: tf_A2_ashlands_2_37
+  - first:
+      213: -1750831667238485837
+    second: tf_A2_ashlands_2_38
+  - first:
+      213: 1189677440821094703
+    second: tf_A2_ashlands_2_39
+  - first:
+      213: -5643542574190191177
+    second: tf_A2_ashlands_2_40
+  - first:
+      213: -7810851348695710997
+    second: tf_A2_ashlands_2_41
+  - first:
+      213: 8302973821110332375
+    second: tf_A2_ashlands_2_42
+  - first:
+      213: -4329279822536050791
+    second: tf_A2_ashlands_2_43
+  - first:
+      213: -1416937071538887805
+    second: tf_A2_ashlands_2_44
+  - first:
+      213: 4764590009598493439
+    second: tf_A2_ashlands_2_45
+  - first:
+      213: -8865073060901763681
+    second: tf_A2_ashlands_2_46
+  - first:
+      213: 6317411059856155279
+    second: tf_A2_ashlands_2_47
+  - first:
+      213: -4908390484097868325
+    second: tf_A2_ashlands_2_48
+  - first:
+      213: 5143635207908404778
+    second: tf_A2_ashlands_2_49
+  - first:
+      213: 5802011502759092860
+    second: tf_A2_ashlands_2_50
+  - first:
+      213: 3734821608507135015
+    second: tf_A2_ashlands_2_51
+  - first:
+      213: 792872254773999788
+    second: tf_A2_ashlands_2_52
+  - first:
+      213: -1892480654410125683
+    second: tf_A2_ashlands_2_53
+  - first:
+      213: 9206935697565778767
+    second: tf_A2_ashlands_2_54
+  - first:
+      213: 5252738607123185785
+    second: tf_A2_ashlands_2_55
+  - first:
+      213: 5710067742522049293
+    second: tf_A2_ashlands_2_56
+  - first:
+      213: -332665742394277609
+    second: tf_A2_ashlands_2_57
+  - first:
+      213: -7588506021498869671
+    second: tf_A2_ashlands_2_58
+  - first:
+      213: 4835260703014242801
+    second: tf_A2_ashlands_2_59
+  - first:
+      213: 4376586314013979567
+    second: tf_A2_ashlands_2_60
+  - first:
+      213: 7416455878238396408
+    second: tf_A2_ashlands_2_61
+  - first:
+      213: -1130566853137512317
+    second: tf_A2_ashlands_2_62
+  - first:
+      213: -3238569128462030071
+    second: tf_A2_ashlands_2_63
+  - first:
+      213: -8550529359124291807
+    second: tf_A2_ashlands_2_64
+  - first:
+      213: 5095210268009779968
+    second: tf_A2_ashlands_2_65
+  - first:
+      213: 1296257029016618186
+    second: tf_A2_ashlands_2_66
+  - first:
+      213: 4262533466907540491
+    second: tf_A2_ashlands_2_67
+  - first:
+      213: 824591835966558995
+    second: tf_A2_ashlands_2_68
+  - first:
+      213: -7932171571989421321
+    second: tf_A2_ashlands_2_69
+  - first:
+      213: -6908536926187629687
+    second: tf_A2_ashlands_2_70
+  - first:
+      213: 8122086338731944288
+    second: tf_A2_ashlands_2_71
+  - first:
+      213: -7187190266681403656
+    second: tf_A2_ashlands_2_72
+  - first:
+      213: 3275428937582143427
+    second: tf_A2_ashlands_2_73
+  - first:
+      213: 340628695156157863
+    second: tf_A2_ashlands_2_74
+  - first:
+      213: 3253485647785930620
+    second: tf_A2_ashlands_2_75
+  - first:
+      213: -4165090506429571767
+    second: tf_A2_ashlands_2_76
+  - first:
+      213: -1516044967267114891
+    second: tf_A2_ashlands_2_77
+  - first:
+      213: -3790783080419828312
+    second: tf_A2_ashlands_2_78
+  - first:
+      213: 1382197956638874271
+    second: tf_A2_ashlands_2_79
+  - first:
+      213: -6017608206048842200
+    second: tf_A2_ashlands_2_80
+  - first:
+      213: 7877504220268943318
+    second: tf_A2_ashlands_2_81
+  - first:
+      213: -7254721377718838420
+    second: tf_A2_ashlands_2_82
+  - first:
+      213: 2884586211161935113
+    second: tf_A2_ashlands_2_83
+  - first:
+      213: 2224252785807996416
+    second: tf_A2_ashlands_2_84
+  - first:
+      213: -2088834597346609512
+    second: tf_A2_ashlands_2_85
+  - first:
+      213: -8639741323127017181
+    second: tf_A2_ashlands_2_86
+  - first:
+      213: -313461480897702646
+    second: tf_A2_ashlands_2_87
+  - first:
+      213: -9123024386699709788
+    second: tf_A2_ashlands_2_88
+  - first:
+      213: -2231581137894561015
+    second: tf_A2_ashlands_2_89
+  - first:
+      213: 2308307849648076882
+    second: tf_A2_ashlands_2_90
+  - first:
+      213: 1190450021295311770
+    second: tf_A2_ashlands_2_91
+  - first:
+      213: 6098172271385193575
+    second: tf_A2_ashlands_2_92
+  - first:
+      213: 5779864326966636042
+    second: tf_A2_ashlands_2_93
+  - first:
+      213: 4884017359466570483
+    second: tf_A2_ashlands_2_94
+  - first:
+      213: 4132398504340649068
+    second: tf_A2_ashlands_2_95
+  - first:
+      213: 3121786380305440299
+    second: tf_A2_ashlands_2_96
+  - first:
+      213: -5598783638322603176
+    second: tf_A2_ashlands_2_97
+  - first:
+      213: 8638614051014141095
+    second: tf_A2_ashlands_2_98
+  - first:
+      213: 1273827662705344132
+    second: tf_A2_ashlands_2_99
+  - first:
+      213: -7993257093976437723
+    second: tf_A2_ashlands_2_100
+  - first:
+      213: 6304006770538008055
+    second: tf_A2_ashlands_2_101
+  - first:
+      213: 8292408588510224772
+    second: tf_A2_ashlands_2_102
+  - first:
+      213: 2757337727419619512
+    second: tf_A2_ashlands_2_103
+  - first:
+      213: 1462850055689291624
+    second: tf_A2_ashlands_2_104
+  - first:
+      213: -8490178929133011812
+    second: tf_A2_ashlands_2_105
+  - first:
+      213: -3389754379225383578
+    second: tf_A2_ashlands_2_106
+  - first:
+      213: -7956344638704867205
+    second: tf_A2_ashlands_2_107
+  - first:
+      213: 4802652909321771954
+    second: tf_A2_ashlands_2_108
+  - first:
+      213: -8357852405293745217
+    second: tf_A2_ashlands_2_109
+  - first:
+      213: -7091153477660907821
+    second: tf_A2_ashlands_2_110
+  - first:
+      213: 6110993790110783173
+    second: tf_A2_ashlands_2_111
+  - first:
+      213: -6501386046071983029
+    second: tf_A2_ashlands_2_112
+  - first:
+      213: 3050189632680704161
+    second: tf_A2_ashlands_2_113
+  - first:
+      213: 5271963454007572387
+    second: tf_A2_ashlands_2_114
+  - first:
+      213: -4948945491543089676
+    second: tf_A2_ashlands_2_115
+  - first:
+      213: 2684330861020450576
+    second: tf_A2_ashlands_2_116
+  - first:
+      213: -5227231412646090961
+    second: tf_A2_ashlands_2_117
+  - first:
+      213: 1951895349110231934
+    second: tf_A2_ashlands_2_118
+  - first:
+      213: 7387881475809890152
+    second: tf_A2_ashlands_2_119
+  - first:
+      213: 4044841563862959251
+    second: tf_A2_ashlands_2_0
+  - first:
+      213: -716460106910311838
+    second: tf_A2_ashlands_2_1
+  - first:
+      213: -3763760360767327728
+    second: tf_A2_ashlands_2_2
+  - first:
+      213: 6106753623757213576
+    second: tf_A2_ashlands_2_3
+  - first:
+      213: 7691025095411799832
+    second: tf_A2_ashlands_2_4
+  - first:
+      213: 8579604226294755113
+    second: tf_A2_ashlands_2_5
+  - first:
+      213: 7368434327096217280
+    second: tf_A2_ashlands_2_6
+  - first:
+      213: -7324775590653984471
+    second: tf_A2_ashlands_2_7
+  - first:
+      213: -3653393908142070593
+    second: tf_A2_ashlands_2_8
+  - first:
+      213: 7225900832297884278
+    second: tf_A2_ashlands_2_9
+  - first:
+      213: 917777269068601115
+    second: tf_A2_ashlands_2_10
+  - first:
+      213: -541551330948699618
+    second: tf_A2_ashlands_2_11
+  - first:
+      213: 2858745815408171206
+    second: tf_A2_ashlands_2_12
+  - first:
+      213: 2496365172012705295
+    second: tf_A2_ashlands_2_13
+  - first:
+      213: -23626275317619620
+    second: tf_A2_ashlands_2_14
+  - first:
+      213: 7538925828833581615
+    second: tf_A2_ashlands_2_15
+  - first:
+      213: 8501642415662592672
+    second: tf_A2_ashlands_2_16
+  - first:
+      213: 9206788612647743342
+    second: tf_A2_ashlands_2_17
+  - first:
+      213: -2026066994080488789
+    second: tf_A2_ashlands_2_18
+  - first:
+      213: -3996562229215685832
+    second: tf_A2_ashlands_2_19
+  - first:
+      213: 6904613216778790991
+    second: tf_A2_ashlands_2_20
+  - first:
+      213: -7497056176135740204
+    second: tf_A2_ashlands_2_21
+  - first:
+      213: -2090797928357333856
+    second: tf_A2_ashlands_2_22
+  - first:
+      213: -8210829295302457054
+    second: tf_A2_ashlands_2_23
+  - first:
+      213: -6243914327470714458
+    second: tf_A2_ashlands_2_24
+  - first:
+      213: 8593852193905679919
+    second: tf_A2_ashlands_2_25
+  - first:
+      213: -6044780382789066523
+    second: tf_A2_ashlands_2_26
+  - first:
+      213: 4654355311871999968
+    second: tf_A2_ashlands_2_27
+  - first:
+      213: 5801031190996161494
+    second: tf_A2_ashlands_2_28
+  - first:
+      213: -2826413624035785482
+    second: tf_A2_ashlands_2_29
+  - first:
+      213: 441499176938931410
+    second: tf_A2_ashlands_2_30
+  - first:
+      213: -7131135605321304669
+    second: tf_A2_ashlands_2_31
+  - first:
+      213: -2077676648607135232
+    second: tf_A2_ashlands_2_32
+  - first:
+      213: -8624117752894563062
+    second: tf_A2_ashlands_2_33
+  - first:
+      213: -8100421061807715476
+    second: tf_A2_ashlands_2_34
+  - first:
+      213: -211140062783859699
+    second: tf_A2_ashlands_2_35
+  - first:
+      213: 6339577803339794797
+    second: tf_A2_ashlands_2_36
+  - first:
+      213: 6495495300857555495
+    second: tf_A2_ashlands_2_37
+  - first:
+      213: -6707246329863377330
+    second: tf_A2_ashlands_2_38
+  - first:
+      213: -2562999219268193649
+    second: tf_A2_ashlands_2_39
+  - first:
+      213: 3060876744902188798
+    second: tf_A2_ashlands_2_40
+  - first:
+      213: 5847850431822314138
+    second: tf_A2_ashlands_2_41
+  - first:
+      213: -356129103921955879
+    second: tf_A2_ashlands_2_42
+  - first:
+      213: 410114567677253096
+    second: tf_A2_ashlands_2_43
+  - first:
+      213: 1253303984763201972
+    second: tf_A2_ashlands_2_44
+  - first:
+      213: -970187415201891590
+    second: tf_A2_ashlands_2_45
+  - first:
+      213: -3586731329957452361
+    second: tf_A2_ashlands_2_46
+  - first:
+      213: 4994288038572347182
+    second: tf_A2_ashlands_2_47
+  - first:
+      213: 6362702574547143280
+    second: tf_A2_ashlands_2_48
+  - first:
+      213: 5192615125107868591
+    second: tf_A2_ashlands_2_49
+  - first:
+      213: 2257141055246789379
+    second: tf_A2_ashlands_2_50
+  - first:
+      213: 432513409101669479
+    second: tf_A2_ashlands_2_51
+  - first:
+      213: -44880010545906458
+    second: tf_A2_ashlands_2_52
+  - first:
+      213: 6287437914056327347
+    second: tf_A2_ashlands_2_53
+  - first:
+      213: -5988919144409018433
+    second: tf_A2_ashlands_2_54
+  - first:
+      213: 1443583662558000457
+    second: tf_A2_ashlands_2_55
+  - first:
+      213: -1557069052504883445
+    second: tf_A2_ashlands_2_56
+  - first:
+      213: -4869891289701823538
+    second: tf_A2_ashlands_2_57
+  - first:
+      213: -1781813286524867031
+    second: tf_A2_ashlands_2_58
+  - first:
+      213: -1355847082189882787
+    second: tf_A2_ashlands_2_59
+  - first:
+      213: 6135321662355791472
+    second: tf_A2_ashlands_2_60
+  - first:
+      213: -3685515412178227977
+    second: tf_A2_ashlands_2_61
+  - first:
+      213: -4201294263221130702
+    second: tf_A2_ashlands_2_62
+  - first:
+      213: 8298610396194276427
+    second: tf_A2_ashlands_2_63
+  - first:
+      213: 5031811848946164870
+    second: tf_A2_ashlands_2_64
+  - first:
+      213: 7130241545404474956
+    second: tf_A2_ashlands_2_65
+  - first:
+      213: 2663506487226269875
+    second: tf_A2_ashlands_2_66
+  - first:
+      213: -97926156116146431
+    second: tf_A2_ashlands_2_67
+  - first:
+      213: -5840751854589716279
+    second: tf_A2_ashlands_2_68
+  - first:
+      213: -9111633170532561435
+    second: tf_A2_ashlands_2_69
+  - first:
+      213: 3393579490833933702
+    second: tf_A2_ashlands_2_70
+  - first:
+      213: -5496683996283645556
+    second: tf_A2_ashlands_2_71
+  - first:
+      213: 9030900581855452534
+    second: tf_A2_ashlands_2_72
+  - first:
+      213: -3383231535795534411
+    second: tf_A2_ashlands_2_73
+  - first:
+      213: -2317350822690403792
+    second: tf_A2_ashlands_2_74
+  - first:
+      213: 602652058405279695
+    second: tf_A2_ashlands_2_75
+  - first:
+      213: -6035258903100081377
+    second: tf_A2_ashlands_2_76
+  - first:
+      213: 586669741312272339
+    second: tf_A2_ashlands_2_77
+  - first:
+      213: 6335355472160959591
+    second: tf_A2_ashlands_2_78
+  - first:
+      213: 6433600528759882495
+    second: tf_A2_ashlands_2_79
+  - first:
+      213: 7531551287636929289
+    second: tf_A2_ashlands_2_80
+  - first:
+      213: 2125915516683890988
+    second: tf_A2_ashlands_2_81
+  - first:
+      213: -8020660291438419204
+    second: tf_A2_ashlands_2_82
+  - first:
+      213: 8430551381115038812
+    second: tf_A2_ashlands_2_83
+  - first:
+      213: -6648894090147581795
+    second: tf_A2_ashlands_2_84
+  - first:
+      213: 2164412559465815839
+    second: tf_A2_ashlands_2_85
+  - first:
+      213: -7363837837912039960
+    second: tf_A2_ashlands_2_86
+  - first:
+      213: -7969920747004079211
+    second: tf_A2_ashlands_2_87
+  - first:
+      213: 8278040855427815187
+    second: tf_A2_ashlands_2_88
+  - first:
+      213: -5761508986422967676
+    second: tf_A2_ashlands_2_89
+  - first:
+      213: 8318986882159285058
+    second: tf_A2_ashlands_2_90
+  - first:
+      213: -4256776982066342931
+    second: tf_A2_ashlands_2_91
+  - first:
+      213: 2470626894311237100
+    second: tf_A2_ashlands_2_92
+  - first:
+      213: 8175215320951997152
+    second: tf_A2_ashlands_2_93
+  - first:
+      213: -6358943380769138967
+    second: tf_A2_ashlands_2_94
+  - first:
+      213: -8938218676577120250
+    second: tf_A2_ashlands_2_95
+  - first:
+      213: 6438283439816991889
+    second: tf_A2_ashlands_2_96
+  - first:
+      213: 956649383557671856
+    second: tf_A2_ashlands_2_97
+  - first:
+      213: 7516383942388892276
+    second: tf_A2_ashlands_2_98
+  - first:
+      213: 3018388907734628091
+    second: tf_A2_ashlands_2_99
+  - first:
+      213: -6220993892325283978
+    second: tf_A2_ashlands_2_100
+  - first:
+      213: -481288456639491220
+    second: tf_A2_ashlands_2_101
+  - first:
+      213: -4124049455006163649
+    second: tf_A2_ashlands_2_102
+  - first:
+      213: 5736928018330533872
+    second: tf_A2_ashlands_2_103
+  - first:
+      213: 2981840788479314772
+    second: tf_A2_ashlands_2_104
+  - first:
+      213: -8060512569567612394
+    second: tf_A2_ashlands_2_105
+  - first:
+      213: 6451296708562654605
+    second: tf_A2_ashlands_2_106
+  - first:
+      213: 5221659021648067172
+    second: tf_A2_ashlands_2_107
+  - first:
+      213: 1019598640497512685
+    second: tf_A2_ashlands_2_108
+  - first:
+      213: 599419985979027179
+    second: tf_A2_ashlands_2_109
+  - first:
+      213: 5547378395112279907
+    second: tf_A2_ashlands_2_110
+  - first:
+      213: 5633899626851635885
+    second: tf_A2_ashlands_2_111
+  - first:
+      213: 4028481910630031811
+    second: tf_A2_ashlands_2_112
+  - first:
+      213: 3020270368652325930
+    second: tf_A2_ashlands_2_113
+  - first:
+      213: -6612898608278499079
+    second: tf_A2_ashlands_2_114
+  - first:
+      213: 2282546873205569507
+    second: tf_A2_ashlands_2_115
+  - first:
+      213: 4598692344420667144
+    second: tf_A2_ashlands_2_116
+  - first:
+      213: -5633203555038237876
+    second: tf_A2_ashlands_2_117
+  - first:
+      213: -6181361755758500121
+    second: tf_A2_ashlands_2_118
+  - first:
+      213: -3050165916191510249
+    second: tf_A2_ashlands_2_119
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,12 +760,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,7 +829,2527 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39489cac8f9222830800000000000000
+      internalID: 4044841563862959251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a5fd7245f9e06f0800000000000000
+      internalID: -716460106910311838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01274c4a4ef64cbc0800000000000000
+      internalID: -3763760360767327728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fc0ead01c8fb450800000000000000
+      internalID: 6106753623757213576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81792a253920cba60800000000000000
+      internalID: 7691025095411799832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f2dbd4690e01770800000000000000
+      internalID: 8579604226294755113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce4d591bffe14660800000000000000
+      internalID: 7368434327096217280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9210e9b986b295a90800000000000000
+      internalID: -7324775590653984471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4ad98d8998c4dc0800000000000000
+      internalID: -3653393908142070593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a9053c58e874460800000000000000
+      internalID: 7225900832297884278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1713c940999cbc00800000000000000
+      internalID: 917777269068601115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1aa92b0fe50c78f0800000000000000
+      internalID: -541551330948699618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8d98e3c2e4ca720800000000000000
+      internalID: 2858745815408171206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06697bc5eed4a220800000000000000
+      internalID: 2496365172012705295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54e35c17001caff0800000000000000
+      internalID: -23626275317619620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a94af2915af9860800000000000000
+      internalID: 7538925828833581615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a276f0cbb6ebf570800000000000000
+      internalID: 8501642415662592672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6feafaa67515cf70800000000000000
+      internalID: 9206788612647743342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba260beadc6f1e3e0800000000000000
+      internalID: -2026066994080488789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8331bd4c3db5988c0800000000000000
+      internalID: -3996562229215685832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f482191732d12df50800000000000000
+      internalID: 6904613216778790991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4e740012b15f790800000000000000
+      internalID: -7497056176135740204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a473279c5efbf2e0800000000000000
+      internalID: -2090797928357333856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229402e32464d0e80800000000000000
+      internalID: -8210829295302457054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1d22730092959a0800000000000000
+      internalID: -6243914327470714458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e95f5c90f734770800000000000000
+      internalID: 8593852193905679919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0ab9ab440ac1ca0800000000000000
+      internalID: -6044780382789066523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef359e0f77979040800000000000000
+      internalID: 4654355311871999968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3994e0227618050800000000000000
+      internalID: 5801031190996161494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4c50fa8cf86c8d0800000000000000
+      internalID: -2826413624035785482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4821a8925802600800000000000000
+      internalID: 441499176938931410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_31
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5fea703fd190d90800000000000000
+      internalID: -7131135605321304669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ac5a9981c9a23e0800000000000000
+      internalID: -2077676648607135232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_33
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d5495a89af05880800000000000000
+      internalID: -8624117752894563062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_34
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bcbdf46f5859f80800000000000000
+      internalID: -8100421061807715476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d041ae74b31e11df0800000000000000
+      internalID: -211140062783859699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6905027c64baf750800000000000000
+      internalID: 6339577803339794797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_37
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a65dfbf82a42a50800000000000000
+      internalID: 6495495300857555495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e637fdff21be2a0800000000000000
+      internalID: -6707246329863377330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_39
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f827ae71ac56e6cd0800000000000000
+      internalID: -2562999219268193649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe1629ae2b6a7a20800000000000000
+      internalID: 3060876744902188798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a32680cfcb72150800000000000000
+      internalID: 5847850431822314138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbbd828776ce0bf0800000000000000
+      internalID: -356129103921955879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e59d93c60501b500800000000000000
+      internalID: 410114567677253096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b964677551a46110800000000000000
+      internalID: 1253303984763201972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa3657afa33982f0800000000000000
+      internalID: -970187415201891590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b52f15dbde593ec0800000000000000
+      internalID: -3586731329957452361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f461d92864f4540800000000000000
+      internalID: 4994288038572347182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a885fc74cdc4850800000000000000
+      internalID: 6362702574547143280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa30063d1ffdf0840800000000000000
+      internalID: 5192615125107868591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b6fe5b4d9f25f10800000000000000
+      internalID: 2257141055246789379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_51
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764291e67a8900600800000000000000
+      internalID: 432513409101669479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec35e14edd806ff0800000000000000
+      internalID: -44880010545906458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b086a67877714750800000000000000
+      internalID: 6287437914056327347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_54
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfc6f0d4c513eca0800000000000000
+      internalID: -5988919144409018433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945b35251b3a80410800000000000000
+      internalID: 1443583662558000457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f31ba42fd246ae0800000000000000
+      internalID: -1557069052504883445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_57
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbcd8e7cabaa6cb0800000000000000
+      internalID: -4869891289701823538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_58
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e2d90a14ab547e0800000000000000
+      internalID: -1781813286524867031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_59
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a725823401f2de0800000000000000
+      internalID: -1355847082189882787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ed97bab8a052550800000000000000
+      internalID: 6135321662355791472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fca3e2624b6adcc0800000000000000
+      internalID: -3685515412178227977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a61d3802102b5c0800000000000000
+      internalID: -4201294263221130702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44068aff269a2370800000000000000
+      internalID: 8298610396194276427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684a909873694d540800000000000000
+      internalID: 5031811848946164870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46e09c68e4b3f260800000000000000
+      internalID: 7130241545404474956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0021cc90da6f420800000000000000
+      internalID: 2663506487226269875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1074a7a0ea814aef0800000000000000
+      internalID: -97926156116146431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8d9f5422b71fea0800000000000000
+      internalID: -5840751854589716279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed8dba28e9fc8180800000000000000
+      internalID: -9111633170532561435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6852534219a681f20800000000000000
+      internalID: 3393579490833933702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8150fe270bd7b3b0800000000000000
+      internalID: -5496683996283645556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ddc5f3b34345d70800000000000000
+      internalID: 9030900581855452534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_73
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b50204e7d85c01d0800000000000000
+      internalID: -3383231535795534411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a449164bd17dfd0800000000000000
+      internalID: -2317350822690403792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc79768aadc0d5800800000000000000
+      internalID: 602652058405279695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bb439f0047e3ca0800000000000000
+      internalID: -6035258903100081377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_77
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7636b7505442800800000000000000
+      internalID: 586669741312272339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_78
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c2bfb5c34bbe750800000000000000
+      internalID: 6335355472160959591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_79
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff28f7f189db84950800000000000000
+      internalID: 6433600528759882495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b2c330ef1758860800000000000000
+      internalID: 7531551287636929289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c213f6a16e4c08d10800000000000000
+      internalID: 2125915516683890988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf26bb0d5f3e0b090800000000000000
+      internalID: -8020660291438419204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c6a0c60d55ff470800000000000000
+      internalID: 8430551381115038812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d903f876d026ab3a0800000000000000
+      internalID: -6648894090147581795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f9a5a51c9890e10800000000000000
+      internalID: 2164412559465815839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed1caf60846ec990800000000000000
+      internalID: -7363837837912039960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5935eca9e47256190800000000000000
+      internalID: -7969920747004079211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31712ff8c4281e270800000000000000
+      internalID: 8278040855427815187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c9064a120b00b0800000000000000
+      internalID: -5761508986422967676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2431d325e7af27370800000000000000
+      internalID: 8318986882159285058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_91
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de350ef53e3ece4c0800000000000000
+      internalID: -4256776982066342931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5a2f7021e694220800000000000000
+      internalID: 2470626894311237100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_93
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2ccaf2503347170800000000000000
+      internalID: 8175215320951997152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_94
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e61f62bfae70c7a0800000000000000
+      internalID: -6358943380769138967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600dbd9687115f380800000000000000
+      internalID: -8938218676577120250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19462915da0695950800000000000000
+      internalID: 6438283439816991889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_97
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb2d89bb83b64d00800000000000000
+      internalID: 956649383557671856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_98
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4724a814f5f8f4860800000000000000
+      internalID: 7516383942388892276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_99
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6708f28b873e920800000000000000
+      internalID: 3018388907734628091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677a312e3079aa9a0800000000000000
+      internalID: -6220993892325283978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_101
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63d18bd2be1259f0800000000000000
+      internalID: -481288456639491220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_102
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dd63eeede64c6c0800000000000000
+      internalID: -4124049455006163649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_103
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffb39a13a9ad9f40800000000000000
+      internalID: 5736928018330533872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_104
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b841e0660a16920800000000000000
+      internalID: 2981840788479314772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_105
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612f95f368e432090800000000000000
+      internalID: -8060512569567612394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_106
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85168e0d2c978950800000000000000
+      internalID: 6451296708562654605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_107
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46afb83f63f077840800000000000000
+      internalID: 5221659021648067172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0535cbf87562e00800000000000000
+      internalID: 1019598640497512685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_109
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beeac872d41915800800000000000000
+      internalID: 599419985979027179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f0853524f3cfc40800000000000000
+      internalID: 5547378395112279907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_111
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da292b66cd1af2e40800000000000000
+      internalID: 5633899626851635885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_112
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1a03334fa08e730800000000000000
+      internalID: 4028481910630031811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_113
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24f821f5e72ae920800000000000000
+      internalID: 3020270368652325930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_114
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f092ed90c34a34a0800000000000000
+      internalID: -6612898608278499079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_115
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7b898a94c3daf10800000000000000
+      internalID: 2282546873205569507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f80848256d1df30800000000000000
+      internalID: 4598692344420667144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_117
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b6a727637d2d1b0800000000000000
+      internalID: -5633203555038237876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_118
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e664dfbb34673aa0800000000000000
+      internalID: -6181361755758500121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_A2_ashlands_2_119
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711b66b7242aba5d0800000000000000
+      internalID: -3050165916191510249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
