@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 57947cba05e9a6644bba82aebe43710d, type: 3}
-    totalSpriteSurfaceArea: 8342242
+    totalSpriteSurfaceArea: 8377179
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -60,6 +60,7 @@ SpriteAtlas:
   - {fileID: 3821008583742518700, guid: a6e95450475743543af5245ccc4ea5d2, type: 3}
   - {fileID: -2825408913457380777, guid: a6e95450475743543af5245ccc4ea5d2, type: 3}
   - {fileID: 21300000, guid: 3efd7870cdecac24aa37e1bcc264a4d1, type: 3}
+  - {fileID: 21300000, guid: 3e2d1e70b5f89304380aa7122e4a3324, type: 3}
   - {fileID: -5728669957307562809, guid: 151b41b09d910bf4eb1ad61658160bb0, type: 3}
   - {fileID: -6898601896495228839, guid: 151b41b09d910bf4eb1ad61658160bb0, type: 3}
   - {fileID: -8638285858054781162, guid: 151b41b09d910bf4eb1ad61658160bb0, type: 3}
@@ -7756,6 +7757,13 @@ SpriteAtlas:
   - {fileID: -5564412875571783326, guid: b545080d934919b4a8ccf789ef4cb62d, type: 3}
   - {fileID: 21300000, guid: f944f54de48598d4cb831ee2a57fa4bc, type: 3}
   - {fileID: 21300000, guid: c3cd077d7e0ba9e408c035f92681bc36, type: 3}
+  - {fileID: -8619152397366952955, guid: 0f65368dab1a4274aa03108b719f2051, type: 3}
+  - {fileID: 8162318422444490803, guid: 0f65368dab1a4274aa03108b719f2051, type: 3}
+  - {fileID: -367765881578011946, guid: 0f65368dab1a4274aa03108b719f2051, type: 3}
+  - {fileID: 8036115873605637910, guid: 0f65368dab1a4274aa03108b719f2051, type: 3}
+  - {fileID: -7003287659138998526, guid: 0f65368dab1a4274aa03108b719f2051, type: 3}
+  - {fileID: 890440111930681245, guid: 0f65368dab1a4274aa03108b719f2051, type: 3}
+  - {fileID: -7151447585248254060, guid: 0f65368dab1a4274aa03108b719f2051, type: 3}
   - {fileID: 21300000, guid: 69fe76dd3d00f7243bb968f3cb5e425a, type: 3}
   - {fileID: -8409143796836993866, guid: b04da0ed6199ad045b1d3beb0f1d007f, type: 3}
   - {fileID: -8585580564966414497, guid: b04da0ed6199ad045b1d3beb0f1d007f, type: 3}
@@ -8724,6 +8732,7 @@ SpriteAtlas:
   - harpy_a_1_11
   - harpy_a_1_10
   - mer_8_shadow_2
+  - Asteroid Brown
   - tileset_cave_950
   - tileset_cave_487
   - tileset_cave_497
@@ -16420,6 +16429,13 @@ SpriteAtlas:
   - invetoryrpg_0
   - font
   - '!$doorA_2'
+  - InterfazHechizos_4
+  - InterfazHechizos_5
+  - InterfazHechizos_6
+  - InterfazHechizos_0
+  - InterfazHechizos_1
+  - InterfazHechizos_2
+  - InterfazHechizos_3
   - NPC_test
   - monks_3_update_40
   - monks_3_update_41

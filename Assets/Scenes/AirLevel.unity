@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 183672283}
   m_Layer: 0
   m_Name: Decoration Collision
-  m_TagString: Untagged
+  m_TagString: collision
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 570564642}
   m_Layer: 0
   m_Name: Collision
-  m_TagString: Untagged
+  m_TagString: collision
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6926,6 +6926,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6175152862894416153, guid: f4118282667c75d498958c807a78b3f5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175152862894416153, guid: f4118282667c75d498958c807a78b3f5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6771476252564073700, guid: f4118282667c75d498958c807a78b3f5,
         type: 3}
       propertyPath: m_Name

@@ -10,6 +10,9 @@ public enum EnemyState
     stagger
 }
 
+
+
+
 public class Enemy : MonoBehaviour
 {
     [Header("State Machine")]
@@ -22,6 +25,8 @@ public class Enemy : MonoBehaviour
     public int baseAttack;
     public float moveSpeed;
     public Vector2 homePosition;
+
+    
 
     [Header("Death Effects")]
     public GameObject deathEffect;
@@ -36,6 +41,8 @@ public class Enemy : MonoBehaviour
     private void OnEnable()
     {
         transform.position = homePosition;
+        health = maxHealth.initialValue;
+        currentState = EnemyState.idle;
     }
 
     private void TakeDamage(float damage)

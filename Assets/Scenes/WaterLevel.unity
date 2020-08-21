@@ -242,6 +242,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6175152862894416153, guid: f4118282667c75d498958c807a78b3f5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175152862894416153, guid: f4118282667c75d498958c807a78b3f5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6771476252564073700, guid: f4118282667c75d498958c807a78b3f5,
         type: 3}
       propertyPath: m_Name
@@ -354,6 +364,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4118282667c75d498958c807a78b3f5, type: 3}
+--- !u!114 &67488599 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5741260660440056350, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 67488598}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &111861920
 GameObject:
   m_ObjectHideFlags: 0
@@ -22039,6 +22061,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 3544af5f36ea4934a83adcffec7463fb,
         type: 2}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: manaSlider
+      value: 
+      objectReference: {fileID: 67488599}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: reduceMana
+      value: 
+      objectReference: {fileID: 11400000, guid: 418c57c4ced9e4c408f68e74716551f7,
+        type: 2}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 8108051626644750973, guid: 6f1e63f0cdcd222428cfa21426cc1384,
+        type: 3}
     - target: {fileID: 2427034561251953513, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
       propertyPath: m_Name
@@ -22343,7 +22382,7 @@ GameObject:
   - component: {fileID: 1743554078}
   m_Layer: 0
   m_Name: Decorations Collision
-  m_TagString: Untagged
+  m_TagString: collision
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25373,7 +25412,7 @@ GameObject:
   - component: {fileID: 1770715889}
   m_Layer: 0
   m_Name: Collision
-  m_TagString: Untagged
+  m_TagString: collision
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

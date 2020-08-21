@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4797579617851086671}
   - component: {fileID: 4797579617851086659}
   - component: {fileID: 4797579617851086658}
-  - component: {fileID: 4797579617851086660}
   - component: {fileID: 4797579617851086661}
   - component: {fileID: 4797579617851086662}
   m_Layer: 8
@@ -74,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 849465507
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -5034061168752090764, guid: 0a0603a83f9ca2a4a8d3d9ceb4137b2b,
     type: 3}
@@ -154,29 +153,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.63904285, y: 0.4331317}
   m_EdgeRadius: 0
---- !u!114 &4797579617851086660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4797579617851086670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7082e9170e88594c94d90cc64112ae3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentState: 0
-  maxHealth: {fileID: 11400000, guid: 6568c96024af2f34986ae724adb488e6, type: 2}
-  health: 0
-  enemyName: Pitagoras
-  baseAttack: 1
-  moveSpeed: 1.5
-  target: {fileID: 0}
-  chaseRadius: 4
-  attackRadius: 1.2
-  homePosition: {fileID: 0}
-  anim: {fileID: 0}
 --- !u!61 &4797579617851086661
 BoxCollider2D:
   m_ObjectHideFlags: 0

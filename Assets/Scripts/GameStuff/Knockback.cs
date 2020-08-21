@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using UnityEngine;
 
 public class Knockback : MonoBehaviour
@@ -11,13 +13,15 @@ public class Knockback : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        String tag = other.gameObject.tag;
+
         if (other.gameObject.CompareTag("breakable") 
             && this.gameObject.CompareTag("Player"))
         {
             other.GetComponent<Pot>().Smash();
         }
-
-        if (other.gameObject.CompareTag("enemy") || other.gameObject.CompareTag("Player"))
+        
+        if (isAnEnemy(tag) || other.gameObject.CompareTag("Player"))
         {
             Rigidbody2D hit = other.GetComponent<Rigidbody2D>();
             if(hit != null)
@@ -26,10 +30,11 @@ public class Knockback : MonoBehaviour
                 difference = difference.normalized * thrust;
                 hit.AddForce(difference, ForceMode2D.Impulse);
 
-                if (other.gameObject.CompareTag("enemy") && other.isTrigger)
+                if (isAnEnemy(tag) && other.isTrigger)
                 {
+                    float dmg = DamageCalculator(other.gameObject, damage);
                     hit.GetComponent<Enemy>().currentState = EnemyState.stagger;
-                    other.GetComponent<Enemy>().Knock(hit, knockTime, damage);
+                    other.GetComponent<Enemy>().Knock(hit, knockTime, dmg);
                 }
                 if (other.gameObject.CompareTag("Player"))
                 {
@@ -42,5 +47,41 @@ public class Knockback : MonoBehaviour
                 }
             }
         }
+    }
+
+    private float DamageCalculator(GameObject enemy, float dmg)
+    {
+        float calculatedDmg = dmg;
+
+        //earth damage
+        if (this.gameObject.name == "EarthSpell(Clone)" && enemy.CompareTag("enemyAir")) //||
+          //this.gameObject.name == "WaterSpell(Clone)" && enemy.CompareTag("enemyFire")
+          //this.gameObject.name == "AirSpell(Clone)" && enemy.CompareTag("enemyWater")
+          //this.gameObject.name == "FireSpell(Clone)" && enemy.CompareTag("enemyEarth")
+        {
+            calculatedDmg = 2 * dmg;
+        }
+        if (this.gameObject.name == "EarthSpell(Clone)" && enemy.CompareTag("enemyFire"))
+        {
+            calculatedDmg = dmg / 2;
+        }
+
+        return calculatedDmg;
+
+    }
+    
+    public bool isAnEnemy(String tag)
+    {
+        bool res = false;
+        if(tag == "enemyEarth" || 
+           tag == "enemyWater" || 
+           tag == "enemyAir" || 
+           tag == "enemyFire" ||
+           tag == "enemy")
+        {
+            res = true;
+        }
+
+        return res;
     }
 }

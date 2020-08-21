@@ -9,12 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a008b238ebf0ac4ab51798e0ffc4300, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: 4d56b08ec72d04845b05adb237e429ca, type: 3}
+  m_Name: New Signal
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
-  items: []
-  numberOfKeys: 0
-  numberOfElements: 1
-  maxMana: 10
-  currentMana: 10
+  listeners: []

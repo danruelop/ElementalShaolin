@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 112950444}
   m_Layer: 0
   m_Name: Decoration Collision
-  m_TagString: Untagged
+  m_TagString: collision
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21874,7 +21874,7 @@ GameObject:
   - component: {fileID: 1308187313}
   m_Layer: 0
   m_Name: Collisions
-  m_TagString: Untagged
+  m_TagString: collision
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30468,6 +30468,9 @@ MonoBehaviour:
   playerInventory: {fileID: 0}
   receivedItemSprite: {fileID: 0}
   playerHit: {fileID: 0}
+  reduceMana: {fileID: 0}
+  projectile: {fileID: 0}
+  manaSlider: {fileID: 0}
 --- !u!95 &2588487763705574093
 Animator:
   serializedVersion: 3
