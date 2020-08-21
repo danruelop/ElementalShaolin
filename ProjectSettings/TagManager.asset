@@ -7,6 +7,13 @@ TagManager:
   - breakable
   - enemy
   - earthmaster
+  - enemyEarth
+  - collision
+  - earthSpell
+  - enemyAir
+  - enemyFire
+  - enemyWater
+  - airSpell
   layers:
   - Default
   - TransparentFX
@@ -18,8 +25,8 @@ TagManager:
   - 
   - Enemy
   - Enemy Projectile
-  - 
-  - 
+  - Player Projectile
+  - Player
   - 
   - 
   - 

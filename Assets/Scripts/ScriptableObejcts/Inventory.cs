@@ -9,6 +9,10 @@ public class Inventory : ScriptableObject {
     public List<Item> items = new List<Item>();
     public int numberOfKeys;
     public int numberOfElements;
+    public float maxMana = 10;
+    public float currentMana;
+
+   
 
     public void AddItem(Item itemToAdd)
     {

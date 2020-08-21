@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum PlayerState
 {
@@ -12,7 +14,8 @@ public enum PlayerState
     attack,
     interact,
     stagger,
-    idle
+    idle,
+    meditate
 }
 
 public class PlayerMovement : MonoBehaviour{
@@ -28,7 +31,11 @@ public class PlayerMovement : MonoBehaviour{
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
     public Signal playerHit;
-
+    public Signal reduceMana;
+    public GameObject projectile;
+    public Slider manaSlider;
+    private float meditateCooldown = 5f;
+    private float nextMeditate;
 
     // Start is called before the first frame update
     void Start(){
@@ -40,8 +47,10 @@ public class PlayerMovement : MonoBehaviour{
         transform.position = startingPosition.initialValue;
     }
 
+
     // Update is called once per frame
     void Update(){
+
         if(currentState == PlayerState.interact)
         {
             return;
@@ -49,14 +58,33 @@ public class PlayerMovement : MonoBehaviour{
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
+
         if (Input.GetButtonDown("attack") && currentState != PlayerState.attack
             && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
+
+        } else if(Input.GetButtonDown("earthSpell") && currentState != PlayerState.attack
+            && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 1)
+        {
+            StartCoroutine(EarthSpellCo());
         }
-        else if(currentState == PlayerState.walk || currentState == PlayerState.idle) {
+
+        else if(currentState == PlayerState.walk || currentState == PlayerState.idle) 
+        {
             UpdateAnimationAndMove();
+
         }
+        
+        if(Input.GetButtonDown("meditate") && currentState != PlayerState.attack
+            && currentState != PlayerState.stagger && playerInventory.currentMana < 10 && nextMeditate < Time.time)
+        {
+            StartCoroutine(MeditateCo());
+            nextMeditate = Time.time + meditateCooldown;
+        }
+
+        
+
     }
 
     private IEnumerator AttackCo()
@@ -71,6 +99,69 @@ public class PlayerMovement : MonoBehaviour{
             currentState = PlayerState.walk;
         }
         
+    }
+    private IEnumerator EarthSpellCo()
+    {
+        animator.SetBool("attacking", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        MakeEarthSpell();
+        animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.3f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+
+    }
+
+    private IEnumerator MeditateCo()
+    {
+        animator.SetBool("meditating", true);
+        currentState = PlayerState.meditate;
+        while(playerInventory.currentMana < 10)
+        {
+            AddMana();
+            yield return new WaitForSeconds(.6f);
+        }
+        yield return null;
+        
+        animator.SetBool("meditating", false);
+        yield return new WaitForSeconds(.3f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+
+    }
+
+
+
+    private void MakeEarthSpell()
+    {
+        if(playerInventory.currentMana > 0)
+        {
+            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+            EarthSpell earthSpell = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<EarthSpell>();
+            earthSpell.Setup(temp, ChooseArrowDirection());
+            reduceMana.Raise();
+        }
+    }
+    public void AddMana()
+    {
+        manaSlider.value += 1;
+        playerInventory.currentMana += 1;
+        if (manaSlider.value > manaSlider.maxValue)
+        {
+            manaSlider.value = manaSlider.maxValue;
+            playerInventory.currentMana = playerInventory.maxMana;
+        }
+    }
+
+    Vector3 ChooseArrowDirection()
+    {
+        float temp = Mathf.Atan2(animator.GetFloat("moveY"), animator.GetFloat("moveX")) * Mathf.Rad2Deg;
+        return new Vector3(0, 0, temp);
     }
 
     public void RaiseItem()
@@ -142,4 +233,6 @@ public class PlayerMovement : MonoBehaviour{
             myRigidbody.velocity = Vector2.zero;
         }
     }
+
+    
 }

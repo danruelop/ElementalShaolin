@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WaterLevel.unity
     guid: 67dd08a1dc6607843a93eee4aa30b50f
+  - enabled: 1
+    path: Assets/Scenes/AirLevel.unity
+    guid: 34520d21130918544bd8365fa1dd9530
+  - enabled: 1
+    path: Assets/Scenes/FireLevel.unity
+    guid: 1fc718f019d71ed46a7e31e72f46367c
   m_configObjects: {}
