@@ -9,6 +9,7 @@ public class Inventory : ScriptableObject {
     public List<Item> items = new List<Item>();
     public int numberOfKeys;
     public int numberOfElements;
+    public int award;
     public float maxMana = 10;
     public float currentMana;
 
@@ -23,6 +24,10 @@ public class Inventory : ScriptableObject {
         else if(itemToAdd.isElement)
         {
             numberOfElements++;
+        }
+        else if (itemToAdd.isAward)
+        {
+            award++;
         }
         else
         {

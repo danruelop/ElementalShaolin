@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a008b238ebf0ac4ab51798e0ffc4300, type: 3}
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 11400000, guid: 619a0410c7711134688695fc62bfc9ed, type: 2}
+  currentItem: {fileID: 0}
   items: []
   numberOfKeys: 0
-  numberOfElements: 0
+  numberOfElements: 4
+  award: 0
   maxMana: 10
-  currentMana: 10
+  currentMana: 6

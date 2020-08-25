@@ -550,7 +550,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 220676222}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c5761e28eec358408ee417f72e0ba04, type: 3}
+  m_Script: {fileID: 11500000, guid: 216d499a997c48b48bd992dee7de94f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
@@ -574,7 +574,7 @@ MonoBehaviour:
   - {fileID: 1039438898}
   currentPoint: 0
   currentGoal: {fileID: 0}
-  roundingDistance: 0.1
+  roundingDistance: 0
 --- !u!61 &220676227
 BoxCollider2D:
   m_ObjectHideFlags: 0

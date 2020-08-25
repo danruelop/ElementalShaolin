@@ -14,6 +14,8 @@ TagManager:
   - enemyFire
   - enemyWater
   - airSpell
+  - finalmaster
+  - PlayerInvulnerability
   layers:
   - Default
   - TransparentFX

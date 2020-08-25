@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FireLevel.unity
     guid: 1fc718f019d71ed46a7e31e72f46367c
+  - enabled: 1
+    path: Assets/Scenes/FinalLevel.unity
+    guid: 071c453b20ab90444acfb3daa3ce385f
   m_configObjects: {}

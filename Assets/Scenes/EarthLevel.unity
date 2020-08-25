@@ -3915,7 +3915,7 @@ MonoBehaviour:
   currentState: 0
   maxHealth: {fileID: 11400000, guid: 6568c96024af2f34986ae724adb488e6, type: 2}
   health: 0
-  enemyName: Araturret
+  enemyName: Aranotas
   baseAttack: 1
   moveSpeed: 3
   homePosition: {x: -60.35, y: 21.68}
@@ -51885,11 +51885,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: speed
-      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}

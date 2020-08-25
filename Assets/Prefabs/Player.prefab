@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 2427034561539321422}
   - component: {fileID: 2427034561539321423}
   - component: {fileID: 2638575602829191368}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 4
-  speed: 15
+  speed: 20
   currentHealth: {fileID: 11400000, guid: adadd6a8498f80c47a30c79eb1e8a1c7, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 9b0951c61f0058e4f8509c7c2b7a95e1, type: 2}
   startingPosition: {fileID: 11400000, guid: e49153bd957b1af47a32e4c54b19b309, type: 2}
