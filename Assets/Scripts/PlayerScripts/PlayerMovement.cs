@@ -32,7 +32,10 @@ public class PlayerMovement : MonoBehaviour{
     public SpriteRenderer receivedItemSprite;
     public Signal playerHit;
     public Signal reduceMana;
-    public GameObject projectile;
+    public GameObject earthProjectile;
+    public GameObject waterProjectile;
+    public GameObject airProjectile;
+    public GameObject fireProjectile;
     public Slider manaSlider;
     private float meditateCooldown = 5f;
     private float nextMeditate;
@@ -68,8 +71,22 @@ public class PlayerMovement : MonoBehaviour{
             && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 1)
         {
             StartCoroutine(EarthSpellCo());
+        } 
+        else if(Input.GetButtonDown("waterSpell") && currentState != PlayerState.attack
+            && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 2)
+        {
+            StartCoroutine(WaterSpellCo());
         }
-
+        else if (Input.GetButtonDown("airSpell") && currentState != PlayerState.attack
+           && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 3)
+        {
+            StartCoroutine(AirSpellCo());
+        }
+        else if (Input.GetButtonDown("fireSpell") && currentState != PlayerState.attack
+           && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 4)
+        {
+            StartCoroutine(FireSpellCo());
+        }
         else if(currentState == PlayerState.walk || currentState == PlayerState.idle) 
         {
             UpdateAnimationAndMove();
@@ -115,6 +132,51 @@ public class PlayerMovement : MonoBehaviour{
 
     }
 
+    private IEnumerator WaterSpellCo()
+    {
+        animator.SetBool("attacking", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        MakeWaterSpell();
+        animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.3f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+
+    }
+
+    private IEnumerator AirSpellCo()
+    {
+        animator.SetBool("attacking", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        MakeAirSpell();
+        animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.3f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+
+    }
+
+    private IEnumerator FireSpellCo()
+    {
+        animator.SetBool("attacking", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        MakeFireSpell();
+        animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.3f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+
+    }
+
     private IEnumerator MeditateCo()
     {
         animator.SetBool("meditating", true);
@@ -142,11 +204,45 @@ public class PlayerMovement : MonoBehaviour{
         if(playerInventory.currentMana > 0)
         {
             Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            EarthSpell earthSpell = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<EarthSpell>();
+            EarthSpell earthSpell = Instantiate(earthProjectile, transform.position, Quaternion.identity).GetComponent<EarthSpell>();
             earthSpell.Setup(temp, ChooseArrowDirection());
             reduceMana.Raise();
         }
     }
+
+    private void MakeWaterSpell()
+    {
+        if (playerInventory.currentMana > 0)
+        {
+            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+            WaterSpell waterSpell = Instantiate(waterProjectile, transform.position, Quaternion.identity).GetComponent<WaterSpell>();
+            waterSpell.Setup(temp, ChooseArrowDirection());
+            reduceMana.Raise();
+        }
+    }
+
+    private void MakeAirSpell()
+    {
+        if (playerInventory.currentMana > 0)
+        {
+            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+            AirSpell airSpell = Instantiate(airProjectile, transform.position, Quaternion.identity).GetComponent<AirSpell>();
+            airSpell.Setup(temp, ChooseArrowDirection());
+            reduceMana.Raise();
+        }
+    }
+
+    private void MakeFireSpell()
+    {
+        if (playerInventory.currentMana > 0)
+        {
+            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+            FireSpell fireSpell = Instantiate(fireProjectile, transform.position, Quaternion.identity).GetComponent<FireSpell>();
+            fireSpell.Setup(temp, ChooseArrowDirection());
+            reduceMana.Raise();
+        }
+    }
+
     public void AddMana()
     {
         manaSlider.value += 1;

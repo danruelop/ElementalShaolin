@@ -68,7 +68,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -125203463
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 8387997009269029421, guid: 991937471628cf84c8037c64a4d71bc5,
     type: 3}
@@ -129,6 +129,7 @@ GameObject:
   - component: {fileID: 2427034561251953504}
   - component: {fileID: 2427034561539321422}
   - component: {fileID: 2427034561539321423}
+  - component: {fileID: 2638575602829191368}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -194,7 +195,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 849465507
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 4529301322988849595, guid: 16bc37ab7154166448e8467fd437d01a,
     type: 3}
@@ -267,11 +268,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56de117271369744499155dbd9284e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 0
-  speed: 12.5
+  currentState: 4
+  speed: 15
   currentHealth: {fileID: 11400000, guid: adadd6a8498f80c47a30c79eb1e8a1c7, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 9b0951c61f0058e4f8509c7c2b7a95e1, type: 2}
   startingPosition: {fileID: 11400000, guid: e49153bd957b1af47a32e4c54b19b309, type: 2}
+  playerInventory: {fileID: 11400000, guid: 3373ddc653a5dc74a80a73e14718bef8, type: 2}
+  receivedItemSprite: {fileID: 3974529464604152214}
+  playerHit: {fileID: 11400000, guid: bd94200d37f4f8d47a56cb60d479dddf, type: 2}
+  reduceMana: {fileID: 11400000, guid: 418c57c4ced9e4c408f68e74716551f7, type: 2}
+  earthProjectile: {fileID: 8108051626644750973, guid: 6f1e63f0cdcd222428cfa21426cc1384,
+    type: 3}
+  waterProjectile: {fileID: 1516832523044581211, guid: 482b85761acb389499d73f6350a24401,
+    type: 3}
+  airProjectile: {fileID: 2852476358304581791, guid: 9571067978c60524491e474e890e05b6,
+    type: 3}
+  fireProjectile: {fileID: 6627867469811143557, guid: 8145543daf74eab48babffea4ebab2c5,
+    type: 3}
+  manaSlider: {fileID: 0}
 --- !u!95 &2427034561251953511
 Animator:
   serializedVersion: 3
@@ -358,6 +372,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   contextClue: {fileID: 473271325}
   contextActive: 0
+--- !u!114 &2638575602829191368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2427034561251953513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd438dd108a0f284aa931a2da434f1d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_RawSignal: {fileID: 11400000, guid: a8ed301fb72262e43af18fc52b674557, type: 2}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.7
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 1000
+    m_PropagationSpeed: 343
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_IgnoreTag: 
+  m_UseImpactDirection: 0
+  m_ScaleImpactWithMass: 0
+  m_ScaleImpactWithSpeed: 0
 --- !u!1 &2427034561432480624
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,8 +797,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -125203463
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -763,4 +826,15 @@ MonoBehaviour:
   signalGame: {fileID: 11400000, guid: 7e72d408c4f77474bae1c98878024b33, type: 2}
   signalEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2427034561251953510}
+        m_MethodName: RaiseItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

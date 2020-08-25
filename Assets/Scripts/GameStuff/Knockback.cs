@@ -54,14 +54,17 @@ public class Knockback : MonoBehaviour
         float calculatedDmg = dmg;
 
         //earth damage
-        if (this.gameObject.name == "EarthSpell(Clone)" && enemy.CompareTag("enemyAir")) //||
-          //this.gameObject.name == "WaterSpell(Clone)" && enemy.CompareTag("enemyFire")
-          //this.gameObject.name == "AirSpell(Clone)" && enemy.CompareTag("enemyWater")
-          //this.gameObject.name == "FireSpell(Clone)" && enemy.CompareTag("enemyEarth")
+        if (this.gameObject.name == "EarthSpell(Clone)" && enemy.CompareTag("enemyAir") || 
+            this.gameObject.name == "WaterSpell(Clone)" && enemy.CompareTag("enemyFire") || 
+            this.gameObject.name == "AirSpell(Clone)" && enemy.CompareTag("enemyWater") ||
+            this.gameObject.name == "FireSpell(Clone)" && enemy.CompareTag("enemyEarth"))
         {
             calculatedDmg = 2 * dmg;
         }
-        if (this.gameObject.name == "EarthSpell(Clone)" && enemy.CompareTag("enemyFire"))
+        if (this.gameObject.name == "EarthSpell(Clone)" && enemy.CompareTag("enemyFire") || 
+            this.gameObject.name == "WaterSpell(Clone)" && enemy.CompareTag("enemyAir") ||
+            this.gameObject.name == "AirSpell(Clone)" && enemy.CompareTag("enemyEarth") ||
+            this.gameObject.name == "FireSpell(Clone)" && enemy.CompareTag("enemyWater"))
         {
             calculatedDmg = dmg / 2;
         }

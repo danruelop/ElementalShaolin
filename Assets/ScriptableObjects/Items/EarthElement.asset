@@ -15,6 +15,7 @@ MonoBehaviour:
   thisItemType: 1
   itemSprite: {fileID: -1801630525641363556, guid: aaf15db7f7e6ce74bafe6aebda96b3c4,
     type: 3}
-  itemDescription: "He aprendido el elemento tierra, \xBFcomo podre usarlo?"
+  itemDescription: He aprendido el elemento tierra, podre utilizarlo con el boton
+    1.
   isKey: 0
   isElement: 1

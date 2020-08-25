@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class EnemyAir : Enemy
 {
-
     public Rigidbody2D myRigidbody;
 
     [Header("Target Variables")]

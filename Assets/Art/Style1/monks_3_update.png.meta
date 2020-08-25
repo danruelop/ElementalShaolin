@@ -428,6 +428,18 @@ TextureImporter:
   - first:
       213: -4266372126595108211
     second: monks_3_update_70
+  - first:
+      213: 5493719257816363708
+    second: monks_3_update_71
+  - first:
+      213: -2862720378061287190
+    second: monks_3_update_72
+  - first:
+      213: -4184290140210573828
+    second: monks_3_update_73
+  - first:
+      213: -3133363172319464867
+    second: monks_3_update_74
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -2023,6 +2035,90 @@ TextureImporter:
       bones: []
       spriteID: d82bba2b72dcac4c0800000000000000
       internalID: -4266372126595108211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monks_3_update_71
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 327
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2fdd9de8c9d3c40800000000000000
+      internalID: 5493719257816363708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monks_3_update_72
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 219
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae09266cbf29548d0800000000000000
+      internalID: -2862720378061287190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monks_3_update_73
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 111
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd449b694a6ee5c0800000000000000
+      internalID: -4184290140210573828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monks_3_update_74
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 3
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d527b99cbce0484d0800000000000000
+      internalID: -3133363172319464867
       vertices: []
       indices: 
       edges: []

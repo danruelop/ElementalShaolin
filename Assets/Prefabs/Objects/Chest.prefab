@@ -171,9 +171,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   context: {fileID: 11400000, guid: 9fdca5df30af30940a6d703b2cbd479a, type: 2}
   playerInRange: 0
-  contents: {fileID: 11400000, guid: 7b0e79621befebb4cae6e1ae22fc3abf, type: 2}
+  contents: {fileID: 11400000, guid: e89b379ee34efd84fa8de4aca90f19f6, type: 2}
   playerInventory: {fileID: 11400000, guid: 3373ddc653a5dc74a80a73e14718bef8, type: 2}
   isOpen: 0
+  storedOpen: {fileID: 11400000, guid: 30c1a03063e98714cbdcf6c2883ce071, type: 2}
   raiseItem: {fileID: 11400000, guid: 7e72d408c4f77474bae1c98878024b33, type: 2}
   dialogBox: {fileID: 0}
   dialogText: {fileID: 0}

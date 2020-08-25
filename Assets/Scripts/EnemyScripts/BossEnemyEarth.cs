@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossEnemyEarth : TurretEnemy
+public class BossEnemyEarth : EnemyEarth
 {
     public Collider2D boundary;
 

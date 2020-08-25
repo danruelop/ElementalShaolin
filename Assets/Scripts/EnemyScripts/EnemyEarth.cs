@@ -18,7 +18,6 @@ public class EnemyEarth : Enemy
     // Start is called before the first frame update
     void Start()
     {
-        
         currentState = EnemyState.idle;
         myRigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();

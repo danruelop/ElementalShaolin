@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: arpyWakeUp
+  m_Name: cerberus2WakeUp
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -1738194162541750571, guid: 2e2135e795263d34aa53bd9c48eb463a,
+      value: {fileID: 1268345472778848853, guid: 28a2d9d46a6c5cb44857f8e5ccc08998,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -41,7 +41,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -1738194162541750571, guid: 2e2135e795263d34aa53bd9c48eb463a, type: 3}
+    - {fileID: 1268345472778848853, guid: 28a2d9d46a6c5cb44857f8e5ccc08998, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
