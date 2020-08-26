@@ -821,7 +821,7 @@ PrefabInstance:
     - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
       propertyPath: speed
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
@@ -846,6 +846,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1516832523044581211, guid: 482b85761acb389499d73f6350a24401,
         type: 3}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: cdEarthObject
+      value: 
+      objectReference: {fileID: 1924247921}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: cdWaterObject
+      value: 
+      objectReference: {fileID: 1924247924}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: cdAirObject
+      value: 
+      objectReference: {fileID: 1924247923}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: cdFireObject
+      value: 
+      objectReference: {fileID: 1924247922}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: cdMeditateObject
+      value: 
+      objectReference: {fileID: 2016176372}
     - target: {fileID: 2427034561251953513, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
       propertyPath: m_Name
@@ -5458,6 +5483,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5799566809625295138, guid: f4118282667c75d498958c807a78b3f5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6175152862894416153, guid: f4118282667c75d498958c807a78b3f5,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -5610,6 +5640,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1924247921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5235229865421493448, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1924247917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1924247922 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3405870818681207213, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1924247917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1924247923 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4867999938391022731, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1924247917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1924247924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8631383906087190330, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1924247917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2016176372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3340054340498882250, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1924247917}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5215454122482079016
 PrefabInstance:
   m_ObjectHideFlags: 0

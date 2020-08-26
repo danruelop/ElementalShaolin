@@ -7,7 +7,6 @@ public class SpellsManager : MonoBehaviour
 {
     public Image[] spells;
     public Inventory playerInventory;
-    public int numberOfElements_comp = 0;
     
 
 
@@ -17,12 +16,30 @@ public class SpellsManager : MonoBehaviour
      // Update is called once per frame
     private void Update()
     {
-        if(playerInventory.numberOfElements != numberOfElements_comp)
+       
+        if(playerInventory.numberOfElements == 1)
         {
-            numberOfElements_comp = playerInventory.numberOfElements;
-            spells[playerInventory.numberOfElements - 1].gameObject.SetActive(true);
+            spells[0].gameObject.SetActive(true);
         }
-        
+
+        if (playerInventory.numberOfElements == 2)
+        {
+            spells[0].gameObject.SetActive(true);
+            spells[1].gameObject.SetActive(true);
+        }
+        if (playerInventory.numberOfElements == 3)
+        {
+            spells[0].gameObject.SetActive(true);
+            spells[1].gameObject.SetActive(true);
+            spells[2].gameObject.SetActive(true);
+        }
+        if (playerInventory.numberOfElements == 4)
+        {
+            spells[0].gameObject.SetActive(true);
+            spells[1].gameObject.SetActive(true);
+            spells[2].gameObject.SetActive(true);
+            spells[3].gameObject.SetActive(true);
+        }
     }
     
 

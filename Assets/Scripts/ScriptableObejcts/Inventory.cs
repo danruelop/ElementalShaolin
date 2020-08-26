@@ -21,7 +21,7 @@ public class Inventory : ScriptableObject {
         {
             numberOfKeys++;
         }
-        else if(itemToAdd.isElement)
+        else if(itemToAdd.isElement && numberOfElements < 4)
         {
             numberOfElements++;
         }

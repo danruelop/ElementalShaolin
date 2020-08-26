@@ -10,13 +10,14 @@ public class Switch : MonoBehaviour
     public Sprite activeSprite;
     private SpriteRenderer mySprite;
     public Door thisDoor;
+    public GameObject waterBoss;
 
     // Start is called before the first frame update
     void Start()
     {
         mySprite = GetComponent<SpriteRenderer>();
         active = storedValue.RuntimeValue;
-        if (active)
+        if (active && !waterBoss.activeSelf) 
         {
             ActivateSwitch();
         }
@@ -32,7 +33,7 @@ public class Switch : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !waterBoss.activeSelf)
         {
             ActivateSwitch();
         }

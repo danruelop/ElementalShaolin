@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 57947cba05e9a6644bba82aebe43710d, type: 3}
-    totalSpriteSurfaceArea: 8711846
+    totalSpriteSurfaceArea: 8714154
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1269,8 +1269,10 @@ SpriteAtlas:
   - {fileID: -2953844799270847396, guid: f75c5211100abd74eb7738f69036a331, type: 3}
   - {fileID: 8406335675712968296, guid: f75c5211100abd74eb7738f69036a331, type: 3}
   - {fileID: -4069035804316899672, guid: f75c5211100abd74eb7738f69036a331, type: 3}
+  - {fileID: -5492877745229114901, guid: f75c5211100abd74eb7738f69036a331, type: 3}
   - {fileID: -7997954178105475535, guid: f75c5211100abd74eb7738f69036a331, type: 3}
   - {fileID: -4088206009161188122, guid: f75c5211100abd74eb7738f69036a331, type: 3}
+  - {fileID: -5623604643350653889, guid: f75c5211100abd74eb7738f69036a331, type: 3}
   - {fileID: 4369894627947500083, guid: f75c5211100abd74eb7738f69036a331, type: 3}
   - {fileID: 6166649217982076285, guid: f75c5211100abd74eb7738f69036a331, type: 3}
   - {fileID: 8867659747232214553, guid: f75c5211100abd74eb7738f69036a331, type: 3}
@@ -7935,6 +7937,7 @@ SpriteAtlas:
   - {fileID: -6823491810515626355, guid: e5241afda124923479aa16af26c5f78f, type: 3}
   - {fileID: 8789000801030824190, guid: e5241afda124923479aa16af26c5f78f, type: 3}
   - {fileID: 7031460844398851582, guid: e5241afda124923479aa16af26c5f78f, type: 3}
+  - {fileID: 4007585976447893936, guid: 9a100c0e44de6cf468de8a000f0ff09d, type: 3}
   - {fileID: 2048323946828281436, guid: 9a100c0e44de6cf468de8a000f0ff09d, type: 3}
   - {fileID: -7975735665814777922, guid: 9a100c0e44de6cf468de8a000f0ff09d, type: 3}
   - {fileID: 8466504574427832725, guid: 9a100c0e44de6cf468de8a000f0ff09d, type: 3}
@@ -10293,8 +10296,10 @@ SpriteAtlas:
   - tf_gianttree_tiles_620
   - tf_gianttree_tiles_659
   - tf_gianttree_tiles_621
+  - tf_gianttree_tiles_741
   - tf_gianttree_tiles_658
   - tf_gianttree_tiles_622
+  - tf_gianttree_tiles_740
   - tf_gianttree_tiles_623
   - tf_gianttree_tiles_628
   - tf_gianttree_tiles_629
@@ -16959,6 +16964,7 @@ SpriteAtlas:
   - boss_kraken_1_3
   - boss_kraken_1_11
   - boss_kraken_1_10
+  - tf_B_ruins3 - copia_241
   - tf_B_ruins3 - copia_225
   - tf_B_ruins3 - copia_240
   - tf_B_ruins3 - copia_224

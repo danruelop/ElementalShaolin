@@ -6,6 +6,7 @@ public class Pot : MonoBehaviour
 {
 
     private Animator anim;
+    public Inventory playerInventory;
 
 
     // Start is called before the first frame update
@@ -22,13 +23,16 @@ public class Pot : MonoBehaviour
 
     public void Smash()
     {
-        anim.SetBool("smash", true);
-        StartCoroutine(breakCo());
+        if (playerInventory.numberOfElements == 0)
+        {
+            anim.SetBool("smash", true);
+            StartCoroutine(breakCo());
+        }
     }
 
     IEnumerator breakCo()
     {
         yield return new WaitForSeconds(.3f);
-        this.gameObject.SetActive(false);
+        this.gameObject.SetActive(false); 
     }
 }

@@ -23132,9 +23132,29 @@ PrefabInstance:
       objectReference: {fileID: 2087904153}
     - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
-      propertyPath: speed
-      value: 15
-      objectReference: {fileID: 0}
+      propertyPath: cdEarthObject
+      value: 
+      objectReference: {fileID: 2087904159}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: cdWaterObject
+      value: 
+      objectReference: {fileID: 2087904158}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: cdAirObject
+      value: 
+      objectReference: {fileID: 2087904157}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: cdFireObject
+      value: 
+      objectReference: {fileID: 2087904156}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: cdMeditateObject
+      value: 
+      objectReference: {fileID: 2087904160}
     - target: {fileID: 2427034561251953513, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
       propertyPath: m_Name
@@ -23414,6 +23434,36 @@ MonoBehaviour:
 --- !u!1 &2087904155 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6771476252561299276, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2087904152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2087904156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3405870818681207213, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2087904152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2087904157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4867999938391022731, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2087904152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2087904158 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8631383906087190330, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2087904152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2087904159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5235229865421493448, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2087904152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2087904160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3340054340498882250, guid: f4118282667c75d498958c807a78b3f5,
     type: 3}
   m_PrefabInstance: {fileID: 2087904152}
   m_PrefabAsset: {fileID: 0}

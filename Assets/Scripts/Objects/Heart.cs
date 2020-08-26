@@ -22,7 +22,7 @@ public class Heart : Powerup
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") && !other.isTrigger)
+        if(other.CompareTag("Player") && !other.isTrigger && playerHealth.RuntimeValue <= 4)
         {
             playerHealth.RuntimeValue += amountToIncrease;
             if(playerHealth.initialValue > heartContainers.RuntimeValue * 2f)

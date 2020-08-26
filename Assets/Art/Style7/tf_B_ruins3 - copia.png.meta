@@ -725,6 +725,9 @@ TextureImporter:
   - first:
       213: -7975735665814777922
     second: tf_B_ruins3 - copia_240
+  - first:
+      213: 4007585976447893936
+    second: tf_B_ruins3 - copia_241
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -5890,6 +5893,27 @@ TextureImporter:
       bones: []
       spriteID: ebf42b05bae705190800000000000000
       internalID: -7975735665814777922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ruins3 - copia_241
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 146
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b18305663ecd9730800000000000000
+      internalID: 4007585976447893936
       vertices: []
       indices: 
       edges: []

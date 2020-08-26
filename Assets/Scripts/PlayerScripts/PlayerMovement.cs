@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public enum PlayerState
@@ -37,8 +38,21 @@ public class PlayerMovement : MonoBehaviour{
     public GameObject airProjectile;
     public GameObject fireProjectile;
     public Slider manaSlider;
-    private float meditateCooldown = 5f;
-    private float nextMeditate;
+
+    public GameObject cdMeditateObject;
+    private float cdMeditate;
+
+    public GameObject cdEarthObject;
+    private float cdEarth;
+
+    public GameObject cdWaterObject;
+    private float cdWater;
+
+    public GameObject cdAirObject;
+    private float cdAir;
+
+    public GameObject cdFireObject;
+    private float cdFire;
 
     // Start is called before the first frame update
     void Start(){
@@ -54,7 +68,81 @@ public class PlayerMovement : MonoBehaviour{
     // Update is called once per frame
     void Update(){
 
-        if(currentState == PlayerState.interact)
+        // SHOW CD MEDITATE
+        if (cdMeditate > 0)
+        {
+            cdMeditate -= 1 * Time.deltaTime;
+            cdMeditateObject.GetComponentInChildren<Text>().text = ((int)cdMeditate).ToString();
+            cdMeditateObject.GetComponent<Image>().enabled = true;
+            cdMeditateObject.GetComponentInChildren<Text>().enabled = true;
+        }
+        else
+        {
+            cdMeditateObject.GetComponent<Image>().enabled = false;
+            cdMeditateObject.GetComponentInChildren<Text>().enabled = false;
+        }
+        // SHOW CD EARTH
+        if (cdEarth > 0)
+        {
+            cdEarth -= 1 * Time.deltaTime;
+            cdEarthObject.GetComponentInChildren<Text>().text = ((int) cdEarth).ToString();
+            cdEarthObject.GetComponent<Image>().enabled = true;
+            cdEarthObject.GetComponentInChildren<Text>().enabled = true;
+        } else
+        {
+            cdEarthObject.GetComponent<Image>().enabled = false;
+            cdEarthObject.GetComponentInChildren<Text>().enabled = false;
+        }
+
+        // SHOW CD WATER
+        if (cdWater > 0)
+        {
+            cdWater -= 1 * Time.deltaTime;
+            cdWaterObject.GetComponentInChildren<Text>().text = ((int)cdWater).ToString();
+            cdWaterObject.GetComponent<Image>().enabled = true;
+            cdWaterObject.GetComponentInChildren<Text>().enabled = true;
+        }
+        else
+        {
+            cdWaterObject.GetComponent<Image>().enabled = false;
+            cdWaterObject.GetComponentInChildren<Text>().enabled = false;
+        }
+
+      
+        // SHOW CD AIR
+        if (cdAir > 0)
+        {
+            cdAir -= 1 * Time.deltaTime;
+            cdAirObject.GetComponentInChildren<Text>().text = ((int)cdAir).ToString();
+            cdAirObject.GetComponent<Image>().enabled = true;
+            cdAirObject.GetComponentInChildren<Text>().enabled = true;
+        }
+        else
+        {
+            cdAirObject.GetComponent<Image>().enabled = false;
+            cdAirObject.GetComponentInChildren<Text>().enabled = false;
+        }
+
+        //SHOW CD FIRE
+        if (cdFire > 0)
+        {
+            cdFire -= 1 * Time.deltaTime;
+            cdFireObject.GetComponentInChildren<Text>().text = ((int)cdFire).ToString();
+            cdFireObject.GetComponent<Image>().enabled = true;
+            cdFireObject.GetComponentInChildren<Text>().enabled = true;
+        }
+        else
+        {
+            cdFireObject.GetComponent<Image>().enabled = false;
+            cdFireObject.GetComponentInChildren<Text>().enabled = false;
+        }
+
+        
+
+
+
+
+        if (currentState == PlayerState.interact)
         {
             return;
         }
@@ -68,23 +156,27 @@ public class PlayerMovement : MonoBehaviour{
             StartCoroutine(AttackCo());
 
         } else if(Input.GetButtonDown("earthSpell") && currentState != PlayerState.attack
-            && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 1)
+            && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 1 && cdEarth <= 0.5f)
         {
+            cdEarth = 2f;
             StartCoroutine(EarthSpellCo());
         } 
         else if(Input.GetButtonDown("waterSpell") && currentState != PlayerState.attack
-            && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 2)
+            && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 2 && cdWater <= 0.5f)
         {
+            cdWater = 2f;
             StartCoroutine(WaterSpellCo());
         }
         else if (Input.GetButtonDown("airSpell") && currentState != PlayerState.attack
-           && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 3)
+           && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 3 && cdAir <= 0.5f)
         {
+            cdAir = 2f;
             StartCoroutine(AirSpellCo());
         }
         else if (Input.GetButtonDown("fireSpell") && currentState != PlayerState.attack
-           && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 4)
+           && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 4 && cdFire <= 0.5f)
         {
+            cdFire = 2f;
             StartCoroutine(FireSpellCo());
         }
         else if(currentState == PlayerState.walk || currentState == PlayerState.idle) 
@@ -94,10 +186,10 @@ public class PlayerMovement : MonoBehaviour{
         }
         
         if(Input.GetButtonDown("meditate") && currentState != PlayerState.attack
-            && currentState != PlayerState.stagger && playerInventory.currentMana < 10 && nextMeditate < Time.time)
+            && currentState != PlayerState.stagger && playerInventory.currentMana < 10 && cdMeditate <= 0.5f)
         {
+            cdMeditate = 30f;
             StartCoroutine(MeditateCo());
-            nextMeditate = Time.time + meditateCooldown;
         }
 
         
@@ -314,6 +406,7 @@ public class PlayerMovement : MonoBehaviour{
         else
         {
             this.gameObject.SetActive(false);
+            SceneManager.LoadScene("StartMenu", LoadSceneMode.Single);
         }
         
     }

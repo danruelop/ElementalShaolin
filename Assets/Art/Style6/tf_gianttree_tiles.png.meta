@@ -4394,6 +4394,12 @@ TextureImporter:
   - first:
       213: 8066124992203820519
     second: tf_gianttree_tiles_739
+  - first:
+      213: -5623604643350653889
+    second: tf_gianttree_tiles_740
+  - first:
+      213: -5492877745229114901
+    second: tf_gianttree_tiles_741
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -20030,7 +20036,7 @@ TextureImporter:
         width: 10
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20038,6 +20044,48 @@ TextureImporter:
       bones: []
       spriteID: 7ed853ab1f1a0ff60800000000000000
       internalID: 8066124992203820519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_gianttree_tiles_740
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 227
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34d8db3f51f4f1b0800000000000000
+      internalID: -5623604643350653889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_gianttree_tiles_741
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 257
+        width: 41
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be158f01bc065c3b0800000000000000
+      internalID: -5492877745229114901
       vertices: []
       indices: 
       edges: []
