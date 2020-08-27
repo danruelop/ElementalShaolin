@@ -338,8 +338,8 @@ MonoBehaviour:
   isAwake: 0
   dialogBox: {fileID: 1924247919}
   dialogText: {fileID: 1924247918}
-  dialog: Has encontrado las ruinas del infierno, vas a necesitar mi ayuda, abre
-    el cofre y aprende el elemento tierra.
+  dialog: "Hola aprendiz de shaol\xEDn, tu primer paso es controlar el elemento tierra.
+    En ese cofre encontrar\xE1s sabidur\xEDa."
   anim: {fileID: 236469498}
 --- !u!61 &236469501
 BoxCollider2D:
@@ -803,28 +803,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
-      propertyPath: startingPosition
-      value: 
-      objectReference: {fileID: 11400000, guid: e49153bd957b1af47a32e4c54b19b309,
-        type: 2}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: playerInventory
-      value: 
-      objectReference: {fileID: 11400000, guid: 3373ddc653a5dc74a80a73e14718bef8,
-        type: 2}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: receivedItemSprite
-      value: 
-      objectReference: {fileID: 414506028}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: speed
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
       propertyPath: manaSlider
       value: 
       objectReference: {fileID: 1924247920}
@@ -833,18 +811,6 @@ PrefabInstance:
       propertyPath: projectile
       value: 
       objectReference: {fileID: 8108051626644750973, guid: 6f1e63f0cdcd222428cfa21426cc1384,
-        type: 3}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: earthProjectile
-      value: 
-      objectReference: {fileID: 8108051626644750973, guid: 6f1e63f0cdcd222428cfa21426cc1384,
-        type: 3}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: waterProjectile
-      value: 
-      objectReference: {fileID: 1516832523044581211, guid: 482b85761acb389499d73f6350a24401,
         type: 3}
     - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
@@ -998,12 +964,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3df81a2b37aad7241b80b754b2156638, type: 3}
---- !u!212 &414506028 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 3974529464604152214, guid: 3df81a2b37aad7241b80b754b2156638,
-    type: 3}
-  m_PrefabInstance: {fileID: 414506027}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &414506029 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,

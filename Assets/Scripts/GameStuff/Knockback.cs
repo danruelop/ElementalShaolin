@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics.Eventing.Reader;
 using UnityEngine;
 
 public class Knockback : MonoBehaviour
@@ -36,10 +33,21 @@ public class Knockback : MonoBehaviour
                     hit.GetComponent<Enemy>().currentState = EnemyState.stagger;
                     other.GetComponent<Enemy>().Knock(hit, knockTime, dmg);
                 }
-                if (other.gameObject.CompareTag("Player"))
+                if (other.gameObject.CompareTag("Player") )
                 {
                     if (other.GetComponent<PlayerMovement>().currentState != PlayerState.stagger)
                     {
+                        /*
+                        if (other.gameObject.GetComponent<PlayerMovement>().manaShieldActivated)
+                        {
+                            damage = 0;
+                        }
+                        else
+                        {
+                            hit.GetComponent<PlayerMovement>().currentState = PlayerState.stagger;
+                        }
+                        */
+
                         hit.GetComponent<PlayerMovement>().currentState = PlayerState.stagger;
                         other.GetComponent<PlayerMovement>().Knock(knockTime, damage);
                     }

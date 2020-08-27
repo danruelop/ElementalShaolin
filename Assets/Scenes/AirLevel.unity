@@ -7824,6 +7824,24 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 874733152}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &874733161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6771476252754949907, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 874733152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &874733162 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6771476252754949905, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 874733152}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874733161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &894538907
 GameObject:
   m_ObjectHideFlags: 0
@@ -26805,6 +26823,7 @@ GameObject:
   - component: {fileID: 1820352901}
   - component: {fileID: 1820352903}
   - component: {fileID: 1820352904}
+  - component: {fileID: 1820352905}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -26894,6 +26913,21 @@ MonoBehaviour:
   m_ChannelMask: 1
   m_Gain: 1
   m_Use2DDistance: 1
+--- !u!114 &1820352905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820352900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417bf67b4f745044fa4362a805f45a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeName: "El Gran \xC1rbol"
+  text: {fileID: 874733161}
+  placeText: {fileID: 874733162}
 --- !u!1 &1848531756
 GameObject:
   m_ObjectHideFlags: 0

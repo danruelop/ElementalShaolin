@@ -3603,6 +3603,24 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 737847324}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &737847336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6771476252754949907, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 737847324}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &737847337 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6771476252754949905, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 737847324}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737847336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &951392749
 GameObject:
   m_ObjectHideFlags: 3
@@ -32153,6 +32171,7 @@ GameObject:
   - component: {fileID: 9054182381205262962}
   - component: {fileID: 9054182381205262961}
   - component: {fileID: 9054182381205262960}
+  - component: {fileID: 9054182381205262963}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -32227,6 +32246,21 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 951392750}
+--- !u!114 &9054182381205262963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9054182381205262959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417bf67b4f745044fa4362a805f45a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeName: Ruinas de Fuego
+  text: {fileID: 737847336}
+  placeText: {fileID: 737847337}
 --- !u!60 &9054182381382317504
 PolygonCollider2D:
   m_ObjectHideFlags: 0

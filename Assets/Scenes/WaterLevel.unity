@@ -460,6 +460,24 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 67488598}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &67488606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6771476252754949907, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 67488598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &67488607 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6771476252754949905, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 67488598}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67488606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &111861920
 GameObject:
   m_ObjectHideFlags: 0
@@ -22390,6 +22408,7 @@ GameObject:
   - component: {fileID: 1495685410}
   - component: {fileID: 1495685412}
   - component: {fileID: 1495685413}
+  - component: {fileID: 1495685414}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -22479,6 +22498,21 @@ MonoBehaviour:
   m_ChannelMask: 1
   m_Gain: 1
   m_Use2DDistance: 1
+--- !u!114 &1495685414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495685409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417bf67b4f745044fa4362a805f45a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeName: Isla del Destino
+  text: {fileID: 67488606}
+  placeText: {fileID: 67488607}
 --- !u!1 &1546277885
 GameObject:
   m_ObjectHideFlags: 0

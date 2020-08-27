@@ -21,6 +21,7 @@ public enum PlayerState
 
 public class PlayerMovement : MonoBehaviour{
 
+    
     public PlayerState currentState;
     public float speed;
     private Rigidbody2D myRigidbody;
@@ -39,6 +40,8 @@ public class PlayerMovement : MonoBehaviour{
     public GameObject fireProjectile;
     public Slider manaSlider;
 
+    public bool manaShieldActivated;
+
     public GameObject cdMeditateObject;
     private float cdMeditate;
 
@@ -53,7 +56,11 @@ public class PlayerMovement : MonoBehaviour{
 
     public GameObject cdFireObject;
     private float cdFire;
+    /*
+    private float cdManaShield;
 
+    private float manaShieldDuration;
+    */
     // Start is called before the first frame update
     void Start(){
         currentState = PlayerState.walk;
@@ -68,6 +75,27 @@ public class PlayerMovement : MonoBehaviour{
     // Update is called once per frame
     void Update(){
 
+        /*
+        if (cdManaShield > 0)
+        {
+            cdManaShield -= 1 * Time.deltaTime;
+        }
+        if (manaShieldDuration > 0)
+        {
+            manaShieldDuration -= 1 * Time.deltaTime;
+        }
+        if (manaShieldActivated && manaShieldDuration <= 0)
+        {
+            manaShieldActivated = false;
+            //aqui viene la animación del escudo de maná
+            animator.SetBool("meditate", false);
+        }
+
+        */
+        if (Input.GetButtonDown("Cancel"))
+        {
+            SceneManager.LoadScene("StartMenu", LoadSceneMode.Single);
+        }
         // SHOW CD MEDITATE
         if (cdMeditate > 0)
         {
@@ -379,10 +407,30 @@ public class PlayerMovement : MonoBehaviour{
             MoveCharacter();
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);
+
+           /* if (Input.GetButton("manaShield") && cdManaShield <= 0)
+            {
+                manaShieldActivated = true;
+                //aqui viene la animación del escudo de maná
+                animator.SetBool("meditate", true);
+                cdManaShield = 15f;
+                manaShieldDuration = 5f;
+            } else
+            {
+                animator.SetBool("moving", true);
+            }
+           */
             animator.SetBool("moving", true);
+
         }
         else
         {
+
+            /*if (!manaShieldActivated)
+            {
+                animator.SetBool("moving", false);
+            }
+            */
             animator.SetBool("moving", false);
         }
     }
@@ -391,12 +439,13 @@ public class PlayerMovement : MonoBehaviour{
     {
         change.Normalize();
         myRigidbody.MovePosition(
-            transform.position + change * speed * Time.deltaTime);
+            transform.position + change * speed * Time.fixedDeltaTime);
 
     }
 
     public void Knock(float knockTime, float damage)
     {
+        
         currentHealth.RuntimeValue -= damage;
         playerHealthSignal.Raise();
         if (currentHealth.RuntimeValue > 0)

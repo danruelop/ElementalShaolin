@@ -19905,6 +19905,24 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &710475360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6771476252754949907, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2087904152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &710475363 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6771476252754949905, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2087904152}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710475360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &823710755
 GameObject:
   m_ObjectHideFlags: 0
@@ -23612,6 +23630,7 @@ GameObject:
   - component: {fileID: 4092930055093206343}
   - component: {fileID: 4092930055093206341}
   - component: {fileID: 4092930055093206361}
+  - component: {fileID: 4092930055093206344}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -23654,6 +23673,21 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 4092930055303666508}
+--- !u!114 &4092930055093206344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4092930055093206342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417bf67b4f745044fa4362a805f45a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeName: El Dorado Maldito
+  text: {fileID: 710475360}
+  placeText: {fileID: 710475363}
 --- !u!114 &4092930055093206361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23803,7 +23837,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 0
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!61 &9004865173299872777
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23889,7 +23923,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9004865173299872786}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 3fc98bd66871ec84ab0d8f534cbc3678, type: 2}
   m_CullingMode: 0
@@ -23950,6 +23984,16 @@ MonoBehaviour:
   chaseRadius: 8
   attackRadius: 0
   anim: {fileID: 0}
+  forms:
+  - {fileID: -3281476415795553027, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: -1108479039493108146, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: 7921023490299990907, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: 3598598563032259949, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  types:
+  - enemyEarth
+  - enemyWater
+  - enemyAir
+  - enemyFire
   projectile: {fileID: 8337221818509713076, guid: 2c6cf1dd7945e974cada8003034d300b,
     type: 3}
   fireDelay: 0.7

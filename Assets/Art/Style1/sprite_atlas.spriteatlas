@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 57947cba05e9a6644bba82aebe43710d, type: 3}
-    totalSpriteSurfaceArea: 8714154
+    totalSpriteSurfaceArea: 8757162
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -9072,6 +9072,18 @@ SpriteAtlas:
   - {fileID: -8956545890738224668, guid: 7af13ece2e93fdb42a9d5347c61cfc5d, type: 3}
   - {fileID: 21300000, guid: 64ab730fa88daca4c871f0e56e07d155, type: 3}
   - {fileID: 21300000, guid: e064597f7836a20479d227e1026439d4, type: 3}
+  - {fileID: 3598598563032259949, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: 113979917224716244, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: -1108479039493108146, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: -7004485947499856705, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: -4645107981307321021, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: -3281476415795553027, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: -8754156002364802574, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: 7921023490299990907, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: -6698122142054029272, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: 4502313553244030797, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: 4088564750801543836, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
+  - {fileID: 1724724363988556510, guid: 01c361cf7455b544f82377771d71fc8f, type: 3}
   - {fileID: 21300000, guid: 45c049efb63fc494ebae7dc56f8df932, type: 3}
   m_PackedSpriteNamesToIndex:
   - harpy_a_1_8
@@ -18099,6 +18111,18 @@ SpriteAtlas:
   - beach_tileset_160
   - tf_B_ruins1
   - '!$doorB_2'
+  - boss_statue_east_2_9
+  - boss_statue_east_2_8
+  - boss_statue_east_2_3
+  - boss_statue_east_2_2
+  - boss_statue_east_2_1
+  - boss_statue_east_2_0
+  - boss_statue_east_2_7
+  - boss_statue_east_2_6
+  - boss_statue_east_2_5
+  - boss_statue_east_2_4
+  - boss_statue_east_2_10
+  - boss_statue_east_2_11
   - tf_B_atlantisB
   m_Tag: sprite_atlas
   m_IsVariant: 0

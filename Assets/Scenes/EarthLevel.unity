@@ -21621,6 +21621,7 @@ GameObject:
   - component: {fileID: 1037414088}
   - component: {fileID: 1037414090}
   - component: {fileID: 1037414091}
+  - component: {fileID: 1037414092}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -21710,6 +21711,21 @@ MonoBehaviour:
   m_ChannelMask: 1
   m_Gain: 1
   m_Use2DDistance: 1
+--- !u!114 &1037414092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037414087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417bf67b4f745044fa4362a805f45a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeName: Cueva de Pepe
+  text: {fileID: 1423630144}
+  placeText: {fileID: 1423630146}
 --- !u!1001 &1093357167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23381,8 +23397,8 @@ MonoBehaviour:
   playerInRange: 0
   dialogBox: {fileID: 1614921503}
   dialogText: {fileID: 1177240492}
-  dialog: Estas en las cuevas del elemento tierra, te recomiendo aprender tu habilidad
-    antes de pasar por este pasaje.
+  dialog: "No podr\xE1s pasar de las primeras salas hasta no conocer los misterios
+    de cada elemento."
 --- !u!1 &2099304516
 GameObject:
   m_ObjectHideFlags: 0
@@ -52138,23 +52154,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
-      propertyPath: playerInventory
-      value: 
-      objectReference: {fileID: 11400000, guid: 3373ddc653a5dc74a80a73e14718bef8,
-        type: 2}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: receivedItemSprite
-      value: 
-      objectReference: {fileID: 2427034561539321421}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: playerHit
-      value: 
-      objectReference: {fileID: 11400000, guid: bd94200d37f4f8d47a56cb60d479dddf,
-        type: 2}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 8108051626644750973, guid: 6f1e63f0cdcd222428cfa21426cc1384,
@@ -52166,38 +52165,9 @@ PrefabInstance:
       objectReference: {fileID: 880634262}
     - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
-      propertyPath: reduceMana
-      value: 
-      objectReference: {fileID: 11400000, guid: 418c57c4ced9e4c408f68e74716551f7,
-        type: 2}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: earthProjectile
-      value: 
-      objectReference: {fileID: 8108051626644750973, guid: 6f1e63f0cdcd222428cfa21426cc1384,
-        type: 3}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: waterProjectile
-      value: 
-      objectReference: {fileID: 1516832523044581211, guid: 482b85761acb389499d73f6350a24401,
-        type: 3}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: airProjectile
-      value: 
-      objectReference: {fileID: 2852476358304581791, guid: 9571067978c60524491e474e890e05b6,
-        type: 3}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
       propertyPath: cdEarthObject
       value: 
       objectReference: {fileID: 6771476252020271190}
-    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
-        type: 3}
-      propertyPath: speed
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
       propertyPath: cdWaterObject
@@ -52341,12 +52311,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2638575602829191368, guid: 3df81a2b37aad7241b80b754b2156638, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3df81a2b37aad7241b80b754b2156638, type: 3}
---- !u!212 &2427034561539321421 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 3974529464604152214, guid: 3df81a2b37aad7241b80b754b2156638,
-    type: 3}
-  m_PrefabInstance: {fileID: 2427034561539321420}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3023072257015236088
 PrefabInstance:
   m_ObjectHideFlags: 0
