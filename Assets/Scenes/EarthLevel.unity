@@ -52188,6 +52188,11 @@ PrefabInstance:
       propertyPath: cdMeditateObject
       value: 
       objectReference: {fileID: 6771476252020271194}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: pauseMenuGO
+      value: 
+      objectReference: {fileID: 6771476252020271195}
     - target: {fileID: 2427034561251953513, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
       propertyPath: m_Name
@@ -52617,6 +52622,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5481035474711106437, guid: f4118282667c75d498958c807a78b3f5,
+        type: 3}
+      propertyPath: panelGO
+      value: 
+      objectReference: {fileID: 6771476252020271195}
     - target: {fileID: 5799566809625295138, guid: f4118282667c75d498958c807a78b3f5,
         type: 3}
       propertyPath: m_IsActive
@@ -52830,6 +52840,12 @@ GameObject:
 --- !u!1 &6771476252020271194 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3340054340498882250, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6771476252020271187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6771476252020271195 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8108136364795869305, guid: f4118282667c75d498958c807a78b3f5,
     type: 3}
   m_PrefabInstance: {fileID: 6771476252020271187}
   m_PrefabAsset: {fileID: 0}

@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 57947cba05e9a6644bba82aebe43710d, type: 3}
-    totalSpriteSurfaceArea: 8757162
+    totalSpriteSurfaceArea: 9543594
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -3814,6 +3814,7 @@ SpriteAtlas:
   - {fileID: -7510279902846287879, guid: 34164f47fcce93f469809fbd8d4a1184, type: 3}
   - {fileID: -1434498269932458011, guid: 34164f47fcce93f469809fbd8d4a1184, type: 3}
   - {fileID: 21300000, guid: c1436c57458c33e47812d938e3cd1fb8, type: 3}
+  - {fileID: 21300000, guid: 51fa3c77da0fc6d429a579e81be2ab7b, type: 3}
   - {fileID: -6102408959538789698, guid: 8ae91787f13c12e4bb9588219b45d8b6, type: 3}
   - {fileID: 6503116855113085673, guid: 8ae91787f13c12e4bb9588219b45d8b6, type: 3}
   - {fileID: -923649772045328748, guid: 8ae91787f13c12e4bb9588219b45d8b6, type: 3}
@@ -12853,6 +12854,7 @@ SpriteAtlas:
   - tf_B_ruins3_169
   - tf_B_ruins3_168
   - tf_B_atlantisA
+  - PUGPruebaTFG
   - tf_A2_ruins_31
   - tf_A2_ruins_30
   - tf_A2_ruins_33

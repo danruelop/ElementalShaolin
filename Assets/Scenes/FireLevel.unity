@@ -3385,6 +3385,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5481035474711106437, guid: f4118282667c75d498958c807a78b3f5,
+        type: 3}
+      propertyPath: panelGO
+      value: 
+      objectReference: {fileID: 737847338}
     - target: {fileID: 6175152862894416153, guid: f4118282667c75d498958c807a78b3f5,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -3621,6 +3626,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &737847338 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8108136364795869305, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 737847324}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &951392749
 GameObject:
   m_ObjectHideFlags: 3

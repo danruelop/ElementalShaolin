@@ -16,7 +16,8 @@ public enum PlayerState
     interact,
     stagger,
     idle,
-    meditate
+    meditate,
+    manaShield
 }
 
 public class PlayerMovement : MonoBehaviour{
@@ -56,11 +57,11 @@ public class PlayerMovement : MonoBehaviour{
 
     public GameObject cdFireObject;
     private float cdFire;
-    /*
+    
     private float cdManaShield;
 
     private float manaShieldDuration;
-    */
+    
     // Start is called before the first frame update
     void Start(){
         currentState = PlayerState.walk;
@@ -75,28 +76,17 @@ public class PlayerMovement : MonoBehaviour{
     // Update is called once per frame
     void Update(){
 
-        /*
+      
         if (cdManaShield > 0)
         {
             cdManaShield -= 1 * Time.deltaTime;
         }
-        if (manaShieldDuration > 0)
-        {
-            manaShieldDuration -= 1 * Time.deltaTime;
-        }
-        if (manaShieldActivated && manaShieldDuration <= 0)
-        {
-            manaShieldActivated = false;
-            //aqui viene la animación del escudo de maná
-            animator.SetBool("meditate", false);
-        }
+       
 
-        */
-        if (Input.GetButtonDown("Cancel"))
-        {
-            SceneManager.LoadScene("StartMenu", LoadSceneMode.Single);
-        }
+        
+
         // SHOW CD MEDITATE
+       
         if (cdMeditate > 0)
         {
             cdMeditate -= 1 * Time.deltaTime;
@@ -218,9 +208,17 @@ public class PlayerMovement : MonoBehaviour{
         {
             cdMeditate = 30f;
             StartCoroutine(MeditateCo());
+
+        } else if (Input.GetButtonDown("manaShield") && currentState != PlayerState.attack
+            && currentState != PlayerState.stagger  && cdManaShield <= 0.5f)
+        {
+            cdManaShield = 30f;
+            StartCoroutine(ManaShieldCo());
         }
 
         
+
+
 
     }
 
@@ -317,7 +315,22 @@ public class PlayerMovement : MonoBehaviour{
 
     }
 
+    private IEnumerator ManaShieldCo()
+    {
+        animator.SetBool("meditating", true);
+        currentState = PlayerState.manaShield;
+        manaShieldActivated = true;
+        
+        yield return new WaitForSeconds(5f);
+        animator.SetBool("meditating", false);
+        manaShieldActivated = false;
+        yield return new WaitForSeconds(0.3f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
 
+    }
 
     private void MakeEarthSpell()
     {
@@ -373,6 +386,8 @@ public class PlayerMovement : MonoBehaviour{
             playerInventory.currentMana = playerInventory.maxMana;
         }
     }
+
+  
 
     Vector3 ChooseArrowDirection()
     {
