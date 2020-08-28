@@ -51869,7 +51869,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0033898354, y: -0.5302646}
+  m_Offset: {x: -0.009665489, y: -0.51721}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -51880,7 +51880,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.63904285, y: 0.4331317}
+  m_Size: {x: 0.96105766, y: 0.5636797}
   m_EdgeRadius: 0
 --- !u!4 &567265159313537458
 Transform:
@@ -51975,7 +51975,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.018539906, y: -0.35421896}
+  m_Offset: {x: -0.022891045, y: -0.3107028}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -51986,7 +51986,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8151903, y: 0.83335304}
+  m_Size: {x: 1.0327702, y: 1.0596361}
   m_EdgeRadius: 0
 --- !u!114 &567265159313537463
 MonoBehaviour:
@@ -52193,6 +52193,16 @@ PrefabInstance:
       propertyPath: pauseMenuGO
       value: 
       objectReference: {fileID: 6771476252020271195}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: manaShieldActivated
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: cdManaShieldObject
+      value: 
+      objectReference: {fileID: 6771476252020271196}
     - target: {fileID: 2427034561251953513, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
       propertyPath: m_Name
@@ -52487,6 +52497,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 762113182}
     m_Modifications:
+    - target: {fileID: 6376215665720322626, guid: 1219b022bfc15334b9723f0215eaa63a,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.00022625923
+      objectReference: {fileID: 0}
+    - target: {fileID: 6376215665720322626, guid: 1219b022bfc15334b9723f0215eaa63a,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.9765296
+      objectReference: {fileID: 0}
+    - target: {fileID: 6376215665720322626, guid: 1219b022bfc15334b9723f0215eaa63a,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.40269184
+      objectReference: {fileID: 0}
+    - target: {fileID: 6376215665720322626, guid: 1219b022bfc15334b9723f0215eaa63a,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.9302988
+      objectReference: {fileID: 0}
     - target: {fileID: 6376215665720322627, guid: 1219b022bfc15334b9723f0215eaa63a,
         type: 3}
       propertyPath: homePosition.x
@@ -52512,6 +52542,26 @@ PrefabInstance:
         type: 3}
       propertyPath: attackRadius
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6376215665720322629, guid: 1219b022bfc15334b9723f0215eaa63a,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.5543382
+      objectReference: {fileID: 0}
+    - target: {fileID: 6376215665720322629, guid: 1219b022bfc15334b9723f0215eaa63a,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.5225482
+      objectReference: {fileID: 0}
+    - target: {fileID: 6376215665720322629, guid: 1219b022bfc15334b9723f0215eaa63a,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.010366678
+      objectReference: {fileID: 0}
+    - target: {fileID: 6376215665720322629, guid: 1219b022bfc15334b9723f0215eaa63a,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.900414
       objectReference: {fileID: 0}
     - target: {fileID: 6376215665720322630, guid: 1219b022bfc15334b9723f0215eaa63a,
         type: 3}
@@ -52621,6 +52671,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982447535649031902, guid: f4118282667c75d498958c807a78b3f5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -5.999939
       objectReference: {fileID: 0}
     - target: {fileID: 5481035474711106437, guid: f4118282667c75d498958c807a78b3f5,
         type: 3}
@@ -52846,6 +52901,12 @@ GameObject:
 --- !u!1 &6771476252020271195 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8108136364795869305, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6771476252020271187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6771476252020271196 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2595477621754090276, guid: f4118282667c75d498958c807a78b3f5,
     type: 3}
   m_PrefabInstance: {fileID: 6771476252020271187}
   m_PrefabAsset: {fileID: 0}

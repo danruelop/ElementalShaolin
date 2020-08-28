@@ -57,10 +57,11 @@ public class PlayerMovement : MonoBehaviour{
 
     public GameObject cdFireObject;
     private float cdFire;
-    
+
+    public GameObject cdManaShieldObject;
     private float cdManaShield;
 
-    private float manaShieldDuration;
+    
     
     // Start is called before the first frame update
     void Start(){
@@ -77,10 +78,7 @@ public class PlayerMovement : MonoBehaviour{
     void Update(){
 
       
-        if (cdManaShield > 0)
-        {
-            cdManaShield -= 1 * Time.deltaTime;
-        }
+        
        
 
         
@@ -98,6 +96,20 @@ public class PlayerMovement : MonoBehaviour{
         {
             cdMeditateObject.GetComponent<Image>().enabled = false;
             cdMeditateObject.GetComponentInChildren<Text>().enabled = false;
+        }
+
+        // SHOW CD MANA SHIELD
+        if (cdManaShield > 0)
+        {
+            cdManaShield -= 1 * Time.deltaTime;
+            cdManaShieldObject.GetComponentInChildren<Text>().text = ((int)cdManaShield).ToString();
+            cdManaShieldObject.GetComponent<Image>().enabled = true;
+            cdManaShieldObject.GetComponentInChildren<Text>().enabled = true;
+        }
+        else
+        {
+            cdManaShieldObject.GetComponent<Image>().enabled = false;
+            cdManaShieldObject.GetComponentInChildren<Text>().enabled = false;
         }
         // SHOW CD EARTH
         if (cdEarth > 0)
@@ -168,49 +180,54 @@ public class PlayerMovement : MonoBehaviour{
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetButtonDown("attack") && currentState != PlayerState.attack
+        if(currentState != PlayerState.meditate && currentState != PlayerState.manaShield)
+        {
+            if (Input.GetButtonDown("attack") && currentState != PlayerState.attack
             && currentState != PlayerState.stagger)
-        {
-            StartCoroutine(AttackCo());
+            {
+                StartCoroutine(AttackCo());
 
-        } else if(Input.GetButtonDown("earthSpell") && currentState != PlayerState.attack
-            && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 1 && cdEarth <= 0.5f)
-        {
-            cdEarth = 2f;
-            StartCoroutine(EarthSpellCo());
-        } 
-        else if(Input.GetButtonDown("waterSpell") && currentState != PlayerState.attack
-            && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 2 && cdWater <= 0.5f)
-        {
-            cdWater = 2f;
-            StartCoroutine(WaterSpellCo());
-        }
-        else if (Input.GetButtonDown("airSpell") && currentState != PlayerState.attack
-           && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 3 && cdAir <= 0.5f)
-        {
-            cdAir = 2f;
-            StartCoroutine(AirSpellCo());
-        }
-        else if (Input.GetButtonDown("fireSpell") && currentState != PlayerState.attack
-           && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 4 && cdFire <= 0.5f)
-        {
-            cdFire = 2f;
-            StartCoroutine(FireSpellCo());
-        }
-        else if(currentState == PlayerState.walk || currentState == PlayerState.idle) 
-        {
-            UpdateAnimationAndMove();
+            }
+            else if (Input.GetButtonDown("earthSpell") && currentState != PlayerState.attack
+              && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 1 && cdEarth <= 0.5f)
+            {
+                cdEarth = 2f;
+                StartCoroutine(EarthSpellCo());
+            }
+            else if (Input.GetButtonDown("waterSpell") && currentState != PlayerState.attack
+                && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 2 && cdWater <= 0.5f)
+            {
+                cdWater = 2f;
+                StartCoroutine(WaterSpellCo());
+            }
+            else if (Input.GetButtonDown("airSpell") && currentState != PlayerState.attack
+               && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 3 && cdAir <= 0.5f)
+            {
+                cdAir = 2f;
+                StartCoroutine(AirSpellCo());
+            }
+            else if (Input.GetButtonDown("fireSpell") && currentState != PlayerState.attack
+               && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 4 && cdFire <= 0.5f)
+            {
+                cdFire = 2f;
+                StartCoroutine(FireSpellCo());
+            }
+            else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
+            {
+                UpdateAnimationAndMove();
 
+            }
         }
         
+        
         if(Input.GetButtonDown("meditate") && currentState != PlayerState.attack
-            && currentState != PlayerState.stagger && playerInventory.currentMana < 10 && cdMeditate <= 0.5f)
+            && currentState != PlayerState.stagger && playerInventory.currentMana < 10 && cdMeditate <= 0.5f && currentState != PlayerState.manaShield)
         {
             cdMeditate = 30f;
             StartCoroutine(MeditateCo());
 
         } else if (Input.GetButtonDown("manaShield") && currentState != PlayerState.attack
-            && currentState != PlayerState.stagger  && cdManaShield <= 0.5f)
+            && currentState != PlayerState.stagger  && cdManaShield <= 0.5f && currentState != PlayerState.meditate)
         {
             cdManaShield = 30f;
             StartCoroutine(ManaShieldCo());

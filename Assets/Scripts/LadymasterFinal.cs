@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class LadymasterFinal : Interactable
 {
+    public GameObject finalMenu;
+
     [Header("Contents")]
     public Item contents;
     public Inventory playerInventory;
@@ -37,7 +39,7 @@ public class LadymasterFinal : Interactable
         {
             if (!isAwake)
             {
-                WakeupLadymaster();
+                StartCoroutine(WakeupLadymasterCo());
             }
             else
             {
@@ -47,7 +49,7 @@ public class LadymasterFinal : Interactable
 
     }
 
-    public void WakeupLadymaster()
+    public IEnumerator WakeupLadymasterCo()
     {
         dialogBox.SetActive(true);
         dialogText.text = contents.itemDescription;
@@ -58,6 +60,9 @@ public class LadymasterFinal : Interactable
         isAwake = true;
         anim.SetBool("wakeUp", true);
         storedOpen.RuntimeValue = isAwake;
+
+        yield return new WaitForSeconds(5f);
+        finalMenu.SetActive(true);
     }
 
     public void LadymasterAlreadyAwake()

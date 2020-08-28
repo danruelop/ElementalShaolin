@@ -15,7 +15,7 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   items: []
   numberOfKeys: 0
-  numberOfElements: 4
-  award: 1
+  numberOfElements: 0
+  award: 3
   maxMana: 10
   currentMana: 10

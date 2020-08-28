@@ -489,6 +489,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 67488598}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &67488609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2595477621754090276, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 67488598}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &111861920
 GameObject:
   m_ObjectHideFlags: 0
@@ -22195,6 +22201,11 @@ PrefabInstance:
       propertyPath: cdMeditateObject
       value: 
       objectReference: {fileID: 67488605}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: cdManaShieldObject
+      value: 
+      objectReference: {fileID: 67488609}
     - target: {fileID: 2427034561251953513, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
       propertyPath: m_Name
