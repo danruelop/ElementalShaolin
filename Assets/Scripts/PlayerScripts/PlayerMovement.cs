@@ -354,7 +354,7 @@ public class PlayerMovement : MonoBehaviour{
         if(playerInventory.currentMana > 0)
         {
             Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            EarthSpell earthSpell = Instantiate(earthProjectile, transform.position, Quaternion.identity).GetComponent<EarthSpell>();
+            Spell earthSpell = Instantiate(earthProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
             earthSpell.Setup(temp, ChooseArrowDirection());
             reduceMana.Raise();
         }
@@ -365,7 +365,7 @@ public class PlayerMovement : MonoBehaviour{
         if (playerInventory.currentMana > 0)
         {
             Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            WaterSpell waterSpell = Instantiate(waterProjectile, transform.position, Quaternion.identity).GetComponent<WaterSpell>();
+            Spell waterSpell = Instantiate(waterProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
             waterSpell.Setup(temp, ChooseArrowDirection());
             reduceMana.Raise();
         }
@@ -376,7 +376,7 @@ public class PlayerMovement : MonoBehaviour{
         if (playerInventory.currentMana > 0)
         {
             Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            AirSpell airSpell = Instantiate(airProjectile, transform.position, Quaternion.identity).GetComponent<AirSpell>();
+            Spell airSpell = Instantiate(airProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
             airSpell.Setup(temp, ChooseArrowDirection());
             reduceMana.Raise();
         }
@@ -387,7 +387,7 @@ public class PlayerMovement : MonoBehaviour{
         if (playerInventory.currentMana > 0)
         {
             Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            FireSpell fireSpell = Instantiate(fireProjectile, transform.position, Quaternion.identity).GetComponent<FireSpell>();
+            Spell fireSpell = Instantiate(fireProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
             fireSpell.Setup(temp, ChooseArrowDirection());
             reduceMana.Raise();
         }

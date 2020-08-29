@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyWater : Enemy
+public class EnemyAdv : Enemy
 {
     public Rigidbody2D myRigidbody;
 
@@ -36,19 +36,19 @@ public class EnemyWater : Enemy
             <= chaseRadius && Vector3.Distance(target.position,
             transform.position) > attackRadius)
         {
-            if (currentState == EnemyState.idle || currentState == EnemyState.walk
+            if(currentState == EnemyState.idle ||currentState == EnemyState.walk
                 && currentState != EnemyState.stagger)
             {
                 Vector3 temp = Vector3.MoveTowards(
                     transform.position, target.position, moveSpeed * Time.deltaTime);
-
+                
                 changeAnim(temp - transform.position);
                 myRigidbody.MovePosition(temp);
                 ChangeState(EnemyState.walk);
                 anim.SetBool("wakeUp", true);
             }
         }
-        else if (Vector3.Distance(target.position,
+        else if(Vector3.Distance(target.position, 
             transform.position) > chaseRadius)
         {
             anim.SetBool("wakeUp", false);
@@ -63,18 +63,16 @@ public class EnemyWater : Enemy
 
     public void changeAnim(Vector2 direction)
     {
-        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        if(Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
         {
-            if (direction.x > 0)
+            if(direction.x > 0)
             {
                 SetAnimFloat(Vector2.right);
-            }
-            else if (direction.x < 0)
+            }else if(direction.x < 0)
             {
                 SetAnimFloat(Vector2.left);
             }
-        }
-        else if (Mathf.Abs(direction.x) < Mathf.Abs(direction.y))
+        }else if(Mathf.Abs(direction.x) < Mathf.Abs(direction.y))
         {
             if (direction.y > 0)
             {
@@ -89,9 +87,10 @@ public class EnemyWater : Enemy
 
     public void ChangeState(EnemyState newState)
     {
-        if (currentState != newState)
+        if(currentState != newState)
         {
             currentState = newState;
         }
     }
 }
+

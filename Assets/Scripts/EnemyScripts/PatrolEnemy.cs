@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PatrolEnemyEarth : EnemyEarth
+public class PatrolEnemy : EnemyAdv
 {
 
     public Transform[] path;

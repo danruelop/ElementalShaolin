@@ -28381,13 +28381,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1315035213}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9098c027934be474c84a428ee1e1088d, type: 3}
+  m_Script: {fileID: 11500000, guid: d7082e9170e88594c94d90cc64112ae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
   maxHealth: {fileID: 11400000, guid: 6568c96024af2f34986ae724adb488e6, type: 2}
   health: 0
-  enemyName: Cabezotas
+  enemyName: Cerberus2
   baseAttack: 1
   moveSpeed: 2
   homePosition: {x: 17, y: -37.5}
@@ -31561,9 +31561,9 @@ GameObject:
   - component: {fileID: 2795429054778565386}
   - component: {fileID: 2795429054778565385}
   - component: {fileID: 2795429054778565384}
-  - component: {fileID: 2795429054778565399}
   - component: {fileID: 2795429054778565398}
   - component: {fileID: 2795429054778565397}
+  - component: {fileID: 2795429054778565399}
   m_Layer: 8
   m_Name: FinalBossFire
   m_TagString: enemyFire
@@ -31635,13 +31635,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2795429054778565395}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d5eabf0ed0cc7d4697bd05a086f22e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 76573b276170cac478445d67c6edb1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
   maxHealth: {fileID: 11400000, guid: 6568c96024af2f34986ae724adb488e6, type: 2}
   health: 0
-  enemyName: Dragonitas
+  enemyName: RedDragon
   baseAttack: 1
   moveSpeed: 2
   homePosition: {x: 40, y: -30}
@@ -32036,13 +32036,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8733129424253783560}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9098c027934be474c84a428ee1e1088d, type: 3}
+  m_Script: {fileID: 11500000, guid: d7082e9170e88594c94d90cc64112ae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
   maxHealth: {fileID: 11400000, guid: 6568c96024af2f34986ae724adb488e6, type: 2}
   health: 0
-  enemyName: Cabecitas
+  enemyName: Cerberus1
   baseAttack: 1
   moveSpeed: 2
   homePosition: {x: 5.5, y: -12.5}
@@ -32355,7 +32355,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9054182381382317506}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c44d54f6638a14948a27cee33155a4b6, type: 3}
+  m_Script: {fileID: 11500000, guid: f49baddfc357c4a42bfdabb5728664cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemies: []
@@ -32388,7 +32388,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9054182381596337960}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c44d54f6638a14948a27cee33155a4b6, type: 3}
+  m_Script: {fileID: 11500000, guid: f49baddfc357c4a42bfdabb5728664cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemies: []
@@ -32467,7 +32467,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9054182382318078232}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c44d54f6638a14948a27cee33155a4b6, type: 3}
+  m_Script: {fileID: 11500000, guid: f49baddfc357c4a42bfdabb5728664cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemies: []

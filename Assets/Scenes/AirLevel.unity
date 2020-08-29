@@ -7629,7 +7629,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 712784627}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6655bbb7d8a02a46b4335b2cf08b970, type: 3}
+  m_Script: {fileID: 11500000, guid: f49baddfc357c4a42bfdabb5728664cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemies: []
@@ -26133,7 +26133,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1433474243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6655bbb7d8a02a46b4335b2cf08b970, type: 3}
+  m_Script: {fileID: 11500000, guid: f49baddfc357c4a42bfdabb5728664cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemies: []
@@ -26481,7 +26481,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1647560233}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6655bbb7d8a02a46b4335b2cf08b970, type: 3}
+  m_Script: {fileID: 11500000, guid: f49baddfc357c4a42bfdabb5728664cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemies: []
@@ -27037,13 +27037,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1848531756}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b808ac07fddf8544a6cf05665fd2d43, type: 3}
+  m_Script: {fileID: 11500000, guid: d7082e9170e88594c94d90cc64112ae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
   maxHealth: {fileID: 11400000, guid: 6568c96024af2f34986ae724adb488e6, type: 2}
   health: 0
-  enemyName: Pajarraco
+  enemyName: Arpy2
   baseAttack: 1
   moveSpeed: 1.5
   homePosition: {x: 3, y: 15.5}
@@ -33855,13 +33855,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 102836701020234864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b808ac07fddf8544a6cf05665fd2d43, type: 3}
+  m_Script: {fileID: 11500000, guid: d7082e9170e88594c94d90cc64112ae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
   maxHealth: {fileID: 11400000, guid: 6568c96024af2f34986ae724adb488e6, type: 2}
   health: 0
-  enemyName: Parajito
+  enemyName: Arpy1
   baseAttack: 1
   moveSpeed: 1.5
   homePosition: {x: 7.5, y: -8}
@@ -34113,13 +34113,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 5391359237825594947}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a255bf61683180e4eb0f1f04d8f6f1af, type: 3}
+  m_Script: {fileID: 11500000, guid: 76573b276170cac478445d67c6edb1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
   maxHealth: {fileID: 11400000, guid: 6568c96024af2f34986ae724adb488e6, type: 2}
   health: 0
-  enemyName: Pajaritor
+  enemyName: Chimera
   baseAttack: 1
   moveSpeed: 3
   homePosition: {x: -9, y: 20.5}
