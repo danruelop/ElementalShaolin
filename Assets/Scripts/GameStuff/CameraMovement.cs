@@ -18,9 +18,13 @@ public class CameraMovement : MonoBehaviour
     public VectorValue camMin;
     public VectorValue camMax;
 
+    [Header("Audio Stuff")]
+    private AudioSource musicPlayer;
+
     // Start is called before the first frame update
     void Start()
     {
+        musicPlayer = GetComponent<AudioSource>();
         maxPosition = camMax.initialValue;
         minPosition = camMin.initialValue;
         anim = GetComponent<Animator>();

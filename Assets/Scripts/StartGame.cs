@@ -6,9 +6,12 @@ using UnityEngine.SceneManagement;
 public class StartGame : MonoBehaviour
 {
     public Inventory playerInventory;
+
+    private AudioSource musicPlayer;
     // Start is called before the first frame update
     void Start()
     {
+        musicPlayer = GetComponent<AudioSource>();
         playerInventory.numberOfElements = 0;
     }
 
@@ -17,6 +20,7 @@ public class StartGame : MonoBehaviour
     {
         if (Input.GetKeyDown("space"))
         {
+            musicPlayer.Play();
             SceneManager.LoadScene("EarthLevel", LoadSceneMode.Single);
         }
     }

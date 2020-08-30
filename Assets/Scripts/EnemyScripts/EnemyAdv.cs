@@ -22,6 +22,7 @@ public class EnemyAdv : Enemy
         myRigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
+        anim.SetBool("wakeUp", true);
     }
 
     // Update is called once per frame
