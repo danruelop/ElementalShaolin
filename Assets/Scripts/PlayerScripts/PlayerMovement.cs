@@ -68,8 +68,10 @@ public class PlayerMovement : MonoBehaviour{
     private AudioSource audioPlayer;
 
 
-    
-    
+
+
+
+
     // Start is called before the first frame update
     void Start(){
         currentState = PlayerState.walk;
@@ -84,6 +86,7 @@ public class PlayerMovement : MonoBehaviour{
 
     // Update is called once per frame
     void Update(){
+
 
         // SHOW CD MEDITATE
        
@@ -240,6 +243,8 @@ public class PlayerMovement : MonoBehaviour{
 
 
     }
+
+    
 
     private IEnumerator AttackCo()
     {
@@ -466,6 +471,7 @@ public class PlayerMovement : MonoBehaviour{
 
     void MoveCharacter()
     {
+
         change.Normalize();
         myRigidbody.MovePosition(
             transform.position + change * speed * Time.fixedDeltaTime);

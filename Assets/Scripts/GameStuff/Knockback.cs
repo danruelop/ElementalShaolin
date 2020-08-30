@@ -18,7 +18,7 @@ public class Knockback : MonoBehaviour
             other.GetComponent<Pot>().Smash();
         }
         
-        if (isAnEnemy(tag))              // cuidado aquí
+        if (isAnEnemy(tag))             
         {
             Rigidbody2D hit = other.GetComponent<Rigidbody2D>();
             if(hit != null)

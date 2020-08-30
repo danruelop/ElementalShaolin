@@ -4016,7 +4016,7 @@ MonoBehaviour:
   health: 0
   enemyName: Queenlag
   baseAttack: 1
-  moveSpeed: 1.5
+  moveSpeed: 3
   homePosition: {x: -60.35, y: 21.68}
   deathEffect: {fileID: 627230387392507809, guid: a669cfd739a8dde4e81614a08f5e175c,
     type: 3}
@@ -4026,6 +4026,7 @@ MonoBehaviour:
   chaseRadius: 10
   attackRadius: 1
   anim: {fileID: 0}
+  boundary: {fileID: 1480968867}
 --- !u!61 &712651536
 BoxCollider2D:
   m_ObjectHideFlags: 0
