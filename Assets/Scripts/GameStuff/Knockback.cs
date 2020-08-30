@@ -18,30 +18,44 @@ public class Knockback : MonoBehaviour
             other.GetComponent<Pot>().Smash();
         }
         
-        if (isAnEnemy(tag) || (other.gameObject.CompareTag("Player") && !other.gameObject.GetComponent<PlayerMovement>().manaShieldActivated))              // cuidado aquí
+        if (isAnEnemy(tag))              // cuidado aquí
         {
             Rigidbody2D hit = other.GetComponent<Rigidbody2D>();
             if(hit != null)
             {
-                Vector2 difference = hit.transform.position - transform.position;
-                difference = difference.normalized * thrust;
-                hit.AddForce(difference, ForceMode2D.Impulse);
-
-                if (isAnEnemy(tag) && other.isTrigger)
+                
+             Vector2 difference = hit.transform.position - transform.position;
+             difference = difference.normalized * thrust;
+             hit.AddForce(difference, ForceMode2D.Impulse);
+                
+                if (other.isTrigger)
                 {
                     float dmg = DamageCalculator(other.gameObject, damage);
                     hit.GetComponent<Enemy>().currentState = EnemyState.stagger;
                     other.GetComponent<Enemy>().Knock(hit, knockTime, dmg);
                 }
-                if (other.gameObject.CompareTag("Player"))
-                {
-                    if (other.GetComponent<PlayerMovement>().currentState != PlayerState.stagger)
-                    {                                             
-                        hit.GetComponent<PlayerMovement>().currentState = PlayerState.stagger;                                           
-                        other.GetComponent<PlayerMovement>().Knock(knockTime, damage);
-                    }
-                    
-                }
+                
+            }
+        }
+
+        if(other.gameObject.CompareTag("Player"))
+        {
+            Rigidbody2D hit = other.GetComponent<Rigidbody2D>();
+
+            if (hit != null && !other.gameObject.GetComponent<PlayerMovement>().manaShieldActivated)
+            {
+             Debug.Log("TE EMPUJO");
+             Vector2 difference = hit.transform.position - transform.position;
+             difference = difference.normalized * thrust;
+             hit.AddForce(difference, ForceMode2D.Impulse);
+                
+             if (other.GetComponent<PlayerMovement>().currentState != PlayerState.stagger)
+             {
+                Debug.Log("TE HAGO DAÑO");
+                hit.GetComponent<PlayerMovement>().currentState = PlayerState.stagger;
+                other.GetComponent<PlayerMovement>().Knock(knockTime, damage);
+
+             }              
             }
         }
     }

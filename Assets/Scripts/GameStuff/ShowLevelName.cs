@@ -29,7 +29,7 @@ public class ShowLevelName : MonoBehaviour
     {
         text.SetActive(true);
         placeText.text = placeName;
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(2f);
         text.SetActive(false);
         alreadyTexted = true;
     }

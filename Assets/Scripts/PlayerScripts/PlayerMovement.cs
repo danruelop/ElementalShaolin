@@ -352,12 +352,14 @@ public class PlayerMovement : MonoBehaviour{
         
         yield return new WaitForSeconds(5f);
         animator.SetBool("manashield", false);
-        manaShieldActivated = false;
         yield return new WaitForSeconds(0.3f);
         if (currentState != PlayerState.interact)
         {
             currentState = PlayerState.walk;
+            
         }
+        yield return new WaitForSeconds(0.5f);
+        manaShieldActivated = false;
 
     }
 
