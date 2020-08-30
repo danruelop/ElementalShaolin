@@ -16,6 +16,6 @@ MonoBehaviour:
   items: []
   numberOfKeys: 0
   numberOfElements: 0
-  award: 3
+  award: 0
   maxMana: 10
   currentMana: 10

@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour
             panelGO.SetActive(true);
             Time.timeScale = 0;
         }
-        if (panelGO.activeSelf)
+        else if (panelGO.activeSelf)
         {
             if (Input.GetKeyDown("space"))
             {

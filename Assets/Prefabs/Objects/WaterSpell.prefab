@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 590846024925454061}
   - component: {fileID: 1529525986883330147}
   - component: {fileID: 5723686016882720913}
-  - component: {fileID: 1780692767112803036}
+  - component: {fileID: 7064859032883912663}
   m_Layer: 10
   m_Name: WaterSpell
   m_TagString: airSpell
@@ -147,7 +147,7 @@ MonoBehaviour:
   thrust: 2
   knockTime: 0.3
   damage: 0.5
---- !u!114 &1780692767112803036
+--- !u!114 &7064859032883912663
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1516832523044581211}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe85fc71d2d26564498cf5f17f556f7e, type: 3}
+  m_Script: {fileID: 11500000, guid: 64d613fbe855ff54488668cb14141cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5

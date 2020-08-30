@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 57947cba05e9a6644bba82aebe43710d, type: 3}
-    totalSpriteSurfaceArea: 9543594
+    totalSpriteSurfaceArea: 9558336
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -3671,6 +3671,7 @@ SpriteAtlas:
   - {fileID: 400418013869239157, guid: 34164f47fcce93f469809fbd8d4a1184, type: 3}
   - {fileID: -7683560957720264932, guid: 34164f47fcce93f469809fbd8d4a1184, type: 3}
   - {fileID: -418887995083273558, guid: 34164f47fcce93f469809fbd8d4a1184, type: 3}
+  - {fileID: 2838537498588806529, guid: 34164f47fcce93f469809fbd8d4a1184, type: 3}
   - {fileID: 1210858863028425155, guid: 34164f47fcce93f469809fbd8d4a1184, type: 3}
   - {fileID: -5062670617988200642, guid: 34164f47fcce93f469809fbd8d4a1184, type: 3}
   - {fileID: -8978459969155144913, guid: 34164f47fcce93f469809fbd8d4a1184, type: 3}
@@ -6264,7 +6265,9 @@ SpriteAtlas:
   - {fileID: -8375815183193062261, guid: f748569c811f83b4d941710fb3358d67, type: 3}
   - {fileID: -7020345560772417379, guid: f748569c811f83b4d941710fb3358d67, type: 3}
   - {fileID: -4746605399236688683, guid: f748569c811f83b4d941710fb3358d67, type: 3}
+  - {fileID: -7409351885888422979, guid: f748569c811f83b4d941710fb3358d67, type: 3}
   - {fileID: 666619626862034870, guid: f748569c811f83b4d941710fb3358d67, type: 3}
+  - {fileID: -5173354444592534179, guid: f748569c811f83b4d941710fb3358d67, type: 3}
   - {fileID: 6693705340965660601, guid: f748569c811f83b4d941710fb3358d67, type: 3}
   - {fileID: 8875362140462205699, guid: f748569c811f83b4d941710fb3358d67, type: 3}
   - {fileID: 33098233470319488, guid: f748569c811f83b4d941710fb3358d67, type: 3}
@@ -12711,6 +12714,7 @@ SpriteAtlas:
   - tf_B_ruins3_203
   - tf_B_ruins3_200
   - tf_B_ruins3_201
+  - tf_B_ruins3_238
   - tf_B_ruins3_211
   - tf_B_ruins3_210
   - tf_B_ruins3_213
@@ -15304,7 +15308,9 @@ SpriteAtlas:
   - monks_3_update2_61
   - monks_3_update2_71
   - monks_3_update2_70
+  - monks_3_update2_73
   - monks_3_update2_68
+  - monks_3_update2_72
   - monks_3_update2_69
   - monks_3_update2_19
   - monks_3_update2_18

@@ -61,6 +61,13 @@ public class PlayerMovement : MonoBehaviour{
     public GameObject cdManaShieldObject;
     private float cdManaShield;
 
+    public AudioClip gameOverSound;
+    public AudioClip takeInventorySound;
+    public AudioClip fightNoMagicSound;
+    public AudioClip fightSpellSound;
+    private AudioSource audioPlayer;
+
+
     
     
     // Start is called before the first frame update
@@ -71,17 +78,12 @@ public class PlayerMovement : MonoBehaviour{
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
         transform.position = startingPosition.initialValue;
+        audioPlayer = GetComponent<AudioSource>();
     }
 
 
     // Update is called once per frame
     void Update(){
-
-      
-        
-       
-
-        
 
         // SHOW CD MEDITATE
        
@@ -244,6 +246,8 @@ public class PlayerMovement : MonoBehaviour{
         animator.SetBool("attacking", true);
         currentState = PlayerState.attack;
         yield return null;
+        audioPlayer.clip = fightNoMagicSound;
+        audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
         if(currentState != PlayerState.interact)
@@ -258,6 +262,8 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeEarthSpell();
+        audioPlayer.clip = fightSpellSound;
+        audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
         if (currentState != PlayerState.interact)
@@ -273,6 +279,8 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeWaterSpell();
+        audioPlayer.clip = fightSpellSound;
+        audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
         if (currentState != PlayerState.interact)
@@ -288,6 +296,8 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeAirSpell();
+        audioPlayer.clip = fightSpellSound;
+        audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
         if (currentState != PlayerState.interact)
@@ -303,6 +313,8 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeFireSpell();
+        audioPlayer.clip = fightSpellSound;
+        audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
         if (currentState != PlayerState.interact)
@@ -334,12 +346,12 @@ public class PlayerMovement : MonoBehaviour{
 
     private IEnumerator ManaShieldCo()
     {
-        animator.SetBool("meditating", true);
+        animator.SetBool("manashield", true);
         currentState = PlayerState.manaShield;
         manaShieldActivated = true;
         
         yield return new WaitForSeconds(5f);
-        animator.SetBool("meditating", false);
+        animator.SetBool("manashield", false);
         manaShieldActivated = false;
         yield return new WaitForSeconds(0.3f);
         if (currentState != PlayerState.interact)
@@ -354,7 +366,7 @@ public class PlayerMovement : MonoBehaviour{
         if(playerInventory.currentMana > 0)
         {
             Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            EarthSpell earthSpell = Instantiate(earthProjectile, transform.position, Quaternion.identity).GetComponent<EarthSpell>();
+            Spell earthSpell = Instantiate(earthProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
             earthSpell.Setup(temp, ChooseArrowDirection());
             reduceMana.Raise();
         }
@@ -365,7 +377,7 @@ public class PlayerMovement : MonoBehaviour{
         if (playerInventory.currentMana > 0)
         {
             Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            WaterSpell waterSpell = Instantiate(waterProjectile, transform.position, Quaternion.identity).GetComponent<WaterSpell>();
+            Spell waterSpell = Instantiate(waterProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
             waterSpell.Setup(temp, ChooseArrowDirection());
             reduceMana.Raise();
         }
@@ -376,7 +388,7 @@ public class PlayerMovement : MonoBehaviour{
         if (playerInventory.currentMana > 0)
         {
             Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            AirSpell airSpell = Instantiate(airProjectile, transform.position, Quaternion.identity).GetComponent<AirSpell>();
+            Spell airSpell = Instantiate(airProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
             airSpell.Setup(temp, ChooseArrowDirection());
             reduceMana.Raise();
         }
@@ -387,7 +399,7 @@ public class PlayerMovement : MonoBehaviour{
         if (playerInventory.currentMana > 0)
         {
             Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            FireSpell fireSpell = Instantiate(fireProjectile, transform.position, Quaternion.identity).GetComponent<FireSpell>();
+            Spell fireSpell = Instantiate(fireProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
             fireSpell.Setup(temp, ChooseArrowDirection());
             reduceMana.Raise();
         }
@@ -421,6 +433,8 @@ public class PlayerMovement : MonoBehaviour{
                 animator.SetBool("receiveItem", true);
                 currentState = PlayerState.interact;
                 receivedItemSprite.sprite = playerInventory.currentItem.itemSprite;
+                audioPlayer.clip = takeInventorySound;
+                audioPlayer.Play();
             }
             else
             {
@@ -439,30 +453,11 @@ public class PlayerMovement : MonoBehaviour{
             MoveCharacter();
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);
-
-           /* if (Input.GetButton("manaShield") && cdManaShield <= 0)
-            {
-                manaShieldActivated = true;
-                //aqui viene la animación del escudo de maná
-                animator.SetBool("meditate", true);
-                cdManaShield = 15f;
-                manaShieldDuration = 5f;
-            } else
-            {
-                animator.SetBool("moving", true);
-            }
-           */
             animator.SetBool("moving", true);
 
         }
         else
         {
-
-            /*if (!manaShieldActivated)
-            {
-                animator.SetBool("moving", false);
-            }
-            */
             animator.SetBool("moving", false);
         }
     }

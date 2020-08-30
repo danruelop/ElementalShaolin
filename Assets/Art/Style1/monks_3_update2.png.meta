@@ -218,6 +218,12 @@ TextureImporter:
   - first:
       213: -7020345560772417379
     second: monks_3_update2_71
+  - first:
+      213: -5173354444592534179
+    second: monks_3_update2_72
+  - first:
+      213: -7409351885888422979
+    second: monks_3_update2_73
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1834,6 +1840,48 @@ TextureImporter:
       bones: []
       spriteID: d986ba968e8b29e90800000000000000
       internalID: -7020345560772417379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monks_3_update2_72
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 313
+        width: 70
+        height: 102
+      alignment: 9
+      pivot: {x: 0.51001453, y: 0.4277323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dafd0da8d8438b0800000000000000
+      internalID: -5173354444592534179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monks_3_update2_73
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 193
+        width: 70
+        height: 102
+      alignment: 9
+      pivot: {x: 0.51001453, y: 0.42734107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbffb957b1bc2990800000000000000
+      internalID: -7409351885888422979
       vertices: []
       indices: 
       edges: []
