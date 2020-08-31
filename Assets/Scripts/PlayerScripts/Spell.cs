@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
 
@@ -10,12 +9,6 @@ public class Spell : MonoBehaviour
 
     
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     public void Setup(Vector2 velocity, Vector3 direction)
     {
         myRigidbody.velocity = velocity.normalized * speed;
@@ -24,11 +17,28 @@ public class Spell : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("enemy") || other.gameObject.CompareTag("collision"))
+        String tag = other.gameObject.tag;
+        if (isAnEnemy(tag) || other.gameObject.CompareTag("spellCollision"))
         {
             Destroy(this.gameObject);
         }
         
+    }
+
+    public bool isAnEnemy(String tag)
+    {
+        
+        bool res = false;
+        if (tag == "enemyEarth" ||
+           tag == "enemyWater" ||
+           tag == "enemyAir" ||
+           tag == "enemyFire" ||
+           tag == "enemy")
+        {
+            res = true;
+        }
+
+        return res;
     }
 
 }
