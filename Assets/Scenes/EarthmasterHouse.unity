@@ -843,6 +843,11 @@ PrefabInstance:
       propertyPath: cdManaShieldObject
       value: 
       objectReference: {fileID: 1924247926}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: finalMenu
+      value: 
+      objectReference: {fileID: 1924247927}
     - target: {fileID: 2427034561251953513, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
       propertyPath: m_Name
@@ -6244,6 +6249,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2514940852366891798, guid: f4118282667c75d498958c807a78b3f5,
+        type: 3}
+      propertyPath: roomSound
+      value: 
+      objectReference: {fileID: 1378874674}
     - target: {fileID: 2919916188703495530, guid: f4118282667c75d498958c807a78b3f5,
         type: 3}
       propertyPath: m_IsActive
@@ -6449,6 +6459,12 @@ GameObject:
 --- !u!1 &1924247926 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2595477621754090276, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1924247917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1924247927 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5393493516339825460, guid: f4118282667c75d498958c807a78b3f5,
     type: 3}
   m_PrefabInstance: {fileID: 1924247917}
   m_PrefabAsset: {fileID: 0}

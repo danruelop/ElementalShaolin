@@ -21710,7 +21710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 417bf67b4f745044fa4362a805f45a9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeName: Cueva del infierno
+  placeName: "Cueva de la concentraci\xF3n"
   text: {fileID: 1423630144}
   placeText: {fileID: 1423630146}
 --- !u!1001 &1093357167
@@ -28457,6 +28457,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1ea796f8b0f82844ad3edbfaf67869d, type: 3}
+--- !u!1 &2027701936 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5393493516339825460, guid: f4118282667c75d498958c807a78b3f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6771476252020271187}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2065877533 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7409467308717954606, guid: a0d0f6991b8161142b3c76934ae5e652,
@@ -57290,6 +57296,11 @@ PrefabInstance:
       propertyPath: magicshieldSound
       value: 
       objectReference: {fileID: 8300000, guid: aff58078bc7459e4fbad815ca41728cd, type: 3}
+    - target: {fileID: 2427034561251953510, guid: 3df81a2b37aad7241b80b754b2156638,
+        type: 3}
+      propertyPath: finalMenu
+      value: 
+      objectReference: {fileID: 2027701936}
     - target: {fileID: 2427034561251953513, guid: 3df81a2b37aad7241b80b754b2156638,
         type: 3}
       propertyPath: m_Name
@@ -57655,6 +57666,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2514940852366891798, guid: f4118282667c75d498958c807a78b3f5,
+        type: 3}
+      propertyPath: roomSound
+      value: 
+      objectReference: {fileID: 519420028}
     - target: {fileID: 2611201691663598093, guid: f4118282667c75d498958c807a78b3f5,
         type: 3}
       propertyPath: m_AnchoredPosition.x

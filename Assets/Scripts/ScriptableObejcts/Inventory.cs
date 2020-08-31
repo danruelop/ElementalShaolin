@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ public class Inventory : ScriptableObject {
     public int award;
     public float maxMana = 10;
     public float currentMana;
+    public Boolean manaShieldObtained;
 
    
 
@@ -28,6 +30,10 @@ public class Inventory : ScriptableObject {
         else if (itemToAdd.isAward)
         {
             award++;
+        } 
+        else if(itemToAdd.isManaShield)
+        {
+            manaShieldObtained = true;
         }
         else
         {

@@ -5,18 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class FinalMenu : MonoBehaviour
 {
+    public GameObject roomSound;
     public GameObject finalMenuGO;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if (finalMenuGO.activeSelf)
         {
+            roomSound.gameObject.GetComponent<AudioSource>().Stop();
             Time.timeScale = 0;
        
             if (Input.GetKeyDown(KeyCode.R))

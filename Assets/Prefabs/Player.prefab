@@ -286,6 +286,7 @@ MonoBehaviour:
   fireProjectile: {fileID: 6627867469811143557, guid: 8145543daf74eab48babffea4ebab2c5,
     type: 3}
   manaSlider: {fileID: 0}
+  finalMenu: {fileID: 0}
   manaShieldActivated: 0
   cdMeditateObject: {fileID: 0}
   cdEarthObject: {fileID: 0}
@@ -302,6 +303,7 @@ MonoBehaviour:
   spellWaterSound: {fileID: 8300000, guid: 17c55cc63e7fa8c4c8ea7a3c9a2adabe, type: 3}
   meditateSound: {fileID: 8300000, guid: a0bb4734976e36a4c8a4fc81d3b6e8b6, type: 3}
   magicShieldSound: {fileID: 8300000, guid: aff58078bc7459e4fbad815ca41728cd, type: 3}
+  gameOverSound: {fileID: 8300000, guid: 9c72a9d05c332eb4b80da7a5f5c69bca, type: 3}
 --- !u!95 &2427034561251953511
 Animator:
   serializedVersion: 3

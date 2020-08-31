@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 57947cba05e9a6644bba82aebe43710d, type: 3}
-    totalSpriteSurfaceArea: 9808336
+    totalSpriteSurfaceArea: 9810304
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -4195,6 +4195,7 @@ SpriteAtlas:
   - {fileID: -3272793291723581167, guid: f589c597e090a5e42aa88ba9648eed03, type: 3}
   - {fileID: 21300000, guid: c955d2a77d6a4ca40989fa8fa473d236, type: 3}
   - {fileID: -2852013689751489240, guid: aaf15db7f7e6ce74bafe6aebda96b3c4, type: 3}
+  - {fileID: 2395460062332264339, guid: aaf15db7f7e6ce74bafe6aebda96b3c4, type: 3}
   - {fileID: -8255792149366000470, guid: aaf15db7f7e6ce74bafe6aebda96b3c4, type: 3}
   - {fileID: -3063682905307526435, guid: aaf15db7f7e6ce74bafe6aebda96b3c4, type: 3}
   - {fileID: 6936809923696736004, guid: aaf15db7f7e6ce74bafe6aebda96b3c4, type: 3}
@@ -13240,6 +13241,7 @@ SpriteAtlas:
   - tf_dd_A5_2_9
   - tf_dd_B_2
   - magicelements_4
+  - magicelements_5
   - magicelements_2
   - magicelements_3
   - magicelements_0

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0162c2c86c6278840b5b625b9cc3239b, type: 3}
-  m_Name: PremioFinal
+  m_Name: ManaShield
   m_EditorClassIdentifier: 
-  thisItemType: 2
-  itemSprite: {fileID: -2852013689751489240, guid: aaf15db7f7e6ce74bafe6aebda96b3c4,
+  thisItemType: 0
+  itemSprite: {fileID: 2395460062332264339, guid: aaf15db7f7e6ce74bafe6aebda96b3c4,
     type: 3}
-  itemDescription: Enhorabuena has terminado tu entrenamiento, maestro de los elementos.
+  itemDescription: 
   isKey: 0
   isElement: 0
-  isAward: 1
-  isManaShield: 0
+  isAward: 0
+  isManaShield: 1

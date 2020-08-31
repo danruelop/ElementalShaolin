@@ -185,7 +185,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &65846979
 CanvasRenderer:
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &276799286
 CanvasRenderer:
@@ -532,7 +532,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -22.000006, y: -1.0010009}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &428586997
@@ -599,7 +599,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &428587000
 CanvasRenderer:
@@ -643,7 +643,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 272, y: 50.79}
+  m_AnchoredPosition: {x: 249, y: 65}
   m_SizeDelta: {x: 282.18396, y: 245.83034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &541859138
@@ -800,7 +800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -130, y: 109}
+  m_AnchoredPosition: {x: -151, y: 125}
   m_SizeDelta: {x: 442.53564, y: 129.41225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &743830766
@@ -837,7 +837,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Al iniciar el juego te encarnar\xE1s en el protagonista, un monje shaol\xEDn
     que debe aprender a controlar la magia elemental. \n\nPara poder usar los hechizos
-    debes aprenderlos primero. \nLas habilidades las puedes utilizar desde el principio.\n\nDeber\xE1s
+    debes aprenderlos primero. \nLa habilidad de meditar la puedes utilizar desde
+    el principio.\nEl escudo de man\xE1 lo obtendras en el nivel final.\n\nDeber\xE1s
     derrotar a cada jefe final de nivel para avanzar al siguiente."
 --- !u!222 &743830767
 CanvasRenderer:
@@ -1128,7 +1129,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1000728724
 CanvasRenderer:
@@ -1202,7 +1203,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1323855504
 CanvasRenderer:
@@ -1424,7 +1425,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1548872536
 CanvasRenderer:
@@ -1468,7 +1469,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -130, y: -256}
+  m_AnchoredPosition: {x: -157.99998, y: -255.20999}
   m_SizeDelta: {x: 358.82434, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1603894013
@@ -1546,8 +1547,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -130, y: -87}
-  m_SizeDelta: {x: 442.53564, y: 229.31073}
+  m_AnchoredPosition: {x: -148.9, y: -89.10999}
+  m_SizeDelta: {x: 449.838, y: 292.44803}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1674635166
 MonoBehaviour:
@@ -1582,10 +1583,12 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Controles:\n\n\t- Movimiento: Teclas <b>\"W\"</b>, <b>\"A\"</b>, <b>\"S\"</b>,<b>\"D\"</b>
-    o teclas direccionales.\n\t- Hechizos:\n\n\t\t-\t<b>\"1\"</b>\tHechizo de tierra.\n\t\t-\t<b>\"2\"</b>\tHechizo
+    o teclas direccionales.\n\t- Hechizos:\n\t\t-\t<b>\"1\"</b>\tHechizo de tierra.\n\t\t-\t<b>\"2\"</b>\tHechizo
     de agua.\n\t\t-\t<b>\"3\"</b>\tHechizo de aire.\n\t\t-\t<b>\"4\"</b>\tHechizo
-    de fuego.\n\n\t- Habilidades:\n\t\t\n\t\t-\t<b>\"m\"</b>\tMeditar: recarga man\xE1.\n\t\t-\t<b>\"n\"</b>\tEscudo
-    de man\xE1: protege del da\xF1o."
+    de fuego.\n\n\t- Habilidades:\n\t\t-\t<b>\"m\"</b>\tMeditar: recarga man\xE1.\n\t\t-\t<b>\"n\"</b>\tEscudo
+    de man\xE1: protege del da\xF1o.\n\n\t- Otros :\n\t\t-\t<b>\"e\"</b> para interactuar
+    con npcs y objetos.\n\t\t-\t<b>\"espacio\"</b> para romber objetos o golpear
+    cuerpo a cuerpo.\n\t\t-\t<b> \"esc\"</b> para abrir el men\xFA de pausa."
 --- !u!222 &1674635167
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1628,7 +1631,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 295.7, y: 237.7}
+  m_AnchoredPosition: {x: 302, y: 253.44}
   m_SizeDelta: {x: 60.794495, y: 95.3876}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1737495721
@@ -1891,7 +1894,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1873728942
 CanvasRenderer:
@@ -1965,7 +1968,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &2128925104
 CanvasRenderer:

@@ -40,6 +40,8 @@ public class PlayerMovement : MonoBehaviour{
     public GameObject airProjectile;
     public GameObject fireProjectile;
     public Slider manaSlider;
+    public GameObject finalMenu;
+
 
     public bool manaShieldActivated;
 
@@ -71,6 +73,7 @@ public class PlayerMovement : MonoBehaviour{
     public AudioClip spellWaterSound;
     public AudioClip meditateSound;
     public AudioClip magicShieldSound;
+    public AudioClip gameOverSound;
     private AudioSource audioPlayer;
    
 
@@ -201,25 +204,25 @@ public class PlayerMovement : MonoBehaviour{
 
             }
             else if (Input.GetButtonDown("earthSpell") && currentState != PlayerState.attack
-              && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 1 && cdEarth <= 0.5f)
+              && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 1 && cdEarth <= 0.5f && playerInventory.currentMana > 0)
             {
                 cdEarth = 2f;
                 StartCoroutine(EarthSpellCo());
             }
             else if (Input.GetButtonDown("waterSpell") && currentState != PlayerState.attack
-                && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 2 && cdWater <= 0.5f)
+                && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 2 && cdWater <= 0.5f && playerInventory.currentMana > 0)
             {
                 cdWater = 2f;
                 StartCoroutine(WaterSpellCo());
             }
             else if (Input.GetButtonDown("airSpell") && currentState != PlayerState.attack
-               && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 3 && cdAir <= 0.5f)
+               && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 3 && cdAir <= 0.5f && playerInventory.currentMana > 0)
             {
                 cdAir = 2f;
                 StartCoroutine(AirSpellCo());
             }
             else if (Input.GetButtonDown("fireSpell") && currentState != PlayerState.attack
-               && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 4 && cdFire <= 0.5f)
+               && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 4 && cdFire <= 0.5f && playerInventory.currentMana > 0)
             {
                 cdFire = 2f;
                 StartCoroutine(FireSpellCo());
@@ -239,9 +242,9 @@ public class PlayerMovement : MonoBehaviour{
             StartCoroutine(MeditateCo());
 
         } else if (Input.GetButtonDown("manaShield") && currentState != PlayerState.attack
-            && currentState != PlayerState.stagger  && cdManaShield <= 0.5f && currentState != PlayerState.meditate)
+            && currentState != PlayerState.stagger  && cdManaShield <= 0.5f && currentState != PlayerState.meditate && playerInventory.manaShieldObtained == true)
         {
-            cdManaShield = 30f;
+            cdManaShield = 10f;
             StartCoroutine(ManaShieldCo());
         }
 
@@ -360,12 +363,13 @@ public class PlayerMovement : MonoBehaviour{
 
     private IEnumerator ManaShieldCo()
     {
+
         animator.SetBool("manashield", true);
         currentState = PlayerState.manaShield;
         manaShieldActivated = true;
         audioPlayer.clip = magicShieldSound;
         audioPlayer.Play();
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(2f);
         animator.SetBool("manashield", false);
         yield return new WaitForSeconds(0.3f);
         if (currentState != PlayerState.interact)
@@ -380,46 +384,35 @@ public class PlayerMovement : MonoBehaviour{
 
     private void MakeEarthSpell()
     {
-        if(playerInventory.currentMana > 0)
-        {
-            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            Spell earthSpell = Instantiate(earthProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
-            earthSpell.Setup(temp, ChooseArrowDirection());
-            reduceMana.Raise();
-        }
+         Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+         Spell earthSpell = Instantiate(earthProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
+         earthSpell.Setup(temp, ChooseArrowDirection());
+         reduceMana.Raise();
     }
 
     private void MakeWaterSpell()
     {
-        if (playerInventory.currentMana > 0)
-        {
-            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            Spell waterSpell = Instantiate(waterProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
-            waterSpell.Setup(temp, ChooseArrowDirection());
-            reduceMana.Raise();
-        }
+         Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+         Spell waterSpell = Instantiate(waterProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
+         waterSpell.Setup(temp, ChooseArrowDirection());
+         reduceMana.Raise();
+        
     }
 
     private void MakeAirSpell()
-    {
-        if (playerInventory.currentMana > 0)
-        {
-            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            Spell airSpell = Instantiate(airProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
-            airSpell.Setup(temp, ChooseArrowDirection());
-            reduceMana.Raise();
-        }
+    {   
+         Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+         Spell airSpell = Instantiate(airProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
+         airSpell.Setup(temp, ChooseArrowDirection());
+         reduceMana.Raise();    
     }
 
     private void MakeFireSpell()
-    {
-        if (playerInventory.currentMana > 0)
-        {
-            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            Spell fireSpell = Instantiate(fireProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
-            fireSpell.Setup(temp, ChooseArrowDirection());
-            reduceMana.Raise();
-        }
+    {  
+         Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+         Spell fireSpell = Instantiate(fireProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
+         fireSpell.Setup(temp, ChooseArrowDirection());
+         reduceMana.Raise();  
     }
 
     public void AddMana()
@@ -501,8 +494,9 @@ public class PlayerMovement : MonoBehaviour{
         }
         else
         {
-            this.gameObject.SetActive(false);
-            SceneManager.LoadScene("StartMenu", LoadSceneMode.Single);
+            audioPlayer.clip = gameOverSound;
+            audioPlayer.Play();          
+            finalMenu.SetActive(true);
         }
         
     }

@@ -6,7 +6,8 @@ public enum ItemType
 {
     key,
     element,
-    award
+    award,
+    manaShield
 }
 
 [CreateAssetMenu]
@@ -18,5 +19,6 @@ public class Item : ScriptableObject {
     public bool isKey;
     public bool isElement;
     public bool isAward;
+    public bool isManaShield;
 
 }
