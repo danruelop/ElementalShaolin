@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 57947cba05e9a6644bba82aebe43710d, type: 3}
-    totalSpriteSurfaceArea: 9558336
+    totalSpriteSurfaceArea: 9808336
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -3429,6 +3429,7 @@ SpriteAtlas:
   - {fileID: -5149362443583901556, guid: 8cd39c46e701a9b49976acf038eafdf1, type: 3}
   - {fileID: 8688947198772482003, guid: 8cd39c46e701a9b49976acf038eafdf1, type: 3}
   - {fileID: 21300000, guid: 5023b1963a051b64b93945e42cbd4e8f, type: 3}
+  - {fileID: 21300000, guid: 348307965a64321448cc8ed925a1e177, type: 3}
   - {fileID: 21300000, guid: fbe657378983e72408518aaa03f49d78, type: 3}
   - {fileID: -1986772863260763996, guid: 991937471628cf84c8037c64a4d71bc5, type: 3}
   - {fileID: 5760800594879907098, guid: 991937471628cf84c8037c64a4d71bc5, type: 3}
@@ -4986,6 +4987,7 @@ SpriteAtlas:
   - {fileID: 536419509007563539, guid: eede124b09ef6b54f944ec2842d790f2, type: 3}
   - {fileID: 1036803682579554421, guid: eede124b09ef6b54f944ec2842d790f2, type: 3}
   - {fileID: 5559694988392259305, guid: eede124b09ef6b54f944ec2842d790f2, type: 3}
+  - {fileID: 21300000, guid: d9719c5bb8521ce4e9114f2782bb303d, type: 3}
   - {fileID: 136123638574666257, guid: f374e87b88cbdf441a482028fd2ad14b, type: 3}
   - {fileID: 293919518158258091, guid: f374e87b88cbdf441a482028fd2ad14b, type: 3}
   - {fileID: -2417109873707893127, guid: f374e87b88cbdf441a482028fd2ad14b, type: 3}
@@ -12472,6 +12474,7 @@ SpriteAtlas:
   - mer_8_chars2_67
   - mer_8_chars2_66
   - tf_beach_tileA1
+  - greenArrow
   - icon139
   - objects_71
   - objects_70
@@ -14029,6 +14032,7 @@ SpriteAtlas:
   - Inner_38
   - Inner_42
   - Inner_43
+  - redArrow
   - Overworld_827
   - Overworld_837
   - Overworld_847

@@ -10,7 +10,7 @@ public class RoomMove : MonoBehaviour
     //public Vector2 cameraMinChange;
     //public Vector2 cameraMaxChange;
     public Vector3 playerChange;
-    private CameraMovement cam;
+    //private CameraMovement cam;
     public bool needText;
     public string placeName;
     public GameObject text;
@@ -19,7 +19,7 @@ public class RoomMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cam = Camera.main.GetComponent<CameraMovement>();
+        //cam = Camera.main.GetComponent<CameraMovement>();
     }
 
     // Update is called once per frame
@@ -32,8 +32,8 @@ public class RoomMove : MonoBehaviour
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
-            cam.minPosition += cameraChange;
-            cam.maxPosition += cameraChange;
+            //cam.minPosition += cameraChange;
+            //cam.maxPosition += cameraChange;
             other.transform.position += playerChange;
             if (needText)
             {

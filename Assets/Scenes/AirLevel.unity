@@ -26336,11 +26336,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1480180410}
   - component: {fileID: 1480180409}
-  - component: {fileID: 1480180414}
-  - component: {fileID: 1480180408}
-  - component: {fileID: 1480180412}
-  - component: {fileID: 1480180411}
   - component: {fileID: 1480180413}
+  - component: {fileID: 1480180408}
   - component: {fileID: 1480180415}
   m_Layer: 0
   m_Name: Main Camera
@@ -26414,52 +26411,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1480180411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480180407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5be2f041abf0c6f4b81a7d1f19cc006e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 294484866}
-  smoothing: 0.05
-  maxPosition: {x: 17, y: -6}
-  minPosition: {x: 8, y: -19}
-  anim: {fileID: 0}
-  camMin: {fileID: 11400000, guid: 727832c7f8294ed4c94473c2423543a4, type: 2}
-  camMax: {fileID: 11400000, guid: 66257c0f0ef5d2645b9b918356aa76ac, type: 2}
---- !u!114 &1480180412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480180407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9be64ac1ffe47374ab42c2fb231456b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  signalGame: {fileID: 11400000, guid: bd94200d37f4f8d47a56cb60d479dddf, type: 2}
-  signalEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1480180411}
-        m_MethodName: BeginKick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1480180413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26494,25 +26445,6 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!95 &1480180414
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480180407}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9d8b929a38ca2014db1e9b980061c723, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!82 &1480180415
 AudioSource:
   m_ObjectHideFlags: 0

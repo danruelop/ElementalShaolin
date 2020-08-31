@@ -61,11 +61,18 @@ public class PlayerMovement : MonoBehaviour{
     public GameObject cdManaShieldObject;
     private float cdManaShield;
 
-    public AudioClip gameOverSound;
+    [Header("Sound Variables")]
+    public AudioClip hitSound;
     public AudioClip takeInventorySound;
     public AudioClip fightNoMagicSound;
-    public AudioClip fightSpellSound;
+    public AudioClip spellAirSound;
+    public AudioClip spellEarthSound;
+    public AudioClip spellFireSound;
+    public AudioClip spellWaterSound;
+    public AudioClip meditateSound;
+    public AudioClip magicShieldSound;
     private AudioSource audioPlayer;
+   
 
 
 
@@ -267,7 +274,7 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeEarthSpell();
-        audioPlayer.clip = fightSpellSound;
+        audioPlayer.clip = spellEarthSound;
         audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
@@ -284,7 +291,7 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeWaterSpell();
-        audioPlayer.clip = fightSpellSound;
+        audioPlayer.clip = spellWaterSound;
         audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
@@ -301,7 +308,7 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeAirSpell();
-        audioPlayer.clip = fightSpellSound;
+        audioPlayer.clip = spellAirSound;
         audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
@@ -318,7 +325,7 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeFireSpell();
-        audioPlayer.clip = fightSpellSound;
+        audioPlayer.clip = spellFireSound;
         audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
@@ -336,6 +343,8 @@ public class PlayerMovement : MonoBehaviour{
         while(playerInventory.currentMana < 10)
         {
             AddMana();
+            audioPlayer.clip = meditateSound;
+            audioPlayer.Play();
             yield return new WaitForSeconds(.6f);
         }
         yield return null;
@@ -354,7 +363,8 @@ public class PlayerMovement : MonoBehaviour{
         animator.SetBool("manashield", true);
         currentState = PlayerState.manaShield;
         manaShieldActivated = true;
-        
+        audioPlayer.clip = magicShieldSound;
+        audioPlayer.Play();
         yield return new WaitForSeconds(5f);
         animator.SetBool("manashield", false);
         yield return new WaitForSeconds(0.3f);
@@ -483,6 +493,8 @@ public class PlayerMovement : MonoBehaviour{
         
         currentHealth.RuntimeValue -= damage;
         playerHealthSignal.Raise();
+        audioPlayer.clip = hitSound;
+        audioPlayer.Play();
         if (currentHealth.RuntimeValue > 0)
         {
             StartCoroutine(KnockCo(knockTime));

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentItem: {fileID: 0}
   items: []
-  numberOfKeys: 0
-  numberOfElements: 0
+  numberOfKeys: 1
+  numberOfElements: 1
   award: 0
   maxMana: 10
   currentMana: 10

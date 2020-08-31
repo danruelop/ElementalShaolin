@@ -881,11 +881,8 @@ GameObject:
   m_Component:
   - component: {fileID: 263949516}
   - component: {fileID: 263949515}
-  - component: {fileID: 263949517}
-  - component: {fileID: 263949514}
-  - component: {fileID: 263949519}
-  - component: {fileID: 263949518}
   - component: {fileID: 263949520}
+  - component: {fileID: 263949514}
   - component: {fileID: 263949521}
   m_Layer: 0
   m_Name: Main Camera
@@ -959,71 +956,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &263949517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 263949513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5be2f041abf0c6f4b81a7d1f19cc006e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 616179972}
-  smoothing: 0.05
-  maxPosition: {x: 0, y: 0}
-  minPosition: {x: 0, y: 0}
-  anim: {fileID: 0}
-  camMin: {fileID: 11400000, guid: e2738b82bf601684987d94c0135799d4, type: 2}
-  camMax: {fileID: 11400000, guid: ae24ac08dd83b0b41b1881799bb76992, type: 2}
---- !u!114 &263949518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 263949513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9be64ac1ffe47374ab42c2fb231456b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  signalGame: {fileID: 11400000, guid: bd94200d37f4f8d47a56cb60d479dddf, type: 2}
-  signalEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 263949517}
-        m_MethodName: BeginKick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!95 &263949519
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 263949513}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9d8b929a38ca2014db1e9b980061c723, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &263949520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1203,7 +1135,7 @@ MonoBehaviour:
   storedValue: {fileID: 11400000, guid: a92d02aae0b56c847a9a4ca7125931fe, type: 2}
   activeSprite: {fileID: -2639854583086408205, guid: 991937471628cf84c8037c64a4d71bc5,
     type: 3}
-  thisDoor: {fileID: 6941602322291363320}
+  thisDoor: {fileID: 6941602322291363323}
   waterBoss: {fileID: 3392692705696113279}
 --- !u!61 &323397906
 BoxCollider2D:
@@ -1434,7 +1366,8 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 3.0797663
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3041715120033184951, guid: 69b85ed0374ef0f438a8f6e2364687af, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 69b85ed0374ef0f438a8f6e2364687af, type: 3}
 --- !u!114 &391217054 stripped
 MonoBehaviour:
@@ -2645,7 +2578,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1253271068}
   - component: {fileID: 1253271069}
-  - component: {fileID: 1253271070}
   - component: {fileID: 1253271071}
   m_Layer: 0
   m_Name: Room3
@@ -2699,21 +2631,6 @@ PolygonCollider2D:
       - {x: -25, y: 25}
       - {x: -25, y: 0}
       - {x: 0, y: 0}
---- !u!114 &1253271070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253271067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9a77ab909b9fdd478545ac8eb6cc526, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemies: []
-  pots: []
-  virtualCamera: {fileID: 816301871}
 --- !u!114 &1253271071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36740,7 +36657,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6941602322291363322}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80ea899ca2d02ee4fb3c659ea35db30f, type: 3}
   m_Name: 
@@ -36752,6 +36669,7 @@ MonoBehaviour:
   playerInventory: {fileID: 11400000, guid: 3373ddc653a5dc74a80a73e14718bef8, type: 2}
   doorSprite: {fileID: 6941602322151665610}
   physicsCollider: {fileID: 6941602322151665611}
+  doorSound: {fileID: 0}
 --- !u!4 &6941602322291363321
 Transform:
   m_ObjectHideFlags: 0
@@ -36777,6 +36695,7 @@ GameObject:
   - component: {fileID: 6941602322291363321}
   - component: {fileID: 6941602322291363327}
   - component: {fileID: 6941602322291363320}
+  - component: {fileID: 6941602322291363323}
   m_Layer: 0
   m_Name: TriggerArea
   m_TagString: Untagged
@@ -36784,6 +36703,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6941602322291363323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6941602322291363322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc929f9ebfba53d41a281041e3efdfa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  context: {fileID: 11400000, guid: 9fdca5df30af30940a6d703b2cbd479a, type: 2}
+  playerInRange: 1
+  thisDoorType: 2
+  open: 0
+  playerInventory: {fileID: 11400000, guid: 3373ddc653a5dc74a80a73e14718bef8, type: 2}
+  doorSprite: {fileID: 6941602322151665610}
+  physicsCollider: {fileID: 6941602322151665611}
 --- !u!61 &6941602322291363327
 BoxCollider2D:
   m_ObjectHideFlags: 0
