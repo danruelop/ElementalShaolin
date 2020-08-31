@@ -68,8 +68,10 @@ public class PlayerMovement : MonoBehaviour{
     private AudioSource audioPlayer;
 
 
-    
-    
+
+
+
+
     // Start is called before the first frame update
     void Start(){
         currentState = PlayerState.walk;
@@ -84,6 +86,7 @@ public class PlayerMovement : MonoBehaviour{
 
     // Update is called once per frame
     void Update(){
+
 
         // SHOW CD MEDITATE
        
@@ -241,6 +244,8 @@ public class PlayerMovement : MonoBehaviour{
 
     }
 
+    
+
     private IEnumerator AttackCo()
     {
         animator.SetBool("attacking", true);
@@ -352,12 +357,14 @@ public class PlayerMovement : MonoBehaviour{
         
         yield return new WaitForSeconds(5f);
         animator.SetBool("manashield", false);
-        manaShieldActivated = false;
         yield return new WaitForSeconds(0.3f);
         if (currentState != PlayerState.interact)
         {
             currentState = PlayerState.walk;
+            
         }
+        yield return new WaitForSeconds(0.5f);
+        manaShieldActivated = false;
 
     }
 
@@ -464,6 +471,7 @@ public class PlayerMovement : MonoBehaviour{
 
     void MoveCharacter()
     {
+
         change.Normalize();
         myRigidbody.MovePosition(
             transform.position + change * speed * Time.fixedDeltaTime);
