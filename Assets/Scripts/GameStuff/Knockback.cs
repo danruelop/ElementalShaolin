@@ -44,14 +44,14 @@ public class Knockback : MonoBehaviour
 
             if (hit != null && !other.gameObject.GetComponent<PlayerMovement>().manaShieldActivated)
             {
-             Debug.Log("TE EMPUJO");
+             
              Vector2 difference = hit.transform.position - transform.position;
              difference = difference.normalized * thrust;
              hit.AddForce(difference, ForceMode2D.Impulse);
                 
              if (other.GetComponent<PlayerMovement>().currentState != PlayerState.stagger)
              {
-                Debug.Log("TE HAGO DAÑO");
+                
                 hit.GetComponent<PlayerMovement>().currentState = PlayerState.stagger;
                 other.GetComponent<PlayerMovement>().Knock(knockTime, damage);
 

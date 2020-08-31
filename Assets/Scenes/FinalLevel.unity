@@ -26311,7 +26311,7 @@ MonoBehaviour:
   - enemyFire
   projectile: {fileID: 8337221818509713076, guid: 2c6cf1dd7945e974cada8003034d300b,
     type: 3}
-  fireDelay: 0.9
+  fireDelay: 1.5
   canFire: 1
 --- !u!114 &9004865173299872788
 MonoBehaviour:
