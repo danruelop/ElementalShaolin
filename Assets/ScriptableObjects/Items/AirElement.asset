@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0162c2c86c6278840b5b625b9cc3239b, type: 3}
+  m_Name: AirElement
+  m_EditorClassIdentifier: 
+  thisItemType: 1
+  itemSprite: {fileID: -8255792149366000470, guid: aaf15db7f7e6ce74bafe6aebda96b3c4,
+    type: 3}
+  itemDescription: He aprendido el elemento viento, podre utilizarlo con el boton
+    3.
+  isKey: 0
+  isElement: 1

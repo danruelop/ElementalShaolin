@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0e2ab54e4f7faf4085891403f5450a2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - maxHealth: {fileID: 11400000, guid: 6568c96024af2f34986ae724adb488e6, type: 2}
+  - deathEffect: {fileID: 627230387392507809, guid: a669cfd739a8dde4e81614a08f5e175c,
+      type: 3}
+  - thisLoot: {fileID: 11400000, guid: 4929393971f113b4a916f15b1e7ee99d, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

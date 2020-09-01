@@ -6,6 +6,17 @@ TagManager:
   tags:
   - breakable
   - enemy
+  - earthmaster
+  - enemyEarth
+  - collision
+  - earthSpell
+  - enemyAir
+  - enemyFire
+  - enemyWater
+  - airSpell
+  - finalmaster
+  - PlayerInvulnerability
+  - spellCollision
   layers:
   - Default
   - TransparentFX
@@ -15,10 +26,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - Enemy Projectile
+  - Player Projectile
+  - Player
   - 
   - 
   - 
@@ -46,6 +57,12 @@ TagManager:
   - name: Signs
     uniqueID: 3336626795
     locked: 0
+  - name: Master
+    uniqueID: 3445073515
+    locked: 0
   - name: Player
     uniqueID: 849465507
+    locked: 0
+  - name: breakable
+    uniqueID: 4169763833
     locked: 0
