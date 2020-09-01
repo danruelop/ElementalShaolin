@@ -14,6 +14,9 @@ public class StartGame : MonoBehaviour
         musicPlayer = GetComponent<AudioSource>();
         playerInventory.numberOfElements = 0;
         playerInventory.manaShieldObtained = false;
+        playerInventory.numberOfKeys = 0;
+        playerInventory.award = 0;
+
     }
 
     // Update is called once per frame
