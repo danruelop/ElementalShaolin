@@ -7,7 +7,7 @@ public class BossEnemy : EnemyAdv
 
     public override void CheckDistance()
     {
-        if (Vector3.Distance(target.position, transform.position)
+        if (Vector3.Distance(target.position, transform.position) 
            <= chaseRadius && Vector3.Distance(target.position,
            transform.position) > attackRadius
            && boundary.bounds.Contains(target.transform.position))

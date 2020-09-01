@@ -19,6 +19,15 @@ public class SceneTransition : MonoBehaviour
     public GameObject fadeOutPanel;
     public float fadeWait;
 
+    [Header("Sound Variables")]
+    public AudioClip transitionSound;
+    private AudioSource audioTransition;
+
+    void Start()
+    {
+        audioTransition = GetComponent<AudioSource>();
+    }
+
     private void Awake()
     {
         if(fadeInPanel != null)
@@ -36,6 +45,8 @@ public class SceneTransition : MonoBehaviour
         {
             playerStorage.initialValue = playerPosition;
             StartCoroutine(FadeCo());
+            audioTransition.clip = transitionSound;
+            audioTransition.Play();
             //SceneManager.LoadScene(sceneToLoad);
         }
     }

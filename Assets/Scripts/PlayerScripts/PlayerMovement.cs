@@ -40,6 +40,8 @@ public class PlayerMovement : MonoBehaviour{
     public GameObject airProjectile;
     public GameObject fireProjectile;
     public Slider manaSlider;
+    public GameObject finalMenu;
+
 
     public bool manaShieldActivated;
 
@@ -61,15 +63,25 @@ public class PlayerMovement : MonoBehaviour{
     public GameObject cdManaShieldObject;
     private float cdManaShield;
 
-    public AudioClip gameOverSound;
+    [Header("Sound Variables")]
+    public AudioClip hitSound;
     public AudioClip takeInventorySound;
     public AudioClip fightNoMagicSound;
-    public AudioClip fightSpellSound;
+    public AudioClip spellAirSound;
+    public AudioClip spellEarthSound;
+    public AudioClip spellFireSound;
+    public AudioClip spellWaterSound;
+    public AudioClip meditateSound;
+    public AudioClip magicShieldSound;
+    public AudioClip gameOverSound;
     private AudioSource audioPlayer;
+   
 
 
-    
-    
+
+
+
+
     // Start is called before the first frame update
     void Start(){
         currentState = PlayerState.walk;
@@ -84,6 +96,7 @@ public class PlayerMovement : MonoBehaviour{
 
     // Update is called once per frame
     void Update(){
+
 
         // SHOW CD MEDITATE
        
@@ -191,25 +204,25 @@ public class PlayerMovement : MonoBehaviour{
 
             }
             else if (Input.GetButtonDown("earthSpell") && currentState != PlayerState.attack
-              && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 1 && cdEarth <= 0.5f)
+              && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 1 && cdEarth <= 0.5f && playerInventory.currentMana > 0)
             {
                 cdEarth = 2f;
                 StartCoroutine(EarthSpellCo());
             }
             else if (Input.GetButtonDown("waterSpell") && currentState != PlayerState.attack
-                && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 2 && cdWater <= 0.5f)
+                && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 2 && cdWater <= 0.5f && playerInventory.currentMana > 0)
             {
                 cdWater = 2f;
                 StartCoroutine(WaterSpellCo());
             }
             else if (Input.GetButtonDown("airSpell") && currentState != PlayerState.attack
-               && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 3 && cdAir <= 0.5f)
+               && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 3 && cdAir <= 0.5f && playerInventory.currentMana > 0)
             {
                 cdAir = 2f;
                 StartCoroutine(AirSpellCo());
             }
             else if (Input.GetButtonDown("fireSpell") && currentState != PlayerState.attack
-               && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 4 && cdFire <= 0.5f)
+               && currentState != PlayerState.stagger && playerInventory.numberOfElements >= 4 && cdFire <= 0.5f && playerInventory.currentMana > 0)
             {
                 cdFire = 2f;
                 StartCoroutine(FireSpellCo());
@@ -229,9 +242,9 @@ public class PlayerMovement : MonoBehaviour{
             StartCoroutine(MeditateCo());
 
         } else if (Input.GetButtonDown("manaShield") && currentState != PlayerState.attack
-            && currentState != PlayerState.stagger  && cdManaShield <= 0.5f && currentState != PlayerState.meditate)
+            && currentState != PlayerState.stagger  && cdManaShield <= 0.5f && currentState != PlayerState.meditate && playerInventory.manaShieldObtained == true)
         {
-            cdManaShield = 30f;
+            cdManaShield = 10f;
             StartCoroutine(ManaShieldCo());
         }
 
@@ -240,6 +253,8 @@ public class PlayerMovement : MonoBehaviour{
 
 
     }
+
+    
 
     private IEnumerator AttackCo()
     {
@@ -262,7 +277,7 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeEarthSpell();
-        audioPlayer.clip = fightSpellSound;
+        audioPlayer.clip = spellEarthSound;
         audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
@@ -279,7 +294,7 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeWaterSpell();
-        audioPlayer.clip = fightSpellSound;
+        audioPlayer.clip = spellWaterSound;
         audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
@@ -296,7 +311,7 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeAirSpell();
-        audioPlayer.clip = fightSpellSound;
+        audioPlayer.clip = spellAirSound;
         audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
@@ -313,7 +328,7 @@ public class PlayerMovement : MonoBehaviour{
         currentState = PlayerState.attack;
         yield return null;
         MakeFireSpell();
-        audioPlayer.clip = fightSpellSound;
+        audioPlayer.clip = spellFireSound;
         audioPlayer.Play();
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
@@ -331,6 +346,8 @@ public class PlayerMovement : MonoBehaviour{
         while(playerInventory.currentMana < 10)
         {
             AddMana();
+            audioPlayer.clip = meditateSound;
+            audioPlayer.Play();
             yield return new WaitForSeconds(.6f);
         }
         yield return null;
@@ -346,63 +363,56 @@ public class PlayerMovement : MonoBehaviour{
 
     private IEnumerator ManaShieldCo()
     {
+
         animator.SetBool("manashield", true);
         currentState = PlayerState.manaShield;
         manaShieldActivated = true;
-        
-        yield return new WaitForSeconds(5f);
+        audioPlayer.clip = magicShieldSound;
+        audioPlayer.Play();
+        yield return new WaitForSeconds(2f);
         animator.SetBool("manashield", false);
-        manaShieldActivated = false;
         yield return new WaitForSeconds(0.3f);
         if (currentState != PlayerState.interact)
         {
             currentState = PlayerState.walk;
+            
         }
+        yield return new WaitForSeconds(0.5f);
+        manaShieldActivated = false;
 
     }
 
     private void MakeEarthSpell()
     {
-        if(playerInventory.currentMana > 0)
-        {
-            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            Spell earthSpell = Instantiate(earthProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
-            earthSpell.Setup(temp, ChooseArrowDirection());
-            reduceMana.Raise();
-        }
+         Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+         Spell earthSpell = Instantiate(earthProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
+         earthSpell.Setup(temp, ChooseArrowDirection());
+         reduceMana.Raise();
     }
 
     private void MakeWaterSpell()
     {
-        if (playerInventory.currentMana > 0)
-        {
-            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            Spell waterSpell = Instantiate(waterProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
-            waterSpell.Setup(temp, ChooseArrowDirection());
-            reduceMana.Raise();
-        }
+         Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+         Spell waterSpell = Instantiate(waterProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
+         waterSpell.Setup(temp, ChooseArrowDirection());
+         reduceMana.Raise();
+        
     }
 
     private void MakeAirSpell()
-    {
-        if (playerInventory.currentMana > 0)
-        {
-            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            Spell airSpell = Instantiate(airProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
-            airSpell.Setup(temp, ChooseArrowDirection());
-            reduceMana.Raise();
-        }
+    {   
+         Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+         Spell airSpell = Instantiate(airProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
+         airSpell.Setup(temp, ChooseArrowDirection());
+         reduceMana.Raise();    
     }
 
     private void MakeFireSpell()
-    {
-        if (playerInventory.currentMana > 0)
-        {
-            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-            Spell fireSpell = Instantiate(fireProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
-            fireSpell.Setup(temp, ChooseArrowDirection());
-            reduceMana.Raise();
-        }
+    {  
+         Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+         Spell fireSpell = Instantiate(fireProjectile, transform.position, Quaternion.identity).GetComponent<Spell>();
+         fireSpell.Setup(temp, ChooseArrowDirection());
+         reduceMana.Raise();  
     }
 
     public void AddMana()
@@ -464,6 +474,7 @@ public class PlayerMovement : MonoBehaviour{
 
     void MoveCharacter()
     {
+
         change.Normalize();
         myRigidbody.MovePosition(
             transform.position + change * speed * Time.fixedDeltaTime);
@@ -475,14 +486,17 @@ public class PlayerMovement : MonoBehaviour{
         
         currentHealth.RuntimeValue -= damage;
         playerHealthSignal.Raise();
+        audioPlayer.clip = hitSound;
+        audioPlayer.Play();
         if (currentHealth.RuntimeValue > 0)
         {
             StartCoroutine(KnockCo(knockTime));
         }
         else
         {
-            this.gameObject.SetActive(false);
-            SceneManager.LoadScene("StartMenu", LoadSceneMode.Single);
+            audioPlayer.clip = gameOverSound;
+            audioPlayer.Play();          
+            finalMenu.SetActive(true);
         }
         
     }

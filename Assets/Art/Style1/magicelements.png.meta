@@ -23,6 +23,9 @@ TextureImporter:
   - first:
       213: -2852013689751489240
     second: magicelements_4
+  - first:
+      213: 2395460062332264339
+    second: magicelements_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -224,7 +227,7 @@ TextureImporter:
         width: 55
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,6 +235,27 @@ TextureImporter:
       bones: []
       spriteID: 825bfc7e8ac9b68d0800000000000000
       internalID: -2852013689751489240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicelements_5
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 252
+        width: 41
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f13f82c326e3120800000000000000
+      internalID: 2395460062332264339
       vertices: []
       indices: 
       edges: []

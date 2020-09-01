@@ -7,6 +7,7 @@ public class SpellsManager : MonoBehaviour
 {
     public Image[] spells;
     public Inventory playerInventory;
+    public Image manaShield;
     
 
 
@@ -39,6 +40,11 @@ public class SpellsManager : MonoBehaviour
             spells[1].gameObject.SetActive(true);
             spells[2].gameObject.SetActive(true);
             spells[3].gameObject.SetActive(true);
+        }
+
+        if (playerInventory.manaShieldObtained == true)
+        {
+            manaShield.gameObject.SetActive(true);
         }
     }
     

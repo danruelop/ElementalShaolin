@@ -15,7 +15,8 @@ MonoBehaviour:
   thisItemType: 2
   itemSprite: {fileID: -2852013689751489240, guid: aaf15db7f7e6ce74bafe6aebda96b3c4,
     type: 3}
-  itemDescription: "Has ganado, supiste adquirir experiencia se\xF1or Shaolin, enhorabuena."
+  itemDescription: Enhorabuena has terminado tu entrenamiento, maestro de los elementos.
   isKey: 0
   isElement: 0
   isAward: 1
+  isManaShield: 0

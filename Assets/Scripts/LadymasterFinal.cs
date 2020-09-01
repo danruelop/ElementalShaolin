@@ -61,7 +61,7 @@ public class LadymasterFinal : Interactable
         anim.SetBool("wakeUp", true);
         storedOpen.RuntimeValue = isAwake;
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(2.5f);
         finalMenu.SetActive(true);
     }
 

@@ -18,7 +18,14 @@ public class Door : Interactable
     public SpriteRenderer doorSprite;
     public BoxCollider2D physicsCollider;
 
-    
+    [Header("Sound Variables")]
+    public AudioClip doorSound;
+    private AudioSource audioDoor;
+
+    void Start()
+    {
+        audioDoor = GetComponent<AudioSource>();
+    }
 
     private void Update()
     {
@@ -40,8 +47,10 @@ public class Door : Interactable
         doorSprite.enabled = false;
         open = true;
         physicsCollider.enabled = false;
+        audioDoor.clip = doorSound;
+        audioDoor.Play();
     }
-    
+
     public void close()
     {
         doorSprite.enabled = true;

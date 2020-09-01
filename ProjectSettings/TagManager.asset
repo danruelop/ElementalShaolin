@@ -16,6 +16,7 @@ TagManager:
   - airSpell
   - finalmaster
   - PlayerInvulnerability
+  - spellCollision
   layers:
   - Default
   - TransparentFX

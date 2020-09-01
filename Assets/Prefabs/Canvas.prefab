@@ -371,7 +371,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4151688320945750788
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1651,6 +1651,7 @@ MonoBehaviour:
   - {fileID: 782932900767433328}
   - {fileID: 188391278425910744}
   playerInventory: {fileID: 11400000, guid: 3373ddc653a5dc74a80a73e14718bef8, type: 2}
+  manaShield: {fileID: 4572523909011013261}
 --- !u!1 &4867999938391022731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1828,7 +1829,7 @@ RectTransform:
   m_GameObject: {fileID: 5393493516339825460}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.02, y: 1.02, z: 1.02}
   m_Children:
   - {fileID: 8064390099065525407}
   - {fileID: 447417294619300572}
@@ -2862,6 +2863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11d3dbed70d4adb4298f0fb413f44844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomSound: {fileID: 0}
   finalMenuGO: {fileID: 5393493516339825460}
 --- !u!1 &6771476252754949907
 GameObject:

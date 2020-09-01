@@ -9,7 +9,7 @@ public class Switch : MonoBehaviour
     public BoolValue storedValue;
     public Sprite activeSprite;
     private SpriteRenderer mySprite;
-    public Door thisDoor;
+    public DoorSwitch thisDoor;
     public GameObject waterBoss;
 
     // Start is called before the first frame update

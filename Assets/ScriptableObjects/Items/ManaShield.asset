@@ -9,7 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d56b08ec72d04845b05adb237e429ca, type: 3}
-  m_Name: New Signal
+  m_Script: {fileID: 11500000, guid: 0162c2c86c6278840b5b625b9cc3239b, type: 3}
+  m_Name: ManaShield
   m_EditorClassIdentifier: 
-  listeners: []
+  thisItemType: 0
+  itemSprite: {fileID: 2395460062332264339, guid: aaf15db7f7e6ce74bafe6aebda96b3c4,
+    type: 3}
+  itemDescription: 
+  isKey: 0
+  isElement: 0
+  isAward: 0
+  isManaShield: 1

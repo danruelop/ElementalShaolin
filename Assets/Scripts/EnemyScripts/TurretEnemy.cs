@@ -44,7 +44,7 @@ public class TurretEnemy : EnemyAdv
                 this.gameObject.tag = types[i];
             }
             
-            cdChangeForm = 1;
+            cdChangeForm = 5;
             lastI = i;
 
         }
